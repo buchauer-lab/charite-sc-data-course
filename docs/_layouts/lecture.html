@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="lecture">
+  <h1 class="lecture-title">{{ page.title }}</h1>
+
+  {% if page.lecture_number %}
+  <div class="lecture-meta">
+    <span class="lecture-number">Lecture {{ page.lecture_number }}</span>
+    {% if page.date %}<span class="lecture-date">{{ page.date | date_to_string }}</span>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="lecture-materials">
+    {% if page.pdf_slides %}
+    <a href="{{ site.baseurl }}/{{ page.pdf_slides }}" class="btn btn-outline">📄 PDF Slides</a>
+    {% endif %}
+    {% if page.code_r %}
+    <a href="{{ site.baseurl }}/{{ page.code_r }}" class="btn btn-outline">📊 R Code</a>
+    {% endif %}
+    {% if page.code_python %}
+    <a href="{{ site.baseurl }}/{{ page.code_python }}" class="btn btn-outline">🐍 Python Code</a>
+    {% endif %}
+    {% if page.dataset %}
+    <a href="{{ site.baseurl }}/{{ page.dataset }}" class="btn btn-outline">📈 Dataset</a>
+    {% endif %}
+  </div>
+
+  {{ content }}
+
+  {% if page.next_lecture %}
+  <div class="lecture-navigation">
+    <a href="{{ page.next_lecture }}" class="btn btn-primary">Next: {{ page.next_lecture_title }}</a>
+  </div>
+  {% endif %}
+</div>

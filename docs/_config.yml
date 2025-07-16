@@ -1,0 +1,69 @@
+# Site settings
+title: "Single-Cell Data Analysis for Beginners"
+tagline: "Course materials"
+description: "A comprehensive beginner-friendly course covering single-cell RNA-seq data analysis from raw data processing to basic analysis techniques."
+url: "https://buchauer-lab.github.io"
+baseurl: "/charite--sc-data-course"
+
+# Author information
+author:
+  name: "Lisa Buchauer and Anika Neuschulz"
+  email: "lisa.buchauer@charite.de"
+  affiliation: "Systems Biology of Infectious Diseases"
+  institution: "Charité - Universitätsmedizin Berlin"
+  department: "Department of Infectious Diseases and Intensive Care"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
+# Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  lectures:
+    output: true
+    permalink: /:collection/:name/
+
+# Sass
+sass:
+  style: compressed
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - node_modules/
+
+# Navigation menu
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Lectures"
+    url: "/lectures/"
+  - title: "Resources"
+    url: "/resources/"
+  - title: "Schedule"
+    url: "/schedule/"
+  - title: "About"
+    url: "/about/"
+
+
+# Social links (optional)
+github_username: lisa-charite
+email: lisa.buchauer@charite.de
+
+# Theme settings (Hyde-inspired)
+sidebar_sticky: true
