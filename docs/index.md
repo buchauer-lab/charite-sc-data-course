@@ -11,7 +11,7 @@ This course provides a comprehensive introduction to single-cell transcriptomics
 
 - **Instructors**: Lisa Buchauer, Professor of Systems Biology of Infectious Diseases and Anika Neuschulz, Postdoctoral Researcher at BIH@Charité
 - **Institution**: Charité - Universitätsmedizin Berlin
-- **Duration**: 5 lectures (September 22-26, 2025)
+- **Duration**: September 22-26, 2025
 - **Prerequisites**: No prior programming experience required
 
 ## Course Description

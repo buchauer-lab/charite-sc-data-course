@@ -3,7 +3,7 @@ title: "Single-Cell Data Analysis for Beginners"
 tagline: "Course materials"
 description: "A comprehensive beginner-friendly course covering single-cell RNA-seq data analysis from raw data processing to basic analysis techniques."
 url: "https://buchauer-lab.github.io"
-baseurl: "/charite--sc-data-course"
+baseurl: "/charite-sc-data-course"
 
 # Author information
 author:
