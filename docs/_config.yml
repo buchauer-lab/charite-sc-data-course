@@ -16,16 +16,3 @@ baseurl: "/charite-sc-data-course"
 author:
   name: "Lisa Buchauer and Anika Neuschulz"
 
-
-# Jekyll plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Exclude files
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - vendor/
