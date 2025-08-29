@@ -10,7 +10,7 @@ title: "Single-Cell Data Analysis for Beginners"
 tagline: ""
 description: "A beginner-friendly course aimed at MD and PhD students with biomedical background and little to no programming experience."
 url: "https://buchauer-lab.github.io/charite-sc-data-course/"
-baseurl: "/charite-sc-data-course"
+baseurl: "/"
 
 # Author
 author:
