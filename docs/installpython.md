@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /installpython/
+sidebar: false
 ---
 
 #### Instructions for installing python and the single-cell data analysis kit scanpy to your laptop (local installation)
