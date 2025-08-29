@@ -13,6 +13,7 @@
  * https://github.com/poole/poole.
  */
 
+
 /*
  * Contents
  *
@@ -26,6 +27,7 @@
  * Reverse layout
  * Themes
  */
+
 
 /*
  * Body resets
@@ -46,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -111,6 +113,7 @@ strong {
   color: #303030;
 }
 
+
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
@@ -147,7 +150,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  ily: Menlo, Monaco, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -187,7 +190,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  ily: Menlo, Monaco, "Courier New", monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -248,6 +251,7 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+
 /*
  * Custom type
  *
@@ -258,6 +262,7 @@ tbody tr:nth-child(odd) th {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
 
 /*
  * Messages
@@ -273,6 +278,7 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+
 /*
  * Container
  *
@@ -286,6 +292,7 @@ tbody tr:nth-child(odd) th {
   margin-left:  auto;
   margin-right: auto;
 }
+
 
 /*
  * Masthead
@@ -313,11 +320,12 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+
 /*
  * Posts and pages
  *
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is used on the page layout.
+ * page is wrapped in `.page` and is only used on the page layout.
  */
 
 .page,
@@ -369,6 +377,7 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+
 /*
  * Pagination
  *
@@ -380,7 +389,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  ily: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }

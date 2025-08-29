@@ -1,4 +1,5 @@
 /* New theme for hyde.css */
+
 html {
   font-size: 14px;
   line-height: 1.25;
@@ -12,9 +13,11 @@ p {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+
 ul {
     list-style-type: square;
 }
+
 .theme-libuchauer .content {
   padding-top:    1.5rem;
   padding-bottom: 1.5rem;
@@ -23,6 +26,7 @@ ul {
 .theme-libuchauer .related-posts li a:hover {
   color: #f47a60;
 }
+
 /* Sidebar nav */
 .theme-libuchauer .sidebar {
   background-color: #1d3c45;
@@ -34,12 +38,14 @@ ul {
     padding: 2rem 1rem;
   }
 }
+
 /* Sidebar links */
   .theme-libuchauer .sidebar a {
     color: #fff1e1;
     font-family: "Lucida Console", Monaco, monospace;
 ;
 }
+
 .sidebar-about h1 {
     font-size: 1.5rem;
     font-family: "Lucida Console", Monaco, monospace;

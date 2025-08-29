@@ -1,18 +1,16 @@
 # Dependencies
-markdown: kramdown
-highlighter: rouge
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
-permalink: pretty
+permalink:        pretty
 
 # Setup
-title: "Single-Cell Data Analysis for Beginners"
-tagline: ""
-description: "A beginner-friendly course aimed at MD and PhD students with biomedical background and little to no programming experience."
-url: "https://buchauer-lab.github.io/charite-sc-data-course/"
-baseurl: "/"
+title:            Buchauer Lab
+tagline:          'Computational Immunology'
+description:      'Systems Biology of Infectious Diseases'
+url:              http://libuchauer.github.io/
+baseurl:          /
 
-# Author
 author:
-  name: "Prof. Dr. Lisa Buchauer and Dr. Anika Neuschulz"
-
+  name:           'Lisa Buchauer'
