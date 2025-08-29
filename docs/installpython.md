@@ -13,7 +13,7 @@ We will first install `miniforge` which is itself an installer for `mamba` which
 - For Windows, install from the executable installer with default settings
 - For macOS, you need to open the application "Terminal", e.g. via the Launchpad, and enter the command starting with `curl` followed by the command starting with `bash`. Please ask an instructor for help if you are using this workflow.
 
-To verify miniforge is installed correctly:
+To verify `miniforge` is installed correctly:
 - Open a Terminal:
 	- If on Windows, open the Software "Miniforge Prompt" which we have just installed
 	- If on MacOS / Linux, open a regular terminal
