@@ -6,11 +6,10 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Buchauer Lab
-tagline:          'Computational Immunology'
-description:      'Systems Biology of Infectious Diseases'
-url:              http://libuchauer.github.io/
-baseurl:          /
+title:            Single-Cell Data Analysis Course @Charité
+description: "A beginner-friendly course aimed at MD and PhD students with biomedical background and little to no programming experience."
+url: "https://buchauer-lab.github.io/charite-sc-data-course/"
+baseurl: "/charite-sc-data-course""
 
 author:
-  name:           'Lisa Buchauer'
+  name:           'Prof. Dr. Lisa Buchauer and Dr. Anika Neuschulz'
