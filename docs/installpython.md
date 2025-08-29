@@ -3,7 +3,7 @@ layout: page
 permalink: /installpython/
 ---
 
-### Instructions for installing python and the single-cell data analysis kit scanpy to your laptop (local installation)
+#### Instructions for installing python and the single-cell data analysis kit scanpy to your laptop (local installation)
 
 #### Step 1 - install miniforge3
 
@@ -18,7 +18,8 @@ To verify miniforge is installed correctly:
 	- If on MacOS / Linux, open a regular terminal
 - Type `mamba --version` and press Enter
 - You should see a version number displayed
-- 
+
+
 #### Step 2 - create an environment for your data analysis
 
 The package installer `mamba` allows you to create separate analysis environments into which you can install required software for data analysis. The advantage of this approach is that different projects, which might require different versions of the same software package, are kept separate and cannot interfere negatively with one another.
