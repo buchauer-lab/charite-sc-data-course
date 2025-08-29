@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Teaching
-order: 4
+title: Day 1
+order: 2
 ---
 
 ### Upcoming Courses
