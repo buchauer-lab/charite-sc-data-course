@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Single-Cell Data Analysis Course @Charité
 description: "A beginner-friendly course aimed at MD and PhD students with biomedical background and little to no programming experience."
 url: "https://buchauer-lab.github.io"
-baseurl: "charite-sc-data-course/"
+baseurl: "/charite-sc-data-course"
 
 author:
   name: "Prof. Dr. Lisa Buchauer and Dr. Anika Neuschulz"
