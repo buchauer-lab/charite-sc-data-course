@@ -16,5 +16,5 @@ order: 2
 - _Individual work_: Setting up a data analysis environment
   - [Installation instructions for python using jupyter notebooks](https://buchauer-lab.github.io/charite-sc-data-course/installpython/)
   - [Installation instructions for R using RStudio](https://buchauer-lab.github.io/charite-sc-data-course/R_Rstudio_install/)
-- _Individual work_: Basic introduction to data analysis with R/python using the penguin dataset __TODO add material__
+- _Individual work_: [Basic introduction to data analysis with R/python using the penguin dataset](https://buchauer-lab.github.io/charite-sc-data-course/dataanalysisintro/)
 
