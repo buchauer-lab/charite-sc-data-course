@@ -5,7 +5,7 @@ sidebar: false
 ---
 
 ### Basic introduction to tabular data analysis with python or R
-Before starting to work with single-cell data, we think it is useful to try our hands on an example dataset. The goal of this exercise is to enable you to
+Before starting to work with single-cell data, we think it is useful to try our hands on a simpler example dataset. The goal of this exercise is to enable you to
 - set up a workspace for data analysis
 - load and inspect tabular datasets
 - perform basic data transformations like standardization

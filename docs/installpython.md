@@ -47,7 +47,7 @@ The package installer `mamba` allows you to create separate analysis environment
 	 python-igraph \ 
 	 -y
 ```
-
+This does not work if you are behind Charité's proxy server. "Charité Gast" WiFi and eduroam (without using Charité VPN!) should work.
 #### Step 3 - open a jupyter notebook and start coding
 
 We will use jupyter notebooks as our code editor for this course. The notebook is served in a web browser after a call from the terminal.
