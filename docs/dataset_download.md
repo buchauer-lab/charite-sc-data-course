@@ -19,11 +19,15 @@ Matrix: https://filetransfer.mdc-berlin.de/?u=rbmBpHkj&p=MdMjudWZ&path=/matrix.m
 
 This dataset is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
-Notes:
+**Notes:**
+
 You may or may not be asked to enter credentials to download, if asked use those given below and not your Charité / BIH credentials.
 
+
 Barcodes : username: YJkxpQFn password: 3gX7RMKc
+
 Features : username: 24KEPJ44 password: uCnRzWzr
+
 Matrix : username: rbmBpHkj password: MdMjudWZ
 
 After download you should have the following files: barcodes.tsv.gz, features.tsv.gz and matrix.mtx.gz.
