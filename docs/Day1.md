@@ -10,7 +10,7 @@ order: 2
 - _Lecture_: Introduction to single cell data generation and resulting raw data __TODO link to slides in repo__
 - _Info_: [How to obtain access to the Charité HPC and take first steps on it (for Charité members)](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/L_cluster_usage.pdf)
 - _Hands-on demo_: [How to install and run cellranger on the cluster](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/cellranger_interactive_commands.txt)
-- _Group work_: [Inspect and understand a cellranger QC report](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/web_summary_PBMC_subset.html)
+- _Group work_: [Inspect and understand a cellranger QC report](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/web_summary_PBMC_subset.html) (right click - save link as - and open locally in your browser for proper rendering)
 
 #### Afternoon
 - _Individual work_: Setting up a data analysis environment
