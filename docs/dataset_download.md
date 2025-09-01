@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /installpython/
+permalink: /dataset_download/
 sidebar: false
 ---
 
