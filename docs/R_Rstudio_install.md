@@ -5,31 +5,9 @@ sidebar: false
 ---
 
 
-# Preparation for scRNA-seq data analysis course
+**Instructions to install R and Rstudio to your computer (local installation)**
 
-We will analyse single cell RNA-sequencing data using the R-package Seurat. For a smooth start of the seminar, please download the dataset, R and RStudio in advance and install R and RStudio (see instructions below).
-
-You can additionally download and set up the R-packages we are going to be using to be fully prepared for day 1 of class. You can find instructions for all steps below. If everything goes well, you should
-
-- have successfully installed Seurat, ggplot2 and reshape2
-- be able to load the required packages into R without running into any errors. (Unfortunately, you won't see a message indicating successful loading. Instead you have to look for the absence of an error message.)
-
-## Download all three files of the single cell data set:
-You may or may not be asked to enter credentials, if asked use those given below and not your Charité / BIH credentials.
-
-Barcodes: https://filetransfer.mdc-berlin.de/?u=YJkxpQFn&p=3gX7RMKc&path=/barcodes.tsv.gz
-username: YJkxpQFn  password: 3gX7RMKc
-
-Features: https://filetransfer.mdc-berlin.de/?u=24KEPJ44&p=uCnRzWzr&path=/features.tsv.gz
-username: 24KEPJ44   password: uCnRzWzr
-
-Matrix: https://filetransfer.mdc-berlin.de/?u=rbmBpHkj&p=MdMjudWZ&path=/matrix.mtx.gz
-username: rbmBpHkj   password: MdMjudWZ
-
-You should now have the following files: barcodes.tsv.gz, features.tsv.gz and matrix.mtx.gz.
-Mac-users: don't click the files to open them, as this automatically unzips them (which then causes problems when loading them into Seurat).
-
-## Download R and RStudio if you don't have them installed already:
+**Step 1a - Download R and RStudio if you don't have them installed already:**
 
 If you donʼt have R on your computer -> [Download R (preferably version 4)](https://cran.r-project.org/)
 
@@ -38,13 +16,13 @@ If you donʼt have RStudio on your computer -> [Download RStudio](https://www.rs
 Install first R and then RStudio, following the instructions on the respective websites.
 
 
-## If you have R and RStudio installed already:
+**Step 1b - If you have R and RStudio installed already:**
 Check your R version by opening RStudio
 
-![](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/docs/images/R_version_screen_cropped.png)
+![](/images/R_version_screen_cropped.png)
 
 
-## If you still have R version 3, follow these instructions:
+**Step 2a - If you still have R version 3, follow these instructions:**
 
 *Instructions for R version 4 can be found in the next section.*
 
@@ -75,7 +53,7 @@ library(ggplot2)
 
 If (almost) nothing happens, when executing these commands, everything is fine! You've successfully prepared for the upcoming course.
 
-## If you have R version 4, follow these instructions:
+**Step 2b - If you have R version 4, follow these instructions:**
 
 ```
 install.packages('Seurat')
