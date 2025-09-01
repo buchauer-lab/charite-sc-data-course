@@ -5,9 +5,9 @@ sidebar: false
 ---
 
 
-**Instructions to install R and Rstudio to your computer (local installation)**
+#### Instructions to install R and Rstudio to your computer (local installation)
 
-**Step 1a - Download R and RStudio if you don't have them installed already:**
+#### Step 1a - Download R and RStudio if you don't have them installed already:
 
 If you donʼt have R on your computer -> [Download R (preferably version 4)](https://cran.r-project.org/)
 
@@ -16,13 +16,13 @@ If you donʼt have RStudio on your computer -> [Download RStudio](https://www.rs
 Install first R and then RStudio, following the instructions on the respective websites.
 
 
-**Step 1b - If you have R and RStudio installed already:**
+#### Step 1b - If you have R and RStudio installed already:
 Check your R version by opening RStudio
 
 ![](/images/R_version_screen_cropped.png)
 
 
-**Step 2a - If you still have R version 3, follow these instructions:**
+#### Step 2a - If you still have R version 3, follow these instructions:
 
 *Instructions for R version 4 can be found in the next section.*
 
@@ -53,7 +53,7 @@ library(ggplot2)
 
 If (almost) nothing happens, when executing these commands, everything is fine! You've successfully prepared for the upcoming course.
 
-**Step 2b - If you have R version 4, follow these instructions:**
+#### Step 2b - If you have R version 4, follow these instructions:
 
 ```
 install.packages('Seurat')
