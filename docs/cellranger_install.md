@@ -6,7 +6,7 @@ sidebar: false
 
 #### download and set up cellranger on the Charité HPC cluster to map human single cell data
 
-´´´
+ ```bash
 # move to directory where cellranger is supposed to be located
 # cd ??/bin/
 
@@ -46,5 +46,4 @@ cd ..
 
 # start cellranger
 cellranger-9.0.1/cellranger count --id tutorial --fastqs dataset/fastqs/ --localcores 5 --localmem 50 --output-dir mapped --transcriptome genome/refdata-gex-GRCh38-2024-A/ --create-bam true
-
-´´´
+```
