@@ -1,6 +1,6 @@
 ---
 layout: page
-title: usefullinks
+title: Useful links
 order: 7
 ---
 
