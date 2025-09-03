@@ -1,0 +1,258 @@
+---
+title: "Basic introduction to working with tabular data in R"
+author: "Anika Neuschulz"
+date: "2025-09-01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 0. General notes on R sytax:
+Data is saved in variables by pointing an arrow (<-) at the variable name the data is supposed to be saved in.
+This will be saving the value 5 in variable "number"
+```{r example}
+number <- 5
+```
+Variable names can contain characters, numbers and _, but need to start with a character.
+
+The contents of variables can be accessed by calling them. The code below multiplies the contents of variable 'number' with 2 and saves the result in variable 'number_2'. Variable 'number_2' is then called to return the contents.
+
+```{r example_2}
+number_2 <- number *2
+
+number_2
+```
+
+
+## 1. Import the required libraries
+Libraries provide additional functionality beyond what basic R offers. ggplot2 is what we will be using to make plots of the data later on.
+
+```{r libraries}
+library(ggplot2)
+```
+
+## 2. Download the dataset
+
+You can download the .csv file of the dataset from here https://gist.github.com/slopp/ce3b90b9168f2f921784de84fa445651#file-penguins-csv (via the button Download ZIP at the top right, then unzip and move dataset to a project folder).
+
+This dataset contains measurements of penguins from different species – you can think of it as similar to a dataset on cells from different types, like what we will be working with later.
+
+An in depth educational analysis of the dataset can be found here https://allisonhorst.github.io/palmerpenguins/articles/intro.html for R and, with less detail, for python here https://github.com/mcnakhaee/palmerpenguins, but we recommend you refrain from looking at this too much now and rather find your own way to maximize learning.
+
+## 3. Loading and inspecting the data
+
+The comments (lines which start with #, contain comments and are not executed as R code) contain step-by-step instructions to work with the penguin dataset, suggested variable names and in some cases helpful code suggestions. Add corresponding R code below each comment. For easier debugging and comparisons with other participants, we suggest you keep the suggested names. 
+
+
+
+
+```{r loading}
+#penguins <- read.csv("<your/project/folder/penguins.csv")
+
+# Display the first few rows of the dataset
+
+
+```
+
+```{r dimensions}
+# Get the dataset dimensions, i.e. the number of penguins in the dataset and the number of features
+
+
+
+```
+
+```{r datatypes}
+# For each feature, check the datatype - what do the resulting types mean?
+
+
+
+```
+
+```{r categories_example}
+# For categorical data, the categories used can be displayed like this:
+
+# unique(penguins$species)
+
+```
+
+```{r categories_exercise}
+# Print to screen and inspect the categories for all categorical data types
+
+
+
+```
+
+There seems to be "nan" as a sex. What does this mean?
+
+```{r missing_entries}
+# search for missing data entries in the dataframe. How many values are missing?
+
+
+
+```
+
+## 3.1 Questions
+
+Based on the analysis above, discuss with your neighbor and note down the answers to the following questions into the notebook:
+
+  1. How many penguins and features do we have in this dataset?
+  2. What are the different penguin species (think: cell types)?
+  3. Are there any missing values in the dataset that we need to handle? Do you have preliminary ideas on how to handle them?
+  4. What are the numerical features in this dataset which we can analyze?
+
+## 4. Preprocessing the data
+
+As above, you will find instructions written as comments below which you have to turn into python code. The steps in this section help us prepare the data for the actual analysis.
+
+```{r remove_na}
+# Remove all rows with missing entries from the dataframe
+
+# penguins_complete <- na.omit(penguins)
+
+# Measure the size of the new dataframe
+
+
+
+```
+
+```{r subset_numerical}
+# Select all numerical columns which have to do with body measurements and transfer them to a separate dataframe
+
+# penguins_numerical <- 
+
+```
+
+
+```{r check_subset}
+# Check that it worked by inspecting the first few rows of penguins_numerical
+
+```
+
+## 4.1 Questions
+
+Discuss with your neighbor and answer in writing.
+
+  1. How many penguins were discarded by the data clean-up step which required all features to be present?
+  2. Thinking ahead, why would we need a separate object with numerical measurements only?
+
+
+## 5. Data transformations
+
+In this section, we will explore some basic statistics of the numerical features and use them to normalize our data. As above, please follow the instructions in the comments. We will standardize each feature to its z-score (https://en.wikipedia.org/wiki/Standard_score) in order to make features comparable across units and orders of magnitude. This is common preprocessing step for numerical data across different data types as otherwise, a feature with high values (say, penguin height in cm) might dominate a feature with low values (say, penguin weight in kg) in downstream analyses.
+
+```{r means}
+# Calculate and display the mean of each body measurement
+
+
+```
+
+```{r standard_deviation}
+# Calculate and display the standard deviation of each body measurement
+
+
+```
+
+```{r z_score}
+# For each value in penguins_numerical, calculate its z-score version in a new dataframe
+
+# penguins_standardized <- 
+```
+
+```{r check_z_score}
+# Inspect the top rows of the standardized dataframe
+
+
+```
+
+```{r standardised_means}
+# Calculate and display the mean of each body measurement after standardization
+
+```
+
+
+
+```{r standardised_sd}
+# Calculate and display the standard deviation of each body measurement after standardization
+
+```
+
+## 5.1 Questions
+
+
+
+  1. What problem could have arisen had we not removed missing values prior to these calculations?
+  2. After standardization, some of the body measurements are negative. What does a negative standardized bill length mean? What does a flipper length of 0 (after standardization) mean?
+  3. Look at the mean values after standardization. Are they what you would have expected? Why (not)?
+
+
+## 6. Data filtering
+
+In this section, we will practice subselecting parts of tabular data, a typical task also in single cell RNA Seq analysis (think: Selecting all hepatocytes, filtering out low quality cells with few sequencing reads etc.). As above, please translate the instructions into code.
+
+```{r large_pengiuns}
+# Filter out penguins which are heavier than 4000g
+
+# large_penguins <- 
+
+```
+
+
+```{r short_flippers}
+# Create a dataset which contains only penguins which have shorter than average (i.e. mean) flippers
+
+# short_flippers <- 
+```
+
+```{r large_penguins_species}
+# Check out the species distribution within the large_penguins group
+
+# table(large_penguins$species)
+```
+
+```{r short_flippers_species}
+# Check out the species distribution within the short_flippers group
+
+
+```
+
+## 6.1 Questions
+
+
+  1. How many penguins have flippers shorter than the mean - more than half of the penguins, less than half of the penguins, or exactly half of the penguins? Which statistical average would have exactly half of the penguins below it?
+  2. Based on the above analysis, what can you say about the three penguins species?
+
+## 7. Visualization
+
+In this section, we will produce two plots of our data using the plotting package ggplot2 (one of the most common plotting solutions in R). The package is very versatile, but the syntax is a bit unusual - feel free to read up on it here https://ggplot2.tidyverse.org/articles/ggplot2.html.  Then, as above, translate the comments into code.
+
+```{r scatter_plot}
+# Produce a 2D scatter plot of two numerical features of your choice and colour the points by species.
+
+#ggplot(data=penguins_complete, mapping = aes(x = flipper_length_mm, y = bill_length_mm, colour = species)) +
+#  geom_point()
+```
+```{r scatter_plot_2}
+# Produce a 2D scatter plot as above, but use the remaining two features and colour the plot according to sex
+
+```
+
+```{r vln_plot_1}
+# Produce a violinplot of body mass by species (bonus points if you manage to split the violins by sex ;-))
+
+```
+```{r vln_plot_2}
+
+```
+
+## 7.1 Questions
+
+  
+  1. From the plots above, what can you say about body measurements when comparing male to female penguins?
+  2. If the penguins in the plots above were single cells, what could the different categories be? What could the species category mean in the context of cells, and what could the numerical categories represent?
+  
+```{r the_end}
+#### The end, well done!
+```
+
