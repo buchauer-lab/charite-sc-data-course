@@ -30,7 +30,7 @@ Therefore, we recommend the following practices throughout the course (and beyon
 4. Try "old school" web searches from time to time to find answers - if available, use the official package documentation to solve problems.
 
 ### Exercises
-We have prepared a set of exercises, which are available as jupyter notebook for python users and as an R Markdwon file for R users. Please download them and work your answers into the prepared spaces.
+We have prepared a set of exercises, which are available as jupyter notebook for python users and as an R Markdown file for R users. Please download them and work your answers into the prepared spaces.
 
 - [data analysis exercises for python](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/data_analysis_intro_python.ipynb)
 - [data analysis exercises for R](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/data_analysis_intro_R.Rmd)
