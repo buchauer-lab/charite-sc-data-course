@@ -33,4 +33,4 @@ Therefore, we recommend the following practices throughout the course (and beyon
 We have prepared a set of exercises, which are available as jupyter notebook for python users and as an R Markdwon file for R users. Please download them and work your answers into the prepared spaces.
 
 - [data analysis exercises for python](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/data_analysis_intro_python.ipynb)
-- [data analysis exercises for R](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/pengiuns_R_exercises.Rmd)
+- [data analysis exercises for R](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/data_analysis_intro_R.Rmd)
