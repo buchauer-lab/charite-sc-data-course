@@ -35,6 +35,14 @@ The package installers `mamba` and `conda` allow you to create separate analysis
 mamba install -c conda-forge -c bioconda scanpy pandas numpy matplotlib seaborn jupyter notebook scikit-learn scipy h5py openpyxl leidenalg python-igraph -y
 ```
 This does not work if you are behind Charité's proxy server. "Charité Gast" WiFi and eduroam (without using Charité VPN!) should work.
+
+Not all packages are available via `conda`/`mamba`, so sometimes we need to use the more general python package manager `pip`. Here, we use it to install `decoupler`, which comes with many useful functions for single cell analysis, and `PyDESeq2` for differential expression testing. Please run the following commands inside your `scrnaseq` environment:
+
+```bash
+pip install decoupler
+pip install pydeseq2
+```
+
 #### Step 3 - open a jupyter notebook and start coding
 
 We will use jupyter notebooks as our code editor for this course. The notebook is served in a web browser after a call from the terminal.
