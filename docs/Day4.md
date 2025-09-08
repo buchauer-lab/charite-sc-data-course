@@ -8,6 +8,7 @@ order: 5
 
 #### Morning
 - DEG lecture
+- _Practical work_: calculation of differentially epressed genes in R/python (TODO: link notebooks)
 
 #### Afternoon
-
+- _Practical work_: continuation of morning work
