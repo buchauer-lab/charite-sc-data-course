@@ -66,7 +66,7 @@ Calculate the integration Local Inverse Simpson's Index (iLISI):
  library(lisi)
  res <- compute_lisi(embedding_matrix, metadata_df, "batch")
 ```
-- 
+
 - For python users: Use the `scib` package
 ```python
 # Install: pip install scib
