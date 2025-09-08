@@ -1,0 +1,1924 @@
+,predicted_labels,over_clustering,majority_voting
+AAACGAAAGACGTCGA-1,Classical monocytes,16,Classical monocytes
+AAAGAACAGTTCCGTA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+AAAGAACGTTTGTTGG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+AAAGGATGTGTGGTCC-1,Classical monocytes,47,Classical monocytes
+AAAGGATTCTGCGGGT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+AAAGGGCCACGTCGTG-1,Memory B cells,4,Memory B cells
+AAAGGGCTCTTCCACG-1,Classical monocytes,16,Classical monocytes
+AAAGGTAGTCTACACA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+AAAGGTAGTTAAGGAT-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+AAAGGTATCATAGAGA-1,Regulatory T cells,23,Regulatory T cells
+AAAGTCCGTTCGGTTA-1,Classical monocytes,19,Classical monocytes
+AAAGTCCTCAACTACG-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+AAAGTGAAGCATGATA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+AAATGGAAGCAAATGT-1,Memory B cells,1,Memory B cells
+AAATGGACAGAGATTA-1,MAIT cells,3,Tcm/Naive helper T cells
+AACAAAGCAAATCGGG-1,Tcm/Naive cytotoxic T cells,24,Tcm/Naive helper T cells
+AACAAAGTCCACAAGT-1,Age-associated B cells,4,Memory B cells
+AACAAAGTCCCTGGTT-1,Memory B cells,1,Memory B cells
+AACAACCAGACGTCCC-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+AACAACCCACGACGCT-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+AACAAGACATGTGGTT-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+AACACACAGAATCGAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AACAGGGTCCATGATG-1,Memory B cells,1,Memory B cells
+AACCAACAGACCACGA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+AACCAACAGATGCTTC-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+AACCAACAGATTAGCA-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+AACCAACAGCGTTAGG-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+AACCAACAGTCGAATA-1,Classical monocytes,7,Classical monocytes
+AACCAACCACAAAGCG-1,Classical monocytes,47,Classical monocytes
+AACCAACTCTTTCAGT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+AACCACAAGAGCACTG-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+AACCACACAAATGCTC-1,CD8a/a,23,Regulatory T cells
+AACCATGGTCATGACT-1,Naive B cells,20,Naive B cells
+AACCCAAAGCCGATAG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+AACCTGACAATCGCCG-1,Classical monocytes,14,Classical monocytes
+AACCTGAGTGCAATAA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+AACGAAACACCCTAGG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AACGTCATCCGTATGA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AACTTCTTCATGAGGG-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+AAGAACAAGACAACAT-1,Naive B cells,12,Naive B cells
+AAGAACAAGTCTCCTC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+AAGAACAAGTTACGAA-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+AAGAACAGTAAGTTGA-1,Memory B cells,1,Memory B cells
+AAGACAAAGCCTCGTG-1,Tcm/Naive cytotoxic T cells,43,Tcm/Naive helper T cells
+AAGACAAAGTGGTGAC-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+AAGACAAGTGCAACAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AAGACAAGTTGCACGC-1,Naive B cells,5,Naive B cells
+AAGACTCGTCGTGTTA-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+AAGATAGAGCATACTC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+AAGATAGGTGTATACC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+AAGCATCTCGTGTGAT-1,Naive B cells,5,Naive B cells
+AAGCATCTCTTGAGCA-1,Classical monocytes,19,Classical monocytes
+AAGCCATTCCCGTTGT-1,Classical monocytes,44,Classical monocytes
+AAGCGAGCATGGTGGA-1,Classical monocytes,6,Classical monocytes
+AAGCGAGGTTTGGAGG-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+AAGCGTTAGCACTCAT-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+AAGCGTTGTCGACTTA-1,Classical monocytes,7,Classical monocytes
+AAGGAATAGGATAATC-1,Classical monocytes,9,Classical monocytes
+AAGGAATTCCAAGGGA-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+AAGGAATTCTATGCCC-1,Classical monocytes,9,Classical monocytes
+AAGGAATTCTTAGTTC-1,Naive B cells,5,Naive B cells
+AAGGTAAAGATTGTGA-1,Naive B cells,5,Naive B cells
+AAGGTAAAGGCTAGCA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+AAGTACCCAGGCCCTA-1,Memory B cells,4,Memory B cells
+AAGTACCGTCAAGCGA-1,Classical monocytes,14,Classical monocytes
+AAGTACCGTCCTGAAT-1,Naive B cells,12,Naive B cells
+AAGTACCGTGCAACAG-1,Classical monocytes,9,Classical monocytes
+AAGTCGTTCGTTCGCT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+AAGTGAAAGCAACAAT-1,Classical monocytes,18,Classical monocytes
+AAGTGAAAGGAAGAAC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+AAGTGAAAGTCAGCGA-1,Naive B cells,17,Naive B cells
+AAGTGAACAGTTCACA-1,Naive B cells,5,Naive B cells
+AAGTGAAGTCTGATAC-1,Naive B cells,17,Naive B cells
+AAGTGAATCAAGTTGC-1,Naive B cells,5,Naive B cells
+AAGTTCGCACTACAGT-1,Classical monocytes,7,Classical monocytes
+AAGTTCGGTATCGCAT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+AATAGAGGTAGGGTAC-1,Classical monocytes,7,Classical monocytes
+AATAGAGTCCGTACGG-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+AATCACGGTACACTCA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+AATCGACCAATCTGCA-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+AATCGACGTGTCCATA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+AATCGTGAGCTCCATA-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+AATCGTGGTAACAGTA-1,Naive B cells,12,Naive B cells
+AATGAAGAGCACCGTC-1,Naive B cells,17,Naive B cells
+AATGAAGAGCAGTAAT-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+AATGAAGAGTCCGTCG-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+AATGAAGGTACTTCCC-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+AATGAAGTCACCGGTG-1,Classical monocytes,6,Classical monocytes
+AATGAAGTCCATTTGT-1,Classical monocytes,14,Classical monocytes
+AATGAAGTCGGCTGTG-1,Naive B cells,12,Naive B cells
+AATGACCAGAGACAAG-1,Naive B cells,12,Naive B cells
+AATGCCACAAACTGCT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+AATGCCACAGGTTCGC-1,MAIT cells,8,Tcm/Naive helper T cells
+AATGCCATCGCAACAT-1,Classical monocytes,14,Classical monocytes
+AATGGAAGTTTCTTAC-1,Classical monocytes,6,Classical monocytes
+AATGGCTAGGATACCG-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+AATTCCTTCTGTCCGT-1,Tcm/Naive cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ACAAAGAAGTATGCAA-1,Naive B cells,2,Naive B cells
+ACAAAGACACGGTAGA-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+ACAAAGATCGCTACGG-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+ACAAAGATCGGTCATA-1,Classical monocytes,18,Classical monocytes
+ACAACCAAGCCTCTTC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+ACAACCACAACACAAA-1,Classical monocytes,16,Classical monocytes
+ACAACCACAATTCACG-1,Classical monocytes,7,Classical monocytes
+ACAACCACAGTAACAA-1,Naive B cells,5,Naive B cells
+ACAACCACAGTCAGTT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+ACAACCATCTCTTGCG-1,Classical monocytes,9,Classical monocytes
+ACAAGCTTCAAGCCGC-1,Classical monocytes,9,Classical monocytes
+ACACAGTAGAGCCGAT-1,Naive B cells,5,Naive B cells
+ACACAGTAGAGTCTGG-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+ACACAGTCAAACAGGC-1,Classical monocytes,7,Classical monocytes
+ACACAGTCATCCGTTC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ACACCAAAGGTCATCT-1,Tem/Temra cytotoxic T cells,8,Tcm/Naive helper T cells
+ACACCAACATCAGTGT-1,Classical monocytes,19,Classical monocytes
+ACACCAAGTCGGTGTC-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+ACACCAATCCATTCAT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+ACACGCGAGGTCGACA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ACACGCGGTGGATACG-1,Naive B cells,5,Naive B cells
+ACACGCGTCGCGCCAA-1,Naive B cells,2,Naive B cells
+ACACGCGTCGCTGTTC-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+ACACTGAAGTATCCTG-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ACACTGATCTTACACT-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+ACAGCCGAGAAGTCTA-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+ACAGCCGAGCGATGCA-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+ACAGCCGGTCAGTCGC-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+ACAGGGAGTCCAGCAC-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+ACATCCCGTGGGTTGA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+ACATCCCTCATTTGCT-1,Tem/Effector helper T cells,48,Tem/Effector helper T cells
+ACATCCCTCTACGGGC-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+ACATCGAAGCAATTCC-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+ACATCGACAGAATGTA-1,Naive B cells,2,Naive B cells
+ACATGCACACACCAGC-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+ACATGCACATATGGCT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+ACCAACAGTACATTGC-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+ACCAACAGTACCCACG-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+ACCAACATCCTTATCA-1,Naive B cells,17,Naive B cells
+ACCAACATCGAGTGAG-1,Classical monocytes,16,Classical monocytes
+ACCAACATCTGAGAGG-1,Classical monocytes,6,Classical monocytes
+ACCAACATCTTTCAGT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ACCCTCAGTGTGCTTA-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+ACCCTCATCTGTGTGA-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+ACCCTTGAGTGCGACA-1,Memory B cells,4,Memory B cells
+ACCCTTGTCCATTCGC-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+ACCGTTCGTTGGAGAC-1,Naive B cells,17,Naive B cells
+ACCGTTCTCCTCTCGA-1,Memory B cells,1,Memory B cells
+ACCTACCAGACCATTC-1,Naive B cells,2,Naive B cells
+ACCTACCAGGCACTCC-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+ACCTACCAGTCTAGCT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+ACCTACCGTAGGAAAG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+ACCTACCGTTTACCTT-1,Memory B cells,4,Memory B cells
+ACCTGAACAGATCCAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ACCTGAAGTGAACCGA-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+ACCTGTCCAGTAGTTC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+ACCTGTCTCAAGTTGC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+ACGATCAAGGGACTGT-1,Naive B cells,5,Naive B cells
+ACGATCAGTTAAACCC-1,Naive B cells,5,Naive B cells
+ACGATCATCCACACCT-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+ACGATCATCCCTCGAT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+ACGATGTCACCCAAGC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ACGATGTCAGGGATAC-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+ACGATGTCATACAGCT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+ACGATGTGTACCGGAA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+ACGATGTGTCACTTCC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ACGGAAGAGCCTATCA-1,Classical monocytes,19,Classical monocytes
+ACGGAAGAGGCGCTCT-1,Classical monocytes,9,Classical monocytes
+ACGGAAGCACGTTGGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ACGGAAGGTCGACTTA-1,MAIT cells,38,Tem/Effector helper T cells
+ACGGAAGGTTAAGTCC-1,Memory B cells,1,Memory B cells
+ACGGGTCAGGAAGTAG-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+ACGGGTCGTCGAGTTT-1,Follicular helper T cells,29,Tcm/Naive helper T cells
+ACGGGTCGTTCCTACC-1,Naive B cells,5,Naive B cells
+ACGGTCGAGAGTCTTC-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+ACGGTCGCAGCTGGTC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ACGGTCGGTACTAAGA-1,Classical monocytes,47,Classical monocytes
+ACGGTTAAGCCAGACA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+ACGGTTATCTATACGG-1,Memory B cells,1,Memory B cells
+ACGTAACAGAGTGAAG-1,Naive B cells,17,Naive B cells
+ACGTAACTCATTTCCA-1,Regulatory T cells,15,Tcm/Naive helper T cells
+ACGTACAAGGGTTAGC-1,Naive B cells,4,Memory B cells
+ACGTACATCATCACTT-1,Naive B cells,5,Naive B cells
+ACGTAGTAGAAGCCTG-1,Naive B cells,20,Naive B cells
+ACGTAGTGTACGGTTT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+ACGTAGTGTCGTGTTA-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+ACGTAGTGTGATACTC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ACGTAGTTCCTAAACG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+ACGTTCCGTGACGCCT-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+ACGTTCCTCATTGGTG-1,Naive B cells,12,Naive B cells
+ACTACGAAGAATAACC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+ACTACGAAGCAATTCC-1,Tem/Temra cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+ACTACGAGTCGGTAAG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+ACTACGAGTCTTTCAT-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+ACTACGAGTTCTCTCG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+ACTACGATCAATCTCT-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+ACTACGATCTGTCTCG-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+ACTATCTAGATGTAGT-1,Naive B cells,12,Naive B cells
+ACTATCTCACGCGGTT-1,Classical monocytes,7,Classical monocytes
+ACTATCTCATGAGAAT-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+ACTATCTGTGTAAACA-1,Tem/Effector helper T cells,29,Tcm/Naive helper T cells
+ACTATGGGTCGACTGC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+ACTATGGGTCGCTTGG-1,Classical monocytes,14,Classical monocytes
+ACTATGGGTCTGTCCT-1,Memory B cells,4,Memory B cells
+ACTATGGTCACTTGGA-1,Naive B cells,20,Naive B cells
+ACTATGGTCTCTCCGA-1,Classical monocytes,6,Classical monocytes
+ACTCCCAAGGGTAATT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ACTCCCAAGTAGACCG-1,Tem/Effector helper T cells,42,Tcm/Naive helper T cells
+ACTCCCATCAAATAGG-1,Memory B cells,1,Memory B cells
+ACTCCCATCAACCTCC-1,Classical monocytes,16,Classical monocytes
+ACTCTCGAGAAGGTAG-1,Classical monocytes,14,Classical monocytes
+ACTCTCGAGGGAGTTC-1,Memory B cells,4,Memory B cells
+ACTCTCGAGTTGCTCA-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+ACTGATGAGGTCGAGT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+ACTGCAACACGCACCA-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+ACTGCAAGTTCAGGTT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ACTGCAATCGTGGAAG-1,Naive B cells,5,Naive B cells
+ACTGTCCGTAACACGG-1,Naive B cells,4,Memory B cells
+ACTGTGAGTAGAAACT-1,Classical monocytes,16,Classical monocytes
+ACTTAGGCATTGAAAG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+ACTTAGGTCACGAGGA-1,Classical monocytes,16,Classical monocytes
+ACTTAGGTCTTTCGAT-1,Memory B cells,4,Memory B cells
+ACTTCCGCAGACACAG-1,Memory B cells,1,Memory B cells
+ACTTCGCGTTGACGGA-1,Memory B cells,1,Memory B cells
+ACTTTCAAGCCATTCA-1,Classical monocytes,16,Classical monocytes
+ACTTTCAGTTGAGAGC-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+ACTTTGTCAATCTGCA-1,Classical monocytes,6,Classical monocytes
+ACTTTGTCACTGGATT-1,Classical monocytes,9,Classical monocytes
+ACTTTGTTCAGCCTCT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+AGAAATGTCAAGTGGG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+AGAACCTGTTGCTTGA-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+AGAAGCGCACGACAGA-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+AGAAGTACAACCAATC-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+AGAAGTACAGGTGAGT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+AGAAGTAGTGGCTACC-1,Naive B cells,12,Naive B cells
+AGAAGTATCAAAGAAC-1,Tem/Effector helper T cells,25,Tcm/Naive helper T cells
+AGAAGTATCACCGGTG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+AGAAGTATCGACGTCG-1,Classical monocytes,14,Classical monocytes
+AGAAGTATCGATTTCT-1,Naive B cells,20,Naive B cells
+AGAAGTATCTACGCGG-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+AGACAAACATGCGGTC-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+AGACAAATCCATAGGT-1,Naive B cells,12,Naive B cells
+AGACAAATCGCAATTG-1,Classical monocytes,14,Classical monocytes
+AGACACTTCTATACTC-1,Memory B cells,1,Memory B cells
+AGACAGGAGAGCATCG-1,Memory B cells,1,Memory B cells
+AGACAGGAGCGTCTGC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+AGACCATTCTGTTGGA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+AGACCCGGTCGTACTA-1,Classical monocytes,16,Classical monocytes
+AGACCCGGTTGGGACA-1,Tem/Temra cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+AGACTCACAAGTGATA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+AGAGAATAGAAGGGAT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+AGAGAGCAGTTTCGGT-1,Naive B cells,20,Naive B cells
+AGAGAGCCACGAGGTA-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+AGAGAGCTCTCTCCGA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+AGAGCAGGTGATCGTT-1,Memory B cells,5,Naive B cells
+AGAGCAGTCACGGACC-1,Classical monocytes,14,Classical monocytes
+AGAGCCCAGTGCCCGT-1,Classical monocytes,6,Classical monocytes
+AGATAGAAGCAACTCT-1,Naive B cells,20,Naive B cells
+AGATAGACACTACCGG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+AGATCCAAGTTTAGGA-1,Classical monocytes,6,Classical monocytes
+AGATCCAGTGACTATC-1,Tem/Trm cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGATCGTCATAACTCG-1,Classical monocytes,18,Classical monocytes
+AGATGCTAGGCCACCT-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+AGATGCTCAGTAACCT-1,Classical monocytes,7,Classical monocytes
+AGCATCACAGATCATC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+AGCCAATAGATTGATG-1,Naive B cells,2,Naive B cells
+AGCCACGTCCGATTAG-1,Regulatory T cells,23,Regulatory T cells
+AGCCAGCAGATGATTG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+AGCGATTAGATGAAGG-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+AGCGATTTCGCATAGT-1,Regulatory T cells,13,Tem/Effector helper T cells
+AGCGCCAAGCCTTCTC-1,Regulatory T cells,23,Regulatory T cells
+AGCGCTGAGCAGCCTC-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+AGCGCTGCAGCTGTAT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+AGCGCTGGTCTACGTA-1,Classical monocytes,9,Classical monocytes
+AGCGTATCAGCGTGCT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+AGCGTATCATCTTCGC-1,Naive B cells,2,Naive B cells
+AGCGTATCATGGAACG-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+AGCGTATTCATTGCGA-1,Classical monocytes,19,Classical monocytes
+AGCGTCGAGCATTGTC-1,Memory B cells,1,Memory B cells
+AGCGTCGAGCTCACTA-1,Naive B cells,2,Naive B cells
+AGCGTCGGTGCCCACA-1,Regulatory T cells,27,Tcm/Naive helper T cells
+AGCGTCGGTTCCGCAG-1,Cycling T cells,13,Tem/Effector helper T cells
+AGCTACAAGTTCCTGA-1,Classical monocytes,14,Classical monocytes
+AGCTACAGTCCTCATC-1,Classical monocytes,6,Classical monocytes
+AGCTTCCAGAACTGAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGCTTCCCAACGTAAA-1,Classical monocytes,9,Classical monocytes
+AGGAAATAGACATGCG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+AGGAAATAGCGGATCA-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+AGGAAATCAGTAACGG-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+AGGAAATTCTTTGCGC-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+AGGAATACATTAGGCT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGGACGAAGCCAGTAG-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+AGGACGAAGCTCTGTA-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+AGGACGACATGTCGTA-1,Naive B cells,2,Naive B cells
+AGGACTTTCAGTGCGC-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+AGGAGGTTCAGCCCAG-1,Naive B cells,2,Naive B cells
+AGGATAAAGGATCACG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGGATAAGTTGTTTGG-1,Memory B cells,1,Memory B cells
+AGGATCTTCATCCTGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGGCATTCACAAAGCG-1,Regulatory T cells,23,Regulatory T cells
+AGGCATTCACAGGATG-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+AGGCCACGTACTAAGA-1,Classical monocytes,6,Classical monocytes
+AGGCCACGTGGATCGA-1,Naive B cells,4,Memory B cells
+AGGCCACTCTATACTC-1,Classical monocytes,16,Classical monocytes
+AGGGAGTTCATACGAC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGGGAGTTCTACTGAG-1,Naive B cells,2,Naive B cells
+AGGGCCTGTGCTCGTG-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+AGGGCTCCAAACGTGG-1,Memory B cells,4,Memory B cells
+AGGGCTCCAGGCTTGC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+AGGGTCCCACTGTTCC-1,Memory B cells,1,Memory B cells
+AGGGTCCTCATTACGG-1,Classical monocytes,9,Classical monocytes
+AGGGTGAAGACGCCCT-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+AGGGTGAAGTTTGGCT-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+AGGGTTTTCCGCAGTG-1,Classical monocytes,9,Classical monocytes
+AGGTAGGAGAAATGGG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGGTAGGAGGTTGGTG-1,Classical monocytes,44,Classical monocytes
+AGGTAGGCAGAAATCA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+AGGTCATAGGTCGTCC-1,Memory B cells,1,Memory B cells
+AGGTCATCACAAGGTG-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+AGGTCATGTCGATTCA-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+AGGTCATGTCGTTGCG-1,Naive B cells,2,Naive B cells
+AGGTCATTCCCGGTAG-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+AGGTGTTAGGATTCAA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+AGGTGTTCAGAAGCGT-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+AGGTGTTCATTGTACG-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+AGGTGTTGTACGTTCA-1,MAIT cells,3,Tcm/Naive helper T cells
+AGGTTACAGTCTTCCC-1,Memory B cells,1,Memory B cells
+AGGTTACGTACCGTCG-1,Regulatory T cells,23,Regulatory T cells
+AGGTTACTCCTACTGC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+AGGTTGTCAAGTGATA-1,Naive B cells,12,Naive B cells
+AGGTTGTCACTCCCTA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGGTTGTCAGTAGAAT-1,Classical monocytes,9,Classical monocytes
+AGGTTGTTCTTAGCTT-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+AGTACCAAGTGCAGCA-1,Naive B cells,2,Naive B cells
+AGTACCAAGTTTCGGT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+AGTACTGCAAACCATC-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+AGTACTGCAGGAAGTC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGTACTGGTCATGCAT-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+AGTAGTCTCCCATGGG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGTCAACAGATTCGCT-1,Memory B cells,1,Memory B cells
+AGTCAACGTCGCAGTC-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+AGTCAACTCAGTGTGT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+AGTGATCCATGTGTCA-1,Naive B cells,2,Naive B cells
+AGTGATCTCGGACCAC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGTGCCGGTCGCAACC-1,Classical monocytes,7,Classical monocytes
+AGTGCCGGTCTGTGAT-1,Non-classical monocytes,7,Classical monocytes
+AGTGTTGAGTACGAGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+AGTGTTGCATCCTTCG-1,Tcm/Naive helper T cells,48,Tem/Effector helper T cells
+AGTGTTGTCATTGCGA-1,Naive B cells,12,Naive B cells
+AGTTCCCAGTTGGGAC-1,Classical monocytes,14,Classical monocytes
+AGTTCCCCAGAGGAAA-1,Classical monocytes,19,Classical monocytes
+AGTTCCCTCGGCAGTC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+AGTTCGAAGATGAAGG-1,Naive B cells,2,Naive B cells
+AGTTCGACAGCATACT-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+ATACCTTTCAGGACGA-1,Memory B cells,1,Memory B cells
+ATACCTTTCATTCGGA-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+ATACTTCAGAGCACTG-1,Regulatory T cells,23,Regulatory T cells
+ATAGACCCAGCTACTA-1,Naive B cells,5,Naive B cells
+ATAGAGAAGCAGCCTC-1,Memory B cells,1,Memory B cells
+ATAGAGACAATTCTCT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ATAGAGACATCCGCGA-1,Memory B cells,1,Memory B cells
+ATAGAGAGTTTACGAC-1,Naive B cells,5,Naive B cells
+ATAGGCTCAAGACGGT-1,Memory B cells,1,Memory B cells
+ATATCCTAGAGCAGTC-1,Classical monocytes,7,Classical monocytes
+ATATCCTCAAATGATG-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+ATCACAGCAGTGAGCA-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+ATCACGAAGCCTCTGG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+ATCACTTAGCTAGCCC-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+ATCACTTAGTAACCTC-1,Memory B cells,1,Memory B cells
+ATCACTTGTGGATCAG-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+ATCACTTGTTAGGCTT-1,MAIT cells,42,Tcm/Naive helper T cells
+ATCACTTTCATGCTAG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+ATCAGGTAGTTAACGA-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+ATCATTCAGGAGTACC-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+ATCATTCCAATCACGT-1,Memory B cells,1,Memory B cells
+ATCATTCTCATCTATC-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+ATCCACCCACGTGTGC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+ATCCACCGTCAAGCCC-1,Type 17 helper T cells,15,Tcm/Naive helper T cells
+ATCCCTGCAAAGACGC-1,Classical monocytes,19,Classical monocytes
+ATCCCTGGTACCCGCA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ATCCCTGGTATGAGGC-1,MAIT cells,3,Tcm/Naive helper T cells
+ATCCGTCCAAGCAGGT-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+ATCCGTCCAGCCGGTT-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+ATCCGTCGTAGCTTTG-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+ATCCTATCACGGTCTG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ATCCTATCACTGCTTC-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+ATCCTATTCTCTGCCA-1,NK cells,22,Tem/Temra cytotoxic T cells
+ATCGCCTAGCATCCCG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ATCGCCTCAAACCGGA-1,Naive B cells,5,Naive B cells
+ATCGCCTCATGGGATG-1,Memory B cells,4,Memory B cells
+ATCGCCTGTCCAGTTA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ATCGCCTGTCTCGGGT-1,Classical monocytes,9,Classical monocytes
+ATCGCCTTCTGGACCG-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+ATCGGATAGACTCAAA-1,Naive B cells,17,Naive B cells
+ATCGGATGTCCAGGTC-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+ATCGGATGTGAATAAC-1,Regulatory T cells,29,Tcm/Naive helper T cells
+ATCGGATGTGGCGTAA-1,Regulatory T cells,26,Tem/Effector helper T cells
+ATCGGCGAGCCATTTG-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+ATCGTAGAGGGACTGT-1,Classical monocytes,19,Classical monocytes
+ATCGTCCCACCACTGG-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+ATCGTCCCAGTCTCTC-1,Type 1 helper T cells,3,Tcm/Naive helper T cells
+ATCGTCCGTAACACGG-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+ATCGTGACAGGGAGAG-1,Classical monocytes,16,Classical monocytes
+ATCGTGAGTTCTGAGT-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+ATCTCTAGTAAGCGGT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+ATCTCTATCGCCACTT-1,Regulatory T cells,23,Regulatory T cells
+ATCTCTATCTACCTTA-1,Naive B cells,17,Naive B cells
+ATCTTCACAAGAGATT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+ATCTTCACATAGTCGT-1,Classical monocytes,6,Classical monocytes
+ATGAAAGAGCCTGTCG-1,Classical monocytes,9,Classical monocytes
+ATGAAAGCACGAAGAC-1,Classical monocytes,16,Classical monocytes
+ATGAAAGGTGGAAATT-1,Memory B cells,1,Memory B cells
+ATGAAAGGTGTATACC-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+ATGAAAGTCGATGCTA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+ATGACCAAGGCTTAGG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+ATGACCAAGTCTGCAT-1,Naive B cells,17,Naive B cells
+ATGACCAAGTTTCAGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ATGAGTCCACTCACTC-1,Tcm/Naive helper T cells,23,Regulatory T cells
+ATGAGTCGTGGAAATT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+ATGAGTCGTGTTGATC-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+ATGAGTCTCGTAATGC-1,Classical monocytes,14,Classical monocytes
+ATGATCGCACAGAGAC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+ATGCATGGTCAATGGG-1,Classical monocytes,14,Classical monocytes
+ATGCATGGTCGTATTG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+ATGCATGTCGTGAGAG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+ATGCCTCCAAGCCATT-1,Classical monocytes,6,Classical monocytes
+ATGCCTCTCGAAGTGG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+ATGCGATAGCAAGTCG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+ATGCGATCAACGGCCT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+ATGCGATGTTTGCAGT-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+ATGCGATTCCAACCGG-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+ATGCGATTCCCGTTGT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+ATGGAGGAGCTTAGTC-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+ATGGATCAGAAGGATG-1,Naive B cells,2,Naive B cells
+ATGGATCGTACGACAG-1,Regulatory T cells,13,Tem/Effector helper T cells
+ATGGATCGTAGTAAGT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+ATGGATCTCGATCCAA-1,Naive B cells,17,Naive B cells
+ATGGATCTCGGAGTGA-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+ATGGGTTAGAGCATCG-1,MAIT cells,42,Tcm/Naive helper T cells
+ATGGTTGAGCAGAAAG-1,Tem/Effector helper T cells,46,Tcm/Naive helper T cells
+ATGGTTGCAGGCACTC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+ATGGTTGGTAGTAAGT-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+ATGTCCCAGGCATCAG-1,Classical monocytes,7,Classical monocytes
+ATGTCCCCAAAGGTTA-1,Naive B cells,17,Naive B cells
+ATGTCCCCACTGTGTA-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+ATGTCCCGTTGGGTAG-1,Classical monocytes,7,Classical monocytes
+ATGTCCCTCACTCCGT-1,MAIT cells,30,Tem/Trm cytotoxic T cells
+ATTACCTCAAGACCGA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+ATTACCTCAATGAACA-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+ATTACCTGTACGTTCA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ATTACCTTCAGCTGTA-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+ATTACCTTCGGTCACG-1,Tcm/Naive cytotoxic T cells,28,Tcm/Naive helper T cells
+ATTACTCAGGTGCGAT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+ATTACTCGTAGGCAAC-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+ATTACTCTCATGCTAG-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+ATTATCCCAAACTAGA-1,Early lymphoid/T lymphoid,13,Tem/Effector helper T cells
+ATTATCCGTACTCGAT-1,Tem/Effector helper T cells,23,Regulatory T cells
+ATTATCCGTCCGGTGT-1,Memory B cells,4,Memory B cells
+ATTATCCGTCTGTCAA-1,Naive B cells,5,Naive B cells
+ATTATCCGTTATCTGG-1,Memory B cells,1,Memory B cells
+ATTATCCTCTCTTGCG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+ATTCACTCAGCTGAAG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+ATTCACTGTCGGATTT-1,Classical monocytes,19,Classical monocytes
+ATTCACTTCTCGCTTG-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+ATTCAGGGTTTCACTT-1,MAIT cells,3,Tcm/Naive helper T cells
+ATTCATCAGATTGGGC-1,Memory B cells,4,Memory B cells
+ATTCATCCAAAGCTAA-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+ATTCATCTCTCTCGAC-1,Classical monocytes,9,Classical monocytes
+ATTCCCGGTTGCATTG-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+ATTCCCGTCCCATTCG-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+ATTCCTACAGCACCCA-1,Naive B cells,5,Naive B cells
+ATTCCTACATGATCTG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ATTCCTAGTCACGCTG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+ATTCCTATCGAGAATA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ATTCGTTAGGTTCCGC-1,Classical monocytes,7,Classical monocytes
+ATTCGTTAGTGGAATT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+ATTCGTTCAAGCTACT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+ATTCGTTCACGTTCGG-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+ATTCGTTTCGAGATAA-1,Naive B cells,5,Naive B cells
+ATTCTTGAGAGAGCGG-1,Classical monocytes,9,Classical monocytes
+ATTCTTGAGTGGTTCT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+ATTCTTGGTTGGGATG-1,Naive B cells,12,Naive B cells
+ATTCTTGTCGTAACTG-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+ATTGGGTCAACAGCCC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+ATTGGGTCAACTGCTA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+ATTGGGTTCAACGAGG-1,ILC3,3,Tcm/Naive helper T cells
+ATTTACCAGGATAATC-1,Classical monocytes,19,Classical monocytes
+ATTTACCAGGGCCCTT-1,Naive B cells,2,Naive B cells
+ATTTACCTCAGCCTCT-1,Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+ATTTCACAGCCGATAG-1,Naive B cells,4,Memory B cells
+ATTTCTGAGGACGCTA-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+ATTTCTGTCCACTGAA-1,Naive B cells,20,Naive B cells
+CAAAGAACAAATCGGG-1,Naive B cells,5,Naive B cells
+CAACAACTCGCACGAC-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+CAACAACTCTCTCCGA-1,Memory B cells,1,Memory B cells
+CAACAGTGTGCAACAG-1,Classical monocytes,6,Classical monocytes
+CAACCTCCATCTTTCA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CAACCTCTCTGGTGCG-1,Naive B cells,12,Naive B cells
+CAACGATGTATGAGGC-1,MAIT cells,3,Tcm/Naive helper T cells
+CAACGGCCACAAGCAG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CAACGGCTCCGCAGTG-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+CAACGGCTCCGTCCTA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CAAGACTTCAGCACCG-1,Classical monocytes,18,Classical monocytes
+CAAGAGGAGGTACATA-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+CAAGAGGCACTCCCTA-1,Classical monocytes,9,Classical monocytes
+CAAGAGGGTTCGGTTA-1,Classical monocytes,9,Classical monocytes
+CAAGAGGTCTGGGTCG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CAAGCTAGTGTGACCC-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+CAAGCTAGTTCTGACA-1,Classical monocytes,47,Classical monocytes
+CAAGCTATCCAAGCCG-1,Classical monocytes,18,Classical monocytes
+CAAGCTATCCACTGGG-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CAAGGGAGTTCACGAT-1,Tem/Effector helper T cells,25,Tcm/Naive helper T cells
+CAATACGGTACTGCGC-1,Tcm/Naive helper T cells,23,Regulatory T cells
+CAATACGGTTGGTGTT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+CAATACGTCATCAGTG-1,Naive B cells,17,Naive B cells
+CAATACGTCCCTGGTT-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+CAATCGAAGCGACAGT-1,Naive B cells,5,Naive B cells
+CAATCGAGTGAGCAGT-1,Tcm/Naive helper T cells,38,Tem/Effector helper T cells
+CAATCGATCGTAGTCA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CAATTTCGTGTCTCCT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CACAACAAGAGGATGA-1,Naive B cells,2,Naive B cells
+CACAACAGTGTGACCC-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+CACAACAGTTGATGTC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CACAGATAGTGGATAT-1,Naive B cells,12,Naive B cells
+CACAGATCACGAAGAC-1,Memory B cells,1,Memory B cells
+CACAGGCAGGTGCTTT-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+CACATGAAGGTCCGAA-1,Classical monocytes,16,Classical monocytes
+CACATGAAGTATGGCG-1,Tem/Temra cytotoxic T cells,8,Tcm/Naive helper T cells
+CACATGACAGACGATG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+CACATGACATGAGAAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CACATGAGTGTATTGC-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+CACATGATCGAACCTA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CACCAAACAAGTGGAC-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CACCAAACAGGCCCTA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CACCAAACATGGGCAA-1,Classical monocytes,7,Classical monocytes
+CACCGTTCATCGCTCT-1,Naive B cells,17,Naive B cells
+CACGAATAGAGGCTGT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+CACGAATTCTTGGGCG-1,Naive B cells,5,Naive B cells
+CACGGGTCATGAAGGC-1,Tem/Effector helper T cells,35,Tcm/Naive helper T cells
+CACGGGTGTACAAGCG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+CACGTGGAGGATACAT-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CACGTGGGTACATTGC-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+CACGTGGTCGTGGGAA-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+CACGTGGTCTGCGTCT-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CACGTTCAGTTCCGTA-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+CACGTTCGTTGTCAGT-1,Naive B cells,2,Naive B cells
+CACTAAGTCTTGCGCT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CACTGAAAGTCATACC-1,Classical monocytes,18,Classical monocytes
+CACTGGGTCTTAAGGC-1,Classical monocytes,9,Classical monocytes
+CACTGTCTCAGACCTA-1,Regulatory T cells,23,Regulatory T cells
+CACTGTCTCCAAACCA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CACTGTCTCCGTTGGG-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+CACTTCGGTTTACGTG-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+CAGAGCCAGGTCATAA-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+CAGAGCCAGTCCCTAA-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+CAGAGCCTCGCGGACT-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+CAGATACGTGAAGCGT-1,Naive B cells,20,Naive B cells
+CAGATCAAGCTGCCTG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CAGATCATCTACAGGT-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+CAGATCATCTGGCCTT-1,Classical monocytes,6,Classical monocytes
+CAGATTGAGCTAGCCC-1,Naive B cells,2,Naive B cells
+CAGCAATGTGAGATCG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+CAGCAATGTTGTGTTG-1,Classical monocytes,9,Classical monocytes
+CAGCACGAGATGACCG-1,Classical monocytes,19,Classical monocytes
+CAGCACGAGTCTGCAT-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+CAGCACGTCTCAGAAC-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+CAGCAGCAGGTATCTC-1,Classical monocytes,7,Classical monocytes
+CAGCAGCGTCGCTTAA-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+CAGCAGCTCTATTCGT-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CAGCCAGCACGACAGA-1,Tcm/Naive helper T cells,0,Tcm/Naive cytotoxic T cells
+CAGCCAGCATATGAAG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CAGCGTGAGACATGCG-1,Naive B cells,5,Naive B cells
+CAGCGTGAGGGCTTCC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CAGCGTGAGGTAGTCG-1,Naive B cells,5,Naive B cells
+CAGCGTGAGTTCTACG-1,Classical monocytes,44,Classical monocytes
+CAGCGTGCAGCAGATG-1,Classical monocytes,19,Classical monocytes
+CAGCGTGCATATGCGT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+CAGCGTGGTAACAGGC-1,Regulatory T cells,31,Tcm/Naive helper T cells
+CAGCGTGGTAGCTAAA-1,Naive B cells,17,Naive B cells
+CAGCGTGGTGGGTATG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CAGGCCAAGTAAAGCT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+CAGGCCATCGAAGTGG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CAGGCCATCGTCCATC-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+CAGGGCTGTAGTGTGG-1,Naive B cells,5,Naive B cells
+CAGGGCTTCGGACTTA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CAGGGCTTCTATCCAT-1,Naive B cells,2,Naive B cells
+CAGGTATAGTGCAACG-1,Tcm/Naive helper T cells,38,Tem/Effector helper T cells
+CAGGTATCAAACCACT-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+CAGTGCGGTAGTGGCA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CAGTGCGGTTAGAAGT-1,Classical monocytes,44,Classical monocytes
+CAGTTCCCAGACCAGA-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+CAGTTCCTCGCTCTAC-1,Naive B cells,17,Naive B cells
+CATAAGCGTACAGCGA-1,Classical monocytes,18,Classical monocytes
+CATAAGCGTAGACTGG-1,Naive B cells,2,Naive B cells
+CATAAGCGTAGTGCGA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CATACCCCATTGTCGA-1,Memory B cells,4,Memory B cells
+CATAGACAGAGTCGAC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CATAGACCAAGACAAT-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+CATAGACCACAAACGG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+CATAGACTCGGTGTAT-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+CATCAAGGTCGTTTCC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CATCAAGTCGCGAAGA-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+CATCCCAAGAGGGTCT-1,CD16+ NK cells,22,Tem/Temra cytotoxic T cells
+CATCCCATCAGCTGAT-1,Tem/Trm cytotoxic T cells,13,Tem/Effector helper T cells
+CATCCGTTCTGGTTGA-1,Naive B cells,20,Naive B cells
+CATCGCTGTCCGGATC-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+CATCGCTTCTTCCCAG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+CATCGGGTCGAGCACC-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CATCGTCGTGTTTGCA-1,Classical monocytes,16,Classical monocytes
+CATGAGTAGTTGTACC-1,Regulatory T cells,29,Tcm/Naive helper T cells
+CATGAGTTCTTTGGAG-1,Classical monocytes,6,Classical monocytes
+CATGCAAAGCAGGCAT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+CATGCCTCAAGGGTCA-1,Naive B cells,5,Naive B cells
+CATGCCTGTGATGAAT-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CATGCCTTCAGAGTTC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CATGCGGCAGGAGACT-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CATGCGGGTCATAGTC-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+CATGCGGTCGGACCAC-1,Non-classical monocytes,18,Classical monocytes
+CATGCGGTCTCTTCAA-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+CATGCGGTCTGAGTCA-1,MAIT cells,8,Tcm/Naive helper T cells
+CATGCGGTCTGGGCAC-1,Naive B cells,20,Naive B cells
+CATGCTCGTGCGTTTA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+CATGCTCGTGGGACAT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+CATGGATTCAGGTAAA-1,Classical monocytes,9,Classical monocytes
+CATGGTAAGAAATGGG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CATGGTAAGTAACCGG-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+CATGGTACATCATTTC-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+CATTCCGAGATGTAGT-1,Memory B cells,1,Memory B cells
+CATTCCGCAGAGAAAG-1,Naive B cells,4,Memory B cells
+CATTCCGGTCCAAGAG-1,Classical monocytes,18,Classical monocytes
+CATTCCGGTGCCTGAC-1,Classical monocytes,14,Classical monocytes
+CATTCCGGTTTCCAAG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CATTCTAAGGCGATAC-1,Classical monocytes,18,Classical monocytes
+CATTGAGCAGGGTCTC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+CATTGAGCATTGACTG-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+CATTGAGGTCCACGCA-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+CATTGCCAGCTAAGTA-1,Regulatory T cells,23,Regulatory T cells
+CATTGCCTCCATTGGA-1,Naive B cells,20,Naive B cells
+CATTGCCTCGTTTACT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+CATTGTTCATACAGAA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CATTGTTGTTGGCTAT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CATTGTTTCGCACGGT-1,Classical monocytes,6,Classical monocytes
+CATTTCAAGTTGCTCA-1,Classical monocytes,7,Classical monocytes
+CCAAGCGGTAATGCGG-1,Naive B cells,2,Naive B cells
+CCAATGAAGACCAGCA-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+CCAATTTCACGACGTC-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+CCAATTTGTATGAGCG-1,MAIT cells,27,Tcm/Naive helper T cells
+CCACAAACATCTCAAG-1,Naive B cells,20,Naive B cells
+CCACAAAGTACGCTAT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+CCACAAATCCTAAGTG-1,Classical monocytes,7,Classical monocytes
+CCACCATAGACGCTCC-1,Classical monocytes,6,Classical monocytes
+CCACCATCATTCATCT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CCACGAGCAATGGCCC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CCACGAGCAGCCCACA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CCACGAGGTGAGATCG-1,Classical monocytes,6,Classical monocytes
+CCACGTTCAGTCCCGA-1,Classical monocytes,19,Classical monocytes
+CCACTTGCAAACTAGA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CCATAAGGTGGAAGTC-1,Memory B cells,1,Memory B cells
+CCATAAGTCGCATTAG-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+CCATCACTCCTTATGT-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+CCCAACTGTCATCGCG-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CCCATTGAGTGGACTG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+CCCATTGAGTTAACGA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+CCCGGAATCGCGTGAC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+CCCTAACAGTATGAGT-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CCCTAACTCACAATGC-1,Tcm/Naive helper T cells,0,Tcm/Naive cytotoxic T cells
+CCCTCAAGTAATGATG-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CCCTCAATCCCAGGAC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CCCTCTCTCGGTAGGA-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+CCCTGATCAGCCTACG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CCGAACGCAGTAGTGG-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CCGATCTCAACTTGCA-1,Naive B cells,2,Naive B cells
+CCGATGGAGCTAGAGC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+CCGCAAGGTACCCACG-1,Naive B cells,20,Naive B cells
+CCGCAAGGTCAAGCGA-1,Naive B cells,17,Naive B cells
+CCGGGTAAGCGACATG-1,Naive B cells,20,Naive B cells
+CCGGGTAAGGGTTTCT-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+CCGGGTACATGTGCCG-1,Memory B cells,1,Memory B cells
+CCGGTAGGTCTAGATC-1,Naive B cells,20,Naive B cells
+CCGGTGACAATTGTGC-1,Naive B cells,5,Naive B cells
+CCGGTGACACAGAGCA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+CCGGTGACACGTTCGG-1,Memory B cells,1,Memory B cells
+CCGGTGATCGCCATAA-1,Classical monocytes,6,Classical monocytes
+CCGTAGGAGGTAGCAC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+CCGTAGGGTGACTCGC-1,Naive B cells,2,Naive B cells
+CCGTGAGAGGAGCTGT-1,Naive B cells,20,Naive B cells
+CCGTTCACAGCTACTA-1,Naive B cells,12,Naive B cells
+CCTAACCAGCCTGGAA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+CCTAACCCACTGCGAC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CCTAACCGTGACGCCT-1,Tem/Effector helper T cells,48,Tem/Effector helper T cells
+CCTAAGAAGGTCTGGA-1,Naive B cells,20,Naive B cells
+CCTAAGATCTTCCACG-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+CCTACGTTCTAGACCA-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+CCTCAACAGCCGTTAT-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+CCTCAACTCGTAGTCA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+CCTCACACAACCACAT-1,Tem/Effector helper T cells,11,Tcm/Naive helper T cells
+CCTCACATCCATAAGC-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+CCTCAGTGTTACCGTA-1,Memory B cells,4,Memory B cells
+CCTCAGTTCAACGTGT-1,Classical monocytes,7,Classical monocytes
+CCTCCTCAGCTTGTTG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+CCTCCTCAGTGTAGTA-1,Classical monocytes,16,Classical monocytes
+CCTCTAGAGTTGCTCA-1,Classical monocytes,14,Classical monocytes
+CCTCTCCAGACCGTTT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CCTCTCCGTCAGACTT-1,Naive B cells,20,Naive B cells
+CCTCTCCTCTGAGTCA-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+CCTGTTGAGTTTAGGA-1,Memory B cells,4,Memory B cells
+CCTGTTGCACTGGACC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+CCTGTTGGTATGGTTC-1,Classical monocytes,14,Classical monocytes
+CCTTCAGCACTGTCCT-1,Naive B cells,17,Naive B cells
+CCTTCAGCAGCCTTCT-1,Tem/Effector helper T cells,10,Tem/Trm cytotoxic T cells
+CCTTCAGTCATGCGGC-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+CCTTCAGTCCAGTGCG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+CCTTGTGAGGCCCGTT-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+CCTTGTGGTATCGATC-1,Classical monocytes,7,Classical monocytes
+CCTTTGGAGCCACAAG-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+CCTTTGGCAACCGATT-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+CCTTTGGGTCGAATTC-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+CGAAGGAAGGGAGAAT-1,Classical monocytes,47,Classical monocytes
+CGAAGGACACACCTGG-1,Naive B cells,20,Naive B cells
+CGAAGGAGTGTTATCG-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+CGAAGTTCATGGACAG-1,Classical monocytes,14,Classical monocytes
+CGAATTGAGCAACTTC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+CGACAGCAGCTACTAC-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+CGACAGCAGGTATTGA-1,Classical monocytes,9,Classical monocytes
+CGACAGCCAACAGTGG-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+CGAGAAGAGACCCGCT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+CGAGGAAAGAGTGACC-1,Classical monocytes,18,Classical monocytes
+CGAGGCTAGCAGCCTC-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+CGAGGCTAGGCTCACC-1,Classical monocytes,14,Classical monocytes
+CGAGGCTCAAACAGGC-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+CGAGGCTCACTCCGAG-1,Classical monocytes,16,Classical monocytes
+CGAGGCTCACTCTCGT-1,Naive B cells,2,Naive B cells
+CGAGGCTCATGTACGT-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CGAGGCTTCGCTGTCT-1,Classical monocytes,7,Classical monocytes
+CGAGTGCGTCACTACA-1,Classical monocytes,16,Classical monocytes
+CGAGTGCTCAGACCTA-1,Tcm/Naive cytotoxic T cells,21,Tcm/Naive helper T cells
+CGAGTTAAGGGAGTTC-1,Naive B cells,17,Naive B cells
+CGAGTTACATGGCTGC-1,Classical monocytes,6,Classical monocytes
+CGAGTTATCATTCATC-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+CGATCGGAGGCCCGTT-1,Memory B cells,1,Memory B cells
+CGATCGGAGGCTAACG-1,Naive B cells,2,Naive B cells
+CGATCGGAGGTCGAGT-1,Naive B cells,12,Naive B cells
+CGATCGGCATCCGTTC-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+CGATGCGAGCCTTTCC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CGATGCGCATCGGCCA-1,Classical monocytes,47,Classical monocytes
+CGATGGCAGATCGGTG-1,Naive B cells,5,Naive B cells
+CGCAGGTTCACCTCTG-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CGCAGGTTCTAGACCA-1,Naive B cells,20,Naive B cells
+CGCATAACAATTTCCT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CGCATAAGTGTTTGCA-1,Naive B cells,12,Naive B cells
+CGCCAGAGTCCGTACG-1,Classical monocytes,18,Classical monocytes
+CGCCAGATCCTAAGTG-1,Classical monocytes,18,Classical monocytes
+CGCCATTTCAACTACG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CGCCATTTCTACACAG-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+CGCGTGATCATTCATC-1,Classical monocytes,6,Classical monocytes
+CGGAACCAGTACCCTA-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CGGAACCCAGCAATTC-1,Type 17 helper T cells,26,Tem/Effector helper T cells
+CGGAATTCACCGTGCA-1,Classical monocytes,14,Classical monocytes
+CGGACACGTCCATCTC-1,Tem/Effector helper T cells,11,Tcm/Naive helper T cells
+CGGAGAATCACTGTCC-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+CGGCAGTTCAACACGT-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+CGGGACTCACAATGCT-1,Naive B cells,12,Naive B cells
+CGGGACTGTTGACTAC-1,Memory B cells,4,Memory B cells
+CGGGCATAGAGGTTAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CGGGCATAGCCATTTG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+CGGGCATAGCCGCACT-1,Classical monocytes,16,Classical monocytes
+CGGGCATCAACCAGAG-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+CGGGTCAAGCACTCGC-1,Classical monocytes,9,Classical monocytes
+CGGGTCATCAACGTGT-1,Memory B cells,4,Memory B cells
+CGGGTGTGTTGCTGAT-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CGGTCAGCAAGTTTGC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CGGTCAGCACTAACCA-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+CGGTCAGCACTGCTTC-1,Regulatory T cells,23,Regulatory T cells
+CGGTCAGCATGCTGCG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+CGTAAGTAGTAACAGT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+CGTAAGTCAGACATCT-1,Classical monocytes,9,Classical monocytes
+CGTAATGCACCAAATC-1,Classical monocytes,6,Classical monocytes
+CGTAATGTCCGCGGAT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+CGTAGTACAATGTGGG-1,Regulatory T cells,23,Regulatory T cells
+CGTAGTACAGTTTCGA-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+CGTAGTATCTCTCTTC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CGTCAAAAGCTCACTA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CGTCAAAAGGAATCGC-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CGTCAAAAGGCTTCCG-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CGTCAAACACAGCATT-1,Naive B cells,20,Naive B cells
+CGTCAAAGTTGGACTT-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+CGTGAATAGACCTGGA-1,Tcm/Naive helper T cells,38,Tem/Effector helper T cells
+CGTGAATAGGCTAGCA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+CGTGAATAGTGCGTCC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+CGTGATATCAACACCA-1,Memory B cells,4,Memory B cells
+CGTGATATCGCAGAGA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CGTGATATCTTCTCAA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CGTGCTTAGGGCCTCT-1,Classical monocytes,44,Classical monocytes
+CGTGTCTCACTCTGCT-1,Classical monocytes,18,Classical monocytes
+CGTGTCTCAGCCGTTG-1,Classical monocytes,47,Classical monocytes
+CGTGTCTTCACCCATC-1,Memory B cells,4,Memory B cells
+CGTTAGACACTAACGT-1,Tem/Effector helper T cells,48,Tem/Effector helper T cells
+CGTTCTGAGTGCACCC-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CGTTCTGCACAAGGTG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+CGTTCTGGTCGGAAAC-1,Classical monocytes,9,Classical monocytes
+CGTTCTGTCTTACACT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CGTTGGGTCCCGTTGT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+CTAACCCCAATTGCAC-1,Naive B cells,12,Naive B cells
+CTAACCCGTACAAAGT-1,Naive B cells,17,Naive B cells
+CTAACTTAGCACCAGA-1,Memory B cells,1,Memory B cells
+CTAACTTCACTCTCGT-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+CTAACTTGTTGTGTAC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CTACAGAAGGCTTAAA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+CTACAGACATCTGTTT-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+CTACAGATCCATCACC-1,Regulatory T cells,23,Regulatory T cells
+CTACATTGTCGAGCAA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CTACCCACAAGAAATC-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+CTACCCATCGAACGGA-1,Memory B cells,1,Memory B cells
+CTACCCATCTAAACGC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CTACCTGAGAGGTCAC-1,Memory B cells,4,Memory B cells
+CTACCTGAGTCATGAA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CTACCTGCAACGGCTC-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+CTACGGGAGCTTCATG-1,Early lymphoid/T lymphoid,38,Tem/Effector helper T cells
+CTACGGGAGTTCAACC-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+CTACTATAGATACGAT-1,Classical monocytes,6,Classical monocytes
+CTACTATAGCAGCACA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+CTACTATGTGAACGGT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+CTAGACACACACTTAG-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+CTAGACACATCGGAAG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+CTAGGTAAGGACGCAT-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+CTAGGTAGTAACTTCG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+CTATCCGCAGACCAAG-1,Classical monocytes,6,Classical monocytes
+CTATCTAGTTACCCAA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CTCAACCCAGCTGAAG-1,Classical monocytes,18,Classical monocytes
+CTCAACCTCATGCCGG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+CTCAACCTCTTGCGCT-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+CTCAAGAGTGCCCTTT-1,Naive B cells,2,Naive B cells
+CTCAAGATCGTGGTAT-1,Naive B cells,2,Naive B cells
+CTCAATTCAGTTGCGC-1,Naive B cells,2,Naive B cells
+CTCACTGCAGAGACTG-1,Naive B cells,2,Naive B cells
+CTCAGAAGTCATCAGT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CTCAGAAGTGTTAACC-1,Memory B cells,1,Memory B cells
+CTCAGAATCCCAAGTA-1,Follicular helper T cells,27,Tcm/Naive helper T cells
+CTCAGGGGTAAGCTCT-1,Memory B cells,4,Memory B cells
+CTCAGGGGTTTACTTC-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+CTCAGTCGTCGTATGT-1,Classical monocytes,14,Classical monocytes
+CTCAGTCGTGAGCAGT-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+CTCATCGTCGGATTAC-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+CTCATTAAGCGGACAT-1,Naive B cells,5,Naive B cells
+CTCATTAAGCGGTAGT-1,Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+CTCATTAAGGTAAGAG-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+CTCATTATCTAAGGAA-1,Naive B cells,5,Naive B cells
+CTCCAACCAATTTCCT-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+CTCCACACAATCTCGA-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+CTCCACAGTCCATACA-1,Naive B cells,5,Naive B cells
+CTCCATGAGGTACAAT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+CTCCATGTCCAGCCTT-1,Naive B cells,12,Naive B cells
+CTCCCAAAGGTTGGTG-1,Memory B cells,1,Memory B cells
+CTCCCTCAGGAGAATG-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CTCCCTCCAAGTGCAG-1,Memory B cells,1,Memory B cells
+CTCCCTCCAGCACAGA-1,Classical monocytes,6,Classical monocytes
+CTCCGATGTTGGTAGG-1,Memory B cells,4,Memory B cells
+CTCCTCCAGGTTCCAT-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+CTCCTTTTCGTCAGAT-1,Naive B cells,12,Naive B cells
+CTCTCAGCACAAGCTT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CTCTCGAAGACCTGGA-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+CTCTCGAAGTACTGTC-1,Classical monocytes,19,Classical monocytes
+CTCTCGAAGTCCCAGC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+CTCTGGTCATAATGCC-1,Naive B cells,20,Naive B cells
+CTCTGGTGTGGTTTGT-1,Memory B cells,4,Memory B cells
+CTGAATGCACTCAAGT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CTGAGCGAGACGGAAA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CTGAGCGGTAGGAAAG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+CTGAGCGGTGGGCTCT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+CTGAGCGGTTCTAACG-1,Naive B cells,5,Naive B cells
+CTGAGCGTCCAAACCA-1,Classical monocytes,18,Classical monocytes
+CTGAGCGTCCCGTGAG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+CTGAGGCAGAGAATCT-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+CTGAGGCAGATTTGCC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+CTGAGGCAGTGGCCTC-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+CTGATCCCATGGCTGC-1,Naive B cells,20,Naive B cells
+CTGCAGGCATAGGCGA-1,Classical monocytes,7,Classical monocytes
+CTGCAGGTCAAGGTGG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+CTGCAGGTCAGGAACG-1,Classical monocytes,18,Classical monocytes
+CTGCATCAGTTACGTC-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CTGCCATAGACGAAGA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+CTGCCATCAACGGCCT-1,Memory B cells,4,Memory B cells
+CTGCCATCATTGTCGA-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+CTGCCATTCTCATTGT-1,Classical monocytes,18,Classical monocytes
+CTGCCTAGTACTAAGA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+CTGCTCATCTGCGGGT-1,Classical monocytes,9,Classical monocytes
+CTGGACGGTGGTACAG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CTGGACGTCGAGTGGA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+CTGGCAGAGGTGCCTC-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+CTGGCAGAGTTGCATC-1,Classical monocytes,9,Classical monocytes
+CTGGTCTGTCTGTGTA-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+CTGTACCAGGTTGACG-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+CTGTACCTCTTTCCAA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+CTGTATTAGACCAGCA-1,Classical monocytes,16,Classical monocytes
+CTGTATTGTACTGTTG-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+CTGTCGTCAGAGAAAG-1,Naive B cells,2,Naive B cells
+CTGTCGTGTATACCCA-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+CTGTCGTTCGTGCAGC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+CTGTGAACATGGTACT-1,Classical monocytes,6,Classical monocytes
+CTGTGAATCCATTGCC-1,Classical monocytes,6,Classical monocytes
+CTGTGAATCTAGTTCT-1,Classical monocytes,9,Classical monocytes
+CTGTGGGAGGTATTGA-1,Classical monocytes,9,Classical monocytes
+CTGTGGGTCAGAGTGG-1,Naive B cells,12,Naive B cells
+CTGTGGGTCCCAATAG-1,Tcm/Naive helper T cells,38,Tem/Effector helper T cells
+CTTAGGACATAGAAAC-1,Naive B cells,5,Naive B cells
+CTTAGGATCCAATCCC-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+CTTCAATGTTGTGGAG-1,Tcm/Naive helper T cells,48,Tem/Effector helper T cells
+CTTCAATTCATTTCGT-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+CTTCCGATCCATTGCC-1,Naive B cells,17,Naive B cells
+CTTCCTTGTGCAGATG-1,Naive B cells,17,Naive B cells
+CTTCGGTAGGATATAC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+CTTCTAATCATAGAGA-1,Tcm/Naive cytotoxic T cells,24,Tcm/Naive helper T cells
+CTTCTCTCAAAGGTTA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CTTCTCTCATTCCTAT-1,Classical monocytes,18,Classical monocytes
+CTTCTCTGTATGGGAC-1,Naive B cells,2,Naive B cells
+CTTGAGATCTAAACGC-1,Classical monocytes,6,Classical monocytes
+CTTGAGATCTTGGAAC-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+CTTGATTGTGACGTCC-1,Memory B cells,4,Memory B cells
+CTTGATTGTGGTTTGT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CTTGATTTCCATACAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+CTTTCAAAGGGACACT-1,Tcm/Naive helper T cells,38,Tem/Effector helper T cells
+CTTTCAACACTTGACA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+CTTTCAACATTGAGGG-1,Tem/Temra cytotoxic T cells,45,Tcm/Naive helper T cells
+CTTTCAATCGGATAAA-1,Classical monocytes,14,Classical monocytes
+CTTTCGGGTAAGATTG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+GAAACCTCACGTTCGG-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+GAAACCTCAGAACGCA-1,Memory B cells,1,Memory B cells
+GAAACCTTCAAATAGG-1,Naive B cells,12,Naive B cells
+GAAACCTTCTATGCCC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GAAATGAAGCGTATGG-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+GAAATGAAGTCAGAGC-1,Memory B cells,4,Memory B cells
+GAACACTCAGGCTTGC-1,Tcm/Naive helper T cells,48,Tem/Effector helper T cells
+GAACACTTCGTACACA-1,Classical monocytes,16,Classical monocytes
+GAACGTTGTAAGACCG-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+GAACTGTTCAGTCAGT-1,Classical monocytes,6,Classical monocytes
+GAACTGTTCGCGTTTC-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+GAAGAATAGGGAGTTC-1,Regulatory T cells,13,Tem/Effector helper T cells
+GAAGCCCGTTTGGCTA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+GAAGCGAGTGGCCACT-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+GAAGCGATCGAAGCAG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GAAGGACGTCTCGCGA-1,Naive B cells,20,Naive B cells
+GAAGGACGTGTAGGAC-1,Classical monocytes,7,Classical monocytes
+GAAGGACTCGAACCAT-1,Classical monocytes,16,Classical monocytes
+GAAGGGTGTGAGTCAG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GAAGTAACATGAATCC-1,Naive B cells,17,Naive B cells
+GAAGTAATCTCATGCC-1,Memory B cells,1,Memory B cells
+GAATAGAAGTTTCTTC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GAATAGACATCGATGT-1,Naive B cells,5,Naive B cells
+GAATCGTAGGAACGCT-1,Naive B cells,5,Naive B cells
+GAATCGTAGGTTCTTG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GAATCGTGTCAACATC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GAATCGTGTCACATTG-1,Classical monocytes,14,Classical monocytes
+GAATCGTGTTCCGCTT-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+GACACGCGTAAGTAGT-1,Classical monocytes,7,Classical monocytes
+GACACGCTCCGGTAGC-1,Memory B cells,1,Memory B cells
+GACAGCCAGCCATCCG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GACATCAAGTGAGCCA-1,Naive B cells,12,Naive B cells
+GACCCAGGTCCATACA-1,Classical monocytes,44,Classical monocytes
+GACCCAGGTTGGATCT-1,CD16+ NK cells,22,Tem/Temra cytotoxic T cells
+GACCCTTCATACTGTG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GACCGTGCACTACAGT-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GACCTTCTCTTGATTC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+GACGCTGTCTCACGAA-1,Naive B cells,2,Naive B cells
+GACGTTACAGGTGTGA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+GACGTTAGTATGACAA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+GACGTTATCTGCTTAT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+GACTATGCAGTAGAGC-1,Tem/Effector helper T cells,11,Tcm/Naive helper T cells
+GACTATGGTAGCGTAG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GACTATGGTCCTCAGG-1,Tem/Effector helper T cells,11,Tcm/Naive helper T cells
+GACTATGTCGTAGTCA-1,Memory B cells,4,Memory B cells
+GACTCAACATTGTAGC-1,Naive B cells,4,Memory B cells
+GACTCAATCCATCTGC-1,Memory B cells,4,Memory B cells
+GACTCAATCCTTCACG-1,Naive B cells,5,Naive B cells
+GACTCAATCTGCGTCT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GACTTCCAGAACAGGA-1,Naive B cells,17,Naive B cells
+GAGAAATTCTAGTTCT-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+GAGACCCCACGCTGCA-1,Regulatory T cells,23,Regulatory T cells
+GAGACCCCATAACGGG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+GAGACCCGTAACAGGC-1,Tem/Temra cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GAGACCCGTATGTCCA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+GAGACCCTCACTTGTT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+GAGACTTGTGATTAGA-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+GAGACTTGTGTCGATT-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GAGACTTTCAGCATTG-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+GAGAGGTGTACAGTAA-1,Tem/Effector helper T cells,37,Tcm/Naive helper T cells
+GAGCCTGAGCTTCGTA-1,Classical monocytes,47,Classical monocytes
+GAGCCTGAGGCGCTTC-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+GAGCCTGCAATATCCG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GAGCCTGGTCCAGCCA-1,Naive B cells,2,Naive B cells
+GAGCCTGGTCTAGATC-1,Classical monocytes,19,Classical monocytes
+GAGCCTGTCACTGGTA-1,Naive B cells,5,Naive B cells
+GAGCCTGTCATGTCTT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+GAGCCTGTCGCTTGAA-1,Classical monocytes,7,Classical monocytes
+GAGCTGCGTGGTCTAT-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+GAGGCAAAGACTCTAC-1,Classical monocytes,6,Classical monocytes
+GAGGCAACAAGTGCTT-1,Memory B cells,1,Memory B cells
+GAGGCCTCAGTCGGAA-1,Tem/Temra cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GAGGGATCAAGGTCAG-1,Memory B cells,1,Memory B cells
+GAGGGATCAATCCTTT-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GAGGGATCAATGGGTG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GAGGGATGTAGAATAC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GAGTCATCAACAGCTT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+GAGTCATGTTCGAAGG-1,Classical monocytes,6,Classical monocytes
+GAGTCTAAGGTGCGAT-1,Memory B cells,4,Memory B cells
+GAGTCTATCCTAGCTC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GAGTGAGGTACAAGCG-1,Naive B cells,17,Naive B cells
+GAGTGTTAGCGACAGT-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+GAGTGTTGTTGGCCGT-1,Memory B cells,4,Memory B cells
+GAGTTACGTATGAGGC-1,Memory B cells,1,Memory B cells
+GAGTTGTCACACTGGC-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+GAGTTGTGTTACCTGA-1,Classical monocytes,6,Classical monocytes
+GAGTTTGCACGCAAAG-1,Classical monocytes,9,Classical monocytes
+GAGTTTGGTCGGTAAG-1,Naive B cells,2,Naive B cells
+GATAGAAAGCAAGCCA-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+GATAGAACACTCCGGA-1,Classical monocytes,9,Classical monocytes
+GATAGCTAGAAACACT-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+GATAGCTCAAAGAACT-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+GATCACAAGCAACTTC-1,Classical monocytes,16,Classical monocytes
+GATCAGTGTATGCTAC-1,Classical monocytes,6,Classical monocytes
+GATCATGCAGAGAATT-1,Naive B cells,20,Naive B cells
+GATCATGTCCCGTAAA-1,Memory B cells,1,Memory B cells
+GATCCCTAGTACTGTC-1,Memory B cells,4,Memory B cells
+GATGAGGGTAACTAAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GATGAGGGTGATCGTT-1,Naive B cells,2,Naive B cells
+GATGAGGGTTCTTAGG-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+GATGAGGTCAACTCTT-1,Naive B cells,2,Naive B cells
+GATGATCAGCGCCTCA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GATGATCGTCAAAGAT-1,Classical monocytes,9,Classical monocytes
+GATGATCTCCTACACC-1,Memory B cells,4,Memory B cells
+GATGGAGGTACTCGAT-1,MAIT cells,3,Tcm/Naive helper T cells
+GATGGAGTCAAGTCTG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+GATGGAGTCTCTTAAC-1,Naive B cells,12,Naive B cells
+GATGTTGGTATGATCC-1,Classical monocytes,18,Classical monocytes
+GATTCGACATCAGCTA-1,Naive B cells,5,Naive B cells
+GATTGGTGTGGACTGA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GATTGGTGTTAGAGTA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GATTTCTAGACAGCGT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GATTTCTCAACTCCAA-1,Naive B cells,17,Naive B cells
+GATTTCTCATCTCATT-1,Classical monocytes,14,Classical monocytes
+GATTTCTTCCGCGAGT-1,Memory B cells,1,Memory B cells
+GCAACATTCGTGTCAA-1,Classical monocytes,19,Classical monocytes
+GCAACCGAGCTATCTG-1,Naive B cells,2,Naive B cells
+GCACGGTAGTTGTAAG-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+GCACGGTGTCAAAGCG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GCACGTGAGGTAAAGG-1,Classical monocytes,18,Classical monocytes
+GCACGTGGTATCCCTC-1,Naive B cells,17,Naive B cells
+GCACGTGGTGTAAACA-1,Tcm/Naive cytotoxic T cells,32,Tcm/Naive helper T cells
+GCACTAAAGACGTCGA-1,Classical monocytes,14,Classical monocytes
+GCACTAAAGCACACAG-1,Naive B cells,2,Naive B cells
+GCACTAATCAATCTTC-1,Follicular helper T cells,25,Tcm/Naive helper T cells
+GCACTAATCAGTAGGG-1,Classical monocytes,9,Classical monocytes
+GCAGCCAGTCCACAGC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+GCAGCTGAGAAACTGT-1,Classical monocytes,7,Classical monocytes
+GCAGCTGAGAATCTAG-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+GCAGCTGAGTTGCGAG-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+GCAGCTGCAATTCGTG-1,Memory B cells,4,Memory B cells
+GCAGCTGCAGATCCTA-1,Naive B cells,2,Naive B cells
+GCAGCTGGTATGTCTG-1,Age-associated B cells,4,Memory B cells
+GCAGCTGTCTCGGTCT-1,Memory B cells,1,Memory B cells
+GCAGGCTAGCTGACAG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GCAGGCTCACGGCTAC-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+GCAGGCTTCGAGTCTA-1,Classical monocytes,7,Classical monocytes
+GCAGTTACAACGAGGT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+GCATCGGAGATCCTAC-1,Classical monocytes,6,Classical monocytes
+GCATCGGGTCTCTCCA-1,Naive B cells,2,Naive B cells
+GCATCTCGTCCGGATC-1,Naive B cells,2,Naive B cells
+GCATGATAGACCTCCG-1,Memory B cells,1,Memory B cells
+GCATGATAGGGCTTCC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GCATTAGTCTGGGTCG-1,Tem/Temra cytotoxic T cells,26,Tem/Effector helper T cells
+GCCAGCAAGGAACTCG-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GCCAGCAGTCACTAGT-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GCCAGCAGTCGTTGGC-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+GCCAGCATCATTTGCT-1,Tcm/Naive helper T cells,38,Tem/Effector helper T cells
+GCCAGGTCACGTAACT-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+GCCAGGTGTGTAGGAC-1,Classical monocytes,14,Classical monocytes
+GCCAGTGAGACTCTAC-1,Classical monocytes,6,Classical monocytes
+GCCAGTGAGCACACAG-1,Naive B cells,20,Naive B cells
+GCCAGTGAGCTGGAGT-1,Classical monocytes,6,Classical monocytes
+GCCAGTGGTAGCTAAA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GCCAGTGGTGACTAAA-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+GCCAGTGTCACCATCC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GCCAGTGTCCACCTGT-1,Classical monocytes,9,Classical monocytes
+GCCATGGAGGATGGCT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+GCCATGGCAGTCGGAA-1,Naive B cells,2,Naive B cells
+GCCATTCAGTAGGAAG-1,Classical monocytes,18,Classical monocytes
+GCCCAGAAGATGCCGA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GCCCAGACAACCTAAC-1,Naive B cells,12,Naive B cells
+GCCCAGAGTCGGAAAC-1,Classical monocytes,14,Classical monocytes
+GCCCGAAAGGTAATCA-1,Tcm/Naive helper T cells,0,Tcm/Naive cytotoxic T cells
+GCCCGAACACAAAGCG-1,Naive B cells,17,Naive B cells
+GCCCGAATCGCCGAAC-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GCCCGAATCTGCGGCA-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+GCCGATGAGACAGCTG-1,Memory B cells,1,Memory B cells
+GCCGATGAGACGACTG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+GCCGTGACACGGCCAT-1,Naive B cells,17,Naive B cells
+GCCGTGAGTCGAACAG-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+GCCGTGAGTTCTCACC-1,Naive B cells,2,Naive B cells
+GCCTGTTTCCGCACGA-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+GCGAGAAAGTAGGTTA-1,Naive B cells,17,Naive B cells
+GCGAGAACATCCGTTC-1,Naive B cells,2,Naive B cells
+GCGATCGCACTCTAGA-1,Classical monocytes,6,Classical monocytes
+GCGATCGCAGTTAGGG-1,Naive B cells,12,Naive B cells
+GCGGAAACACTCAGAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GCGGAAAGTGACTAAA-1,Naive B cells,17,Naive B cells
+GCGGAAATCTTAATCC-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+GCGGATCAGACAGCTG-1,Naive B cells,20,Naive B cells
+GCGGATCTCGCTGTTC-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+GCGTGCATCCTGGGTG-1,Classical monocytes,7,Classical monocytes
+GCGTTTCCATATCGGT-1,Classical monocytes,9,Classical monocytes
+GCTACAAAGCGAATGC-1,Memory B cells,1,Memory B cells
+GCTACAACAGCCTTCT-1,Classical monocytes,14,Classical monocytes
+GCTACAAGTGCGAACA-1,Naive B cells,12,Naive B cells
+GCTACAATCCACATAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GCTACAATCTTGAACG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GCTACCTAGTTGGAAT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+GCTCAAAAGGGCTGAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GCTCAAATCAACCCGG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+GCTCAAATCCAAGCTA-1,Classical monocytes,6,Classical monocytes
+GCTGAATCAGAAGCTG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+GCTGAATCATTGACAC-1,Tcm/Naive helper T cells,38,Tem/Effector helper T cells
+GCTGAATTCACCGACG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GCTGAATTCACGGAGA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+GCTGCAGAGATGTTGA-1,Classical monocytes,7,Classical monocytes
+GCTGCAGCACATGACT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+GCTGCAGGTTAGGGAC-1,Tem/Trm cytotoxic T cells,15,Tcm/Naive helper T cells
+GCTGCAGTCCAAAGGG-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GCTGCAGTCCTTCGAC-1,Non-classical monocytes,7,Classical monocytes
+GCTGGGTTCTGCTGAA-1,Classical monocytes,14,Classical monocytes
+GCTTCACGTAGCCAGA-1,Naive B cells,5,Naive B cells
+GCTTGGGAGGTCATAA-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+GCTTGGGCAGTCGAGA-1,Memory B cells,4,Memory B cells
+GCTTGGGGTGGACTAG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GCTTGGGTCTGGAGAG-1,Naive B cells,2,Naive B cells
+GGAACCCTCTGTGTGA-1,Classical monocytes,6,Classical monocytes
+GGAAGTGAGTCCCGAC-1,Memory B cells,4,Memory B cells
+GGAAGTGCAAATACAG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+GGAAGTGGTGCTGTCG-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+GGAAGTGTCCGATGTA-1,Classical monocytes,9,Classical monocytes
+GGAATCTCACCGGCTA-1,Tcm/Naive cytotoxic T cells,21,Tcm/Naive helper T cells
+GGAATCTGTTAGGGAC-1,Naive B cells,5,Naive B cells
+GGAATCTGTTCAAAGA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GGAATGGTCCTCTCGA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GGACGTCGTACAAGTA-1,Classical monocytes,14,Classical monocytes
+GGACGTCTCATTATCC-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+GGAGAACAGGGCCTCT-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GGAGAACTCACACCCT-1,Classical monocytes,47,Classical monocytes
+GGAGATGAGACGTCCC-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+GGAGCAAAGTTAACGA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GGAGGATTCGAATCCA-1,Naive B cells,17,Naive B cells
+GGAGGTAAGCTCCGAC-1,Naive B cells,2,Naive B cells
+GGAGGTAAGCTTTCCC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GGAGGTACACCCAACG-1,Classical monocytes,18,Classical monocytes
+GGAGGTAGTAGGAGGG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+GGATCTACATACTGTG-1,Classical monocytes,14,Classical monocytes
+GGATCTATCTCCTACG-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+GGCACGTAGAGCCTGA-1,Naive B cells,2,Naive B cells
+GGCACGTCATAACCCA-1,Naive B cells,12,Naive B cells
+GGCACGTTCTACTTCA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+GGCAGTCGTCAGACGA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+GGCGTCATCTCACCCA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GGCTGTGAGCGGATCA-1,Naive B cells,2,Naive B cells
+GGCTGTGGTAAGAACT-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+GGCTGTGTCGCGTCGA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GGCTTGGAGCATCCCG-1,Classical monocytes,19,Classical monocytes
+GGCTTGGTCAACGTGT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GGCTTTCAGGTAGCAC-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+GGCTTTCCACAAGCCC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GGCTTTCCACGGATCC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GGGAAGTTCAAGCCGC-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+GGGACAAAGGTAAGTT-1,Regulatory T cells,23,Regulatory T cells
+GGGACAAGTCTGATCA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+GGGACCTGTTATTCTC-1,Naive B cells,20,Naive B cells
+GGGACTCAGGTTTGAA-1,Classical monocytes,19,Classical monocytes
+GGGACTCGTATCGAAA-1,Regulatory T cells,26,Tem/Effector helper T cells
+GGGAGATAGATACATG-1,Classical monocytes,16,Classical monocytes
+GGGAGATAGCCACTCG-1,Classical monocytes,18,Classical monocytes
+GGGAGATAGTATTAGG-1,Tem/Temra cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GGGAGATGTACTAAGA-1,Classical monocytes,7,Classical monocytes
+GGGAGATGTGTCCCTT-1,MAIT cells,8,Tcm/Naive helper T cells
+GGGAGATTCGTGTCAA-1,Naive B cells,12,Naive B cells
+GGGAGTACAACTCGTA-1,Naive B cells,2,Naive B cells
+GGGAGTACATACCATG-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+GGGAGTAGTAGGGAGG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GGGAGTATCATTTGCT-1,Classical monocytes,16,Classical monocytes
+GGGAGTATCGATTGGT-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+GGGATCCCAAGCGAAC-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+GGGATCCCAGGTCAAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GGGATCCCATCGCTCT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GGGATCCTCACCCTTG-1,Memory B cells,1,Memory B cells
+GGGATCCTCCTCTCTT-1,Naive B cells,17,Naive B cells
+GGGCCATCATAACCCA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GGGCCATTCTTAGGAC-1,Classical monocytes,6,Classical monocytes
+GGGCGTTAGGGACAGG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GGGCGTTAGGTGCCTC-1,Classical monocytes,9,Classical monocytes
+GGGCGTTCAAGCACAG-1,Classical monocytes,19,Classical monocytes
+GGGCGTTCAGCTGTCG-1,Classical monocytes,19,Classical monocytes
+GGGCGTTGTAGCACAG-1,Classical monocytes,9,Classical monocytes
+GGGCGTTGTTCTGAGT-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+GGGCGTTTCGGCTATA-1,Classical monocytes,18,Classical monocytes
+GGGCTACCATGTGGTT-1,Classical monocytes,7,Classical monocytes
+GGGCTACGTATCCTTT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+GGGCTACTCGGTCAGC-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+GGGCTCACAAAGGCGT-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+GGGTAGAAGGCTTTCA-1,Naive B cells,5,Naive B cells
+GGGTAGACAAGTTTGC-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+GGGTATTCAGTTTCAG-1,Naive B cells,20,Naive B cells
+GGGTCACCACGTCTCT-1,Memory B cells,1,Memory B cells
+GGGTGAAAGGGTAGCT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+GGGTGAACAGAGTAAT-1,Naive B cells,2,Naive B cells
+GGGTGAACATCATCCC-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GGGTGTCCAACCGGAA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GGGTGTCCAGGAGGAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GGGTTATGTGGGCTTC-1,Naive B cells,2,Naive B cells
+GGGTTATGTGGTCAAG-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GGTAACTTCAAGTTGC-1,Naive B cells,5,Naive B cells
+GGTAACTTCAGCATTG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GGTAACTTCCAGCTCT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GGTAATCTCAATCAGC-1,Naive B cells,4,Memory B cells
+GGTAGAGCACTCTAGA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GGTAGAGCAGCATCTA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+GGTCACGAGATCGCTT-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+GGTCACGAGCACACCC-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+GGTCACGGTGTTCCAA-1,Classical monocytes,9,Classical monocytes
+GGTCACGGTTAAAGTG-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GGTCACGTCAAACGTC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GGTCTGGAGAGGATGA-1,Classical monocytes,6,Classical monocytes
+GGTCTGGGTATCGTAC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GGTGAAGAGAGGCGGA-1,Naive B cells,5,Naive B cells
+GGTGATTGTGTGGTCC-1,Classical monocytes,14,Classical monocytes
+GGTGGCTAGCGCCATC-1,Naive B cells,17,Naive B cells
+GGTGGCTTCGTTCCTG-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+GGTGTCGAGCGTACAG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GGTGTTAGTGATACAA-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+GGTGTTATCTCGTGAA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GGTTAACCAGCTACAT-1,Regulatory T cells,23,Regulatory T cells
+GGTTAACTCAAGAGGC-1,Regulatory T cells,37,Tcm/Naive helper T cells
+GGTTAACTCTATCGGA-1,Memory B cells,4,Memory B cells
+GGTTCTCCATAGCACT-1,Tem/Effector helper T cells,31,Tcm/Naive helper T cells
+GGTTCTCTCCTCGATC-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GGTTGTAAGCTGCGAA-1,Classical monocytes,9,Classical monocytes
+GGTTGTAGTTGCTCCT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GGTTGTATCGCTACGG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GTAACACAGAGCTGAC-1,Naive B cells,2,Naive B cells
+GTAACCACAGCACCCA-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+GTAACCAGTACGATCT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GTAACCAGTGCTCTTC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+GTAAGTCAGAGCTGAC-1,Naive B cells,4,Memory B cells
+GTAAGTCGTCTGATCA-1,Memory B cells,1,Memory B cells
+GTAATCGAGTCGAATA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GTAATCGCAGTCTGGC-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+GTAATCGGTTGGCTAT-1,Memory B cells,1,Memory B cells
+GTAATGCAGAAGCCTG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+GTAATGCAGTCTGCGC-1,Naive B cells,2,Naive B cells
+GTAATGCCACCTCTGT-1,Naive B cells,2,Naive B cells
+GTAATGCGTCTATGAC-1,MAIT cells,8,Tcm/Naive helper T cells
+GTAATGCGTGAGACGT-1,Naive B cells,2,Naive B cells
+GTACAACGTTCAACGT-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+GTACAACTCGATTGGT-1,Naive B cells,12,Naive B cells
+GTACAGTAGGCAGTCA-1,Classical monocytes,9,Classical monocytes
+GTACAGTAGGGCGAGA-1,Classical monocytes,9,Classical monocytes
+GTACAGTAGTGTTGTC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GTACAGTTCAATCCGA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GTACAGTTCCATTCGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GTAGAAAAGCACGGAT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+GTAGAAAGTCACCGAC-1,Naive B cells,5,Naive B cells
+GTAGAAATCTGGCCTT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GTAGAGGCAATTGCCA-1,Naive B cells,2,Naive B cells
+GTAGAGGCAGAACTAA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GTAGAGGCAGCTCATA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+GTAGATCCACTTCCTG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+GTAGATCTCCGAAGGA-1,Memory B cells,4,Memory B cells
+GTAGCTAAGTGGAATT-1,Memory B cells,4,Memory B cells
+GTAGGAGAGCCGGAAT-1,Classical monocytes,18,Classical monocytes
+GTAGGAGTCCGTCAAA-1,Memory B cells,1,Memory B cells
+GTAGGTTAGCAGTACG-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GTAGGTTCATCGATCA-1,Classical monocytes,18,Classical monocytes
+GTAGTACAGACATACA-1,Memory B cells,1,Memory B cells
+GTATTGGCACCGCTAG-1,Classical monocytes,7,Classical monocytes
+GTCAAACAGTTGCCCG-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+GTCAAACGTTCTCACC-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+GTCACGGCACGCGTCA-1,Tem/Effector helper T cells,42,Tcm/Naive helper T cells
+GTCACTCAGGTCGTAG-1,Naive B cells,5,Naive B cells
+GTCACTCAGGTTGGAC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GTCACTCCACCCGTAG-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+GTCACTCTCCCGTTGT-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+GTCAGCGCAAGCGGAT-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+GTCAGCGCACACAGCC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GTCAGCGCATCGGCCA-1,Classical monocytes,6,Classical monocytes
+GTCAGCGTCGCTTAAG-1,Naive B cells,5,Naive B cells
+GTCATCCAGTAGTGCG-1,Classical monocytes,18,Classical monocytes
+GTCATCCCAATCTAGC-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GTCATCCGTCTGATAC-1,Naive B cells,5,Naive B cells
+GTCATGAAGTTCCATG-1,Tem/Trm cytotoxic T cells,3,Tcm/Naive helper T cells
+GTCATGAGTTCGTAAC-1,Classical monocytes,16,Classical monocytes
+GTCATGATCTTAGTTC-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+GTCATTTGTGTCATCA-1,Memory B cells,1,Memory B cells
+GTCATTTTCACTACTT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GTCCACTGTCGGATTT-1,Naive B cells,2,Naive B cells
+GTCCTCAGTCGCACGT-1,Classical monocytes,19,Classical monocytes
+GTCGAATAGTCACTCA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+GTCGCGAGTCCCTCAT-1,Regulatory T cells,23,Regulatory T cells
+GTCGCGATCAAGAATG-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+GTCGTAAAGTTTGTCG-1,Memory B cells,4,Memory B cells
+GTCGTAACATGTTACG-1,Memory B cells,4,Memory B cells
+GTCGTTCAGTTGCTCA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+GTCGTTCTCGTAGTCA-1,Classical monocytes,44,Classical monocytes
+GTCTAGAAGTCTCTGA-1,Naive B cells,12,Naive B cells
+GTCTAGACAACTTCTT-1,Naive B cells,20,Naive B cells
+GTCTAGAGTTGTCAGT-1,Classical monocytes,16,Classical monocytes
+GTCTAGATCCAATGCA-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+GTCTCACCATGCCATA-1,Memory B cells,4,Memory B cells
+GTCTCACGTGTGACCC-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+GTCTCACTCGCAGAGA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GTCTTTAAGGTGGCTA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GTCTTTAGTATCGCAT-1,Classical monocytes,14,Classical monocytes
+GTGACGCAGTGATGGC-1,Classical monocytes,16,Classical monocytes
+GTGACGCCATGACAGG-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+GTGAGCCAGGTCGTCC-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+GTGAGCCAGTCAGAGC-1,Classical monocytes,19,Classical monocytes
+GTGAGCCAGTTGTCAC-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+GTGAGCCGTCCTTGTC-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+GTGAGGAAGTGGACTG-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GTGAGTTCAGTAACGG-1,Classical monocytes,19,Classical monocytes
+GTGAGTTGTCATAAAG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+GTGAGTTTCCGCTGTT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+GTGATGTCACCCAATA-1,Tem/Trm cytotoxic T cells,3,Tcm/Naive helper T cells
+GTGCACGAGCCTGGAA-1,Classical monocytes,14,Classical monocytes
+GTGCACGCAAGTGGTG-1,Naive B cells,5,Naive B cells
+GTGCACGGTCTGTTAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GTGCAGCGTTCCGCGA-1,Naive B cells,2,Naive B cells
+GTGCAGCTCAGCCCAG-1,Classical monocytes,18,Classical monocytes
+GTGCGTGAGGAACTCG-1,Classical monocytes,44,Classical monocytes
+GTGCGTGAGTTACTCG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GTGCGTGCATGACTTG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+GTGCGTGGTCTAGGTT-1,Regulatory T cells,38,Tem/Effector helper T cells
+GTGCTGGAGGGCCAAT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+GTGCTGGCAGCGCTTG-1,Naive B cells,5,Naive B cells
+GTGCTTCCACTAGTAC-1,Naive B cells,20,Naive B cells
+GTGCTTCCACTTCAAG-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+GTGCTTCCAGCGATTT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GTGGAAGAGTAGAGTT-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+GTGGAAGCAGCAGACA-1,Classical monocytes,9,Classical monocytes
+GTGGAGACATCCGGCA-1,Classical monocytes,19,Classical monocytes
+GTGGAGATCCTAACAG-1,Memory B cells,1,Memory B cells
+GTGGCGTAGTTCATCG-1,Naive B cells,20,Naive B cells
+GTGGGAAAGGATTACA-1,Naive B cells,12,Naive B cells
+GTGGGAAAGTTCTCTT-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+GTGGTTAAGAGGTCAC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+GTGGTTAAGCCGTTAT-1,Classical monocytes,7,Classical monocytes
+GTGGTTATCAACCCGG-1,Classical monocytes,7,Classical monocytes
+GTGTAACAGACGAGCT-1,Memory B cells,4,Memory B cells
+GTGTAACCAATCGCGC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GTGTAACCAGAACTTC-1,Memory B cells,4,Memory B cells
+GTGTCCTGTGTCCGTG-1,Non-classical monocytes,7,Classical monocytes
+GTGTCCTTCACAATGC-1,Classical monocytes,6,Classical monocytes
+GTGTGATCAAATGGAT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+GTGTGGCAGTCACAGG-1,Memory B cells,1,Memory B cells
+GTGTGGCGTAGCTGAG-1,Classical monocytes,6,Classical monocytes
+GTGTTAGAGACCAAAT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GTGTTAGTCGTAACTG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+GTGTTCCCAAACCACT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+GTTACAGCAGAATTCC-1,Classical monocytes,7,Classical monocytes
+GTTACAGGTTTATGCG-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+GTTACAGGTTTGGGAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+GTTACCCCACTTGGCG-1,Classical monocytes,19,Classical monocytes
+GTTACCCGTTCACGAT-1,Tem/Trm cytotoxic T cells,3,Tcm/Naive helper T cells
+GTTACGATCCAACTAG-1,Classical monocytes,6,Classical monocytes
+GTTACGATCGTTCGCT-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+GTTAGACCATCTATCT-1,Tcm/Naive helper T cells,23,Regulatory T cells
+GTTAGACGTCTTCTAT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GTTAGACGTTGTGTTG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GTTAGTGGTAAGCTCT-1,Regulatory T cells,23,Regulatory T cells
+GTTATGGCACCTGATA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+GTTATGGGTCGTCGGT-1,Type 17 helper T cells,3,Tcm/Naive helper T cells
+GTTATGGTCGTCCTTG-1,Naive B cells,12,Naive B cells
+GTTCATTCAGACCTAT-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+GTTCATTTCTGGCCAG-1,Naive B cells,17,Naive B cells
+GTTCCGTAGTAACCTC-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+GTTCCGTGTCACTTAG-1,Memory B cells,1,Memory B cells
+GTTCGCTAGGTAAGTT-1,Classical monocytes,9,Classical monocytes
+GTTCGCTCAACCCTCT-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+GTTCGCTCATCATTTC-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+GTTCGCTTCTCTGGTC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+GTTCTATGTACTGGGA-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+GTTCTATGTCTCCCTA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GTTGCGGCAAACACGG-1,Naive B cells,5,Naive B cells
+GTTGCGGCATCGAAGG-1,Memory B cells,1,Memory B cells
+GTTGCGGGTCGCATCG-1,Classical monocytes,14,Classical monocytes
+GTTGCGGGTCTTGAGT-1,Classical monocytes,18,Classical monocytes
+GTTGCTCCACGGTGAA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GTTGCTCCACGTCGTG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+GTTGTAGAGACATAAC-1,Type 17 helper T cells,8,Tcm/Naive helper T cells
+GTTGTAGCAAGCAGGT-1,Classical monocytes,47,Classical monocytes
+GTTGTCCTCTGACAGT-1,Classical monocytes,19,Classical monocytes
+GTTGTGATCCTGTAAG-1,Classical monocytes,19,Classical monocytes
+GTTTACTCAAGTTTGC-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+GTTTGGAGTCCTTGTC-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TAACACGAGTGTAGTA-1,Naive B cells,12,Naive B cells
+TAACACGCACGGCTAC-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TAACACGCAGCGTAGA-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+TAACACGCATGACAAA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TAACACGGTCGCATTA-1,Naive B cells,5,Naive B cells
+TAACACGTCCATACAG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TAACTTCTCCTCGCAT-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TAACTTCTCGAACGGA-1,Memory B cells,1,Memory B cells
+TAAGCACGTGCTCCGA-1,Classical monocytes,16,Classical monocytes
+TAAGCCAGTAAGTCAA-1,Classical monocytes,7,Classical monocytes
+TAAGCCAGTCAATCTG-1,Classical monocytes,9,Classical monocytes
+TAAGCGTTCTCTGCTG-1,Naive B cells,5,Naive B cells
+TAAGTCGCAGCGTAGA-1,Classical monocytes,16,Classical monocytes
+TAAGTCGCATGCGTGC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TAATCTCCACTCCTTG-1,Classical monocytes,44,Classical monocytes
+TAATTCCCAGGTTCGC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+TAATTCCGTCGTGGTC-1,Classical monocytes,9,Classical monocytes
+TACACCCCACGAGAAC-1,Naive B cells,1,Memory B cells
+TACACCCTCTCCGTGT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TACCCACAGATGATTG-1,Naive B cells,17,Naive B cells
+TACCCGTCACAATGAA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TACCGAACATCTCATT-1,Classical monocytes,7,Classical monocytes
+TACCGAATCCACTTTA-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+TACCGGGCAAGACTGG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TACCTCGTCACTTCTA-1,Naive B cells,20,Naive B cells
+TACCTCGTCGGTCTGG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TACCTGCAGGATCACG-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+TACCTGCTCGAGAATA-1,Memory B cells,4,Memory B cells
+TACGGGCAGAATCGAT-1,Classical monocytes,18,Classical monocytes
+TACGGTACATTGTCGA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TACGGTAGTAGCCAGA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TACGGTATCAACTGGT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TACGGTATCGTGCGAC-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+TACGTCCAGCCAAGTG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TACGTCCCAACGGCCT-1,Regulatory T cells,23,Regulatory T cells
+TACTGCCCATGACAAA-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TACTGCCGTAACGGTG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TACTTACCACGCGGTT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TACTTCAAGTGGTGAC-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+TACTTCATCATCACAG-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+TACTTGTTCTCTTCAA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TAGACTGTCCCGAATA-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+TAGAGTCAGATTGACA-1,Classical monocytes,16,Classical monocytes
+TAGAGTCAGCGTTCCG-1,Classical monocytes,9,Classical monocytes
+TAGAGTCCAACCACAT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TAGAGTCGTCGTTATG-1,Classical monocytes,19,Classical monocytes
+TAGAGTCGTGTCCGTG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+TAGAGTCTCCCTAGGG-1,Memory B cells,1,Memory B cells
+TAGATCGGTATGCGGA-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+TAGCACAAGTACAACA-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TAGCACAAGTGGATAT-1,Naive B cells,5,Naive B cells
+TAGGAGGAGTGTTGTC-1,Naive B cells,5,Naive B cells
+TAGGAGGAGTTGCCTA-1,Classical monocytes,16,Classical monocytes
+TAGGAGGCAAGTCCAT-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+TAGGAGGTCCGATTAG-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+TAGGAGGTCTATACGG-1,Classical monocytes,16,Classical monocytes
+TAGGGTTAGTGATAGT-1,Naive B cells,12,Naive B cells
+TAGGGTTGTTGCGTAT-1,Classical monocytes,9,Classical monocytes
+TAGGTACGTCGGTACC-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+TAGGTACGTCTCACGG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+TAGGTTGAGTGAGGTC-1,Regulatory T cells,23,Regulatory T cells
+TAGTGCACACGTCGGT-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+TAGTGCATCAGAGTTC-1,Naive B cells,2,Naive B cells
+TAGTGCATCTCTGAGA-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+TATACCTAGCCAACCC-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+TATACCTGTGGATCAG-1,Naive B cells,20,Naive B cells
+TATATCCAGGCCTAGA-1,Naive B cells,2,Naive B cells
+TATATCCGTGTCCACG-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+TATCGCCAGATACTGA-1,Transitional B cells,12,Naive B cells
+TATCGCCCATCGATCA-1,Naive B cells,17,Naive B cells
+TATCGCCGTATGATCC-1,Naive B cells,2,Naive B cells
+TATCGCCGTCACGACC-1,Classical monocytes,19,Classical monocytes
+TATCTGTAGTGCAGGT-1,Tcm/Naive helper T cells,23,Regulatory T cells
+TATCTTGCACACACGC-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TATGTTCAGTGGTTCT-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TATGTTCCAACCGGAA-1,Classical monocytes,6,Classical monocytes
+TATGTTCCATTGTCGA-1,Age-associated B cells,4,Memory B cells
+TATGTTCTCGTGTTCC-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+TATTCCACAGTGTGCC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TATTCCATCCGAGCTG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TATTGCTAGGACAGCT-1,Classical monocytes,16,Classical monocytes
+TATTGCTAGTAAGGGA-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TATTGCTGTACTGTTG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+TATTGCTTCGCTCATC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TATTTCGAGACTGAGC-1,Classical monocytes,6,Classical monocytes
+TATTTCGTCTTGGCTC-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TCAAGACGTCGGCCTA-1,Classical monocytes,9,Classical monocytes
+TCAAGACTCCGAAATC-1,Naive B cells,2,Naive B cells
+TCAAGACTCTACTCAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TCAAGCACAATAACCC-1,Tem/Effector helper T cells,48,Tem/Effector helper T cells
+TCAATTCAGAGCTGCA-1,Regulatory T cells,23,Regulatory T cells
+TCAATTCTCTAGGAAA-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+TCACAAGAGTGAGTTA-1,Classical monocytes,44,Classical monocytes
+TCACAAGCAATTGAAG-1,Classical monocytes,6,Classical monocytes
+TCACAAGGTTGCTCCT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+TCACACCAGAGAGTTT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TCACGCTCACCGGAAA-1,Naive B cells,20,Naive B cells
+TCACGCTGTGATCGTT-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TCACGGGCACCACATA-1,Classical monocytes,14,Classical monocytes
+TCACGGGTCTTCCACG-1,Classical monocytes,6,Classical monocytes
+TCACTATAGGTCCCGT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+TCACTATAGGTTGGTG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TCACTATGTAGCGAGT-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+TCACTATTCAATCCGA-1,Naive B cells,17,Naive B cells
+TCACTCGGTTGGGAAC-1,Naive B cells,5,Naive B cells
+TCAGCAAAGGATGGCT-1,Memory B cells,1,Memory B cells
+TCAGCAAAGGTAGTAT-1,Regulatory T cells,23,Regulatory T cells
+TCAGCAACAGGCCCTA-1,Classical monocytes,19,Classical monocytes
+TCAGCAATCGCATGAT-1,Classical monocytes,6,Classical monocytes
+TCAGCCTAGTAACGTA-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TCAGCCTGTCGCAGTC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TCAGCCTTCCTGGTCT-1,Naive B cells,12,Naive B cells
+TCAGGTAAGCCTCTCT-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TCAGGTATCCTGTTAT-1,Age-associated B cells,4,Memory B cells
+TCAGTCCTCTACGCGG-1,Naive B cells,2,Naive B cells
+TCAGTGAAGTCATGGG-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+TCAGTTTAGTACTGTC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TCAGTTTCATGGCTGC-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+TCAGTTTTCCGCGGAT-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+TCATACTAGTAACCGG-1,Classical monocytes,18,Classical monocytes
+TCATATCAGCCTGAAG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TCATATCCACAACGTT-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+TCATATCCACGTAGAG-1,Naive B cells,5,Naive B cells
+TCATCATCAACTGGTT-1,Type 17 helper T cells,26,Tem/Effector helper T cells
+TCATCCGCACGGCCAT-1,Naive B cells,12,Naive B cells
+TCATCCGTCAACTGGT-1,Naive B cells,5,Naive B cells
+TCATGAGAGGGTATAT-1,Memory B cells,1,Memory B cells
+TCATGAGAGTAAAGCT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+TCATGAGCACAATGTC-1,Naive B cells,2,Naive B cells
+TCATGAGTCATCCTGC-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TCATGTTGTAGTCTGT-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+TCATTACCAGGCGATA-1,Memory B cells,1,Memory B cells
+TCATTACGTAAGATAC-1,Classical monocytes,19,Classical monocytes
+TCATTACGTCATAAAG-1,Classical monocytes,19,Classical monocytes
+TCATTACGTCCCTCAT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TCATTCAAGGTATAGT-1,Classical monocytes,7,Classical monocytes
+TCATTCAAGGTTATAG-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+TCATTCACAGCGCGTT-1,Naive B cells,12,Naive B cells
+TCATTTGGTTCCGCTT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TCATTTGGTTCTCCTG-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+TCCACCAAGTCATGAA-1,Naive B cells,2,Naive B cells
+TCCACGTAGCACTCCG-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TCCACGTGTACTGTTG-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TCCAGAATCAGTGATC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TCCATCGGTGGAGAAA-1,Early lymphoid/T lymphoid,3,Tcm/Naive helper T cells
+TCCATGCCAATGTGGG-1,Tem/Effector helper T cells,42,Tcm/Naive helper T cells
+TCCATGCGTCGTTGGC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TCCCACACAGTGGCTC-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+TCCCACATCGCATAGT-1,Regulatory T cells,23,Regulatory T cells
+TCCCACATCTCTAGGA-1,Memory B cells,4,Memory B cells
+TCCGAAACATGGGTCC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TCCGAAACATTCTTCA-1,Classical monocytes,18,Classical monocytes
+TCCGATCGTTTGTGGT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TCCGGGATCAGGACGA-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+TCCGTGTCAACACACT-1,Memory B cells,1,Memory B cells
+TCCTAATCAAGCGCAA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TCCTAATCAGACGGAT-1,Classical monocytes,14,Classical monocytes
+TCCTCCCAGATGCTAA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TCCTCCCAGCCTTTCC-1,Naive B cells,2,Naive B cells
+TCCTCCCGTGATAGTA-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TCCTCGAAGGCATCGA-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+TCCTCGAGTGGGTCAA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TCCTCTTTCGTAGGAG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+TCCTGCATCATACGGT-1,Classical monocytes,9,Classical monocytes
+TCCTTTCAGGTCACTT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TCCTTTCTCCTACAAG-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TCGAACAGTGTCATGT-1,Classical monocytes,9,Classical monocytes
+TCGAAGTAGAGACAAG-1,Naive B cells,12,Naive B cells
+TCGAAGTTCGGCATCG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+TCGACCTAGCAACAAT-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+TCGACCTCACTCTCGT-1,Tem/Effector helper T cells,3,Tcm/Naive helper T cells
+TCGACCTCAGCGATTT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TCGACGGAGAAGAACG-1,Classical monocytes,7,Classical monocytes
+TCGACGGAGACATCAA-1,Classical monocytes,18,Classical monocytes
+TCGACGGCATGTTACG-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+TCGACGGTCGAAGTGG-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TCGATTTAGACTCTTG-1,Naive B cells,17,Naive B cells
+TCGATTTCACAGTATC-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+TCGATTTTCGCGTAGC-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TCGATTTTCTGCCTGT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TCGCACTAGTCAAGCG-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+TCGCACTCAATGAGCG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+TCGCACTTCATCACTT-1,Memory B cells,1,Memory B cells
+TCGCACTTCATCCTAT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+TCGCAGGAGCGTTCCG-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TCGCAGGCAATGTCAC-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TCGCAGGCACTCCGGA-1,Regulatory T cells,23,Regulatory T cells
+TCGCAGGTCGACACCG-1,MAIT cells,38,Tem/Effector helper T cells
+TCGCTCAGTTAAGACA-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+TCGCTTGCAATTGCAC-1,Tcm/Naive cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TCGCTTGTCACTCTTA-1,Memory B cells,1,Memory B cells
+TCGCTTGTCATATGGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TCGCTTGTCGGTAGGA-1,Classical monocytes,18,Classical monocytes
+TCGGATAGTTTGGGTT-1,Naive B cells,20,Naive B cells
+TCGGGCAGTCAGCGTC-1,Naive B cells,17,Naive B cells
+TCGGTCTCATGACTTG-1,Memory B cells,1,Memory B cells
+TCGGTCTGTGTACATC-1,Classical monocytes,6,Classical monocytes
+TCGTAGATCCTGTTGC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TCGTCCAAGCACTAAA-1,Naive B cells,5,Naive B cells
+TCGTCCACATAAGATG-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+TCGTCCAGTCGTACAT-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TCGTCCAGTCTTGCGG-1,Naive B cells,20,Naive B cells
+TCGTGCTGTGCCGTAC-1,Classical monocytes,14,Classical monocytes
+TCGTGGGCAACTGCTA-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+TCGTGGGCAGTACTAC-1,Classical monocytes,47,Classical monocytes
+TCGTGGGGTCTAACTG-1,Classical monocytes,7,Classical monocytes
+TCGTGGGGTCTAGTGT-1,Tcm/Naive helper T cells,30,Tem/Trm cytotoxic T cells
+TCTAACTCATAGACTC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TCTACATGTCGTACTA-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TCTACATTCCACTGAA-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+TCTACATTCGTGGGTC-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+TCTACCGCATGACAAA-1,Classical monocytes,6,Classical monocytes
+TCTACCGGTCAGACTT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TCTATACGTTGAGAGC-1,Classical monocytes,7,Classical monocytes
+TCTCACGCAATAGTCC-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+TCTCACGTCTCGCTTG-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+TCTCAGCCAACTGGTT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TCTCAGCCAATTTCCT-1,Naive B cells,20,Naive B cells
+TCTCCGAAGGCGAACT-1,Naive B cells,17,Naive B cells
+TCTCCGAGTCCTACGG-1,Tcm/Naive helper T cells,41,Tcm/Naive helper T cells
+TCTGCCAAGGATTTCC-1,Naive B cells,2,Naive B cells
+TCTGCCACATTGTCGA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TCTGCCAGTCAACCTA-1,Memory B cells,1,Memory B cells
+TCTGGCTAGAGGTTTA-1,Type 17 helper T cells,15,Tcm/Naive helper T cells
+TCTGGCTGTCAAATCC-1,Classical monocytes,9,Classical monocytes
+TCTGGCTGTGATTCAC-1,Tem/Temra cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TCTGTCGAGACATATG-1,Tem/Temra cytotoxic T cells,3,Tcm/Naive helper T cells
+TCTGTCGAGGAAGTGA-1,Classical monocytes,44,Classical monocytes
+TCTGTCGAGTAGAATC-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TCTGTCGGTACTCGCG-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+TCTTAGTCAAGTGCTT-1,Regulatory T cells,23,Regulatory T cells
+TCTTAGTTCGTGCGAC-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TCTTAGTTCTAACGGT-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TCTTAGTTCTTGGAAC-1,Memory B cells,12,Naive B cells
+TCTTGCGCAGTTGAAA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TCTTGCGCATAGGTTC-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TCTTTGAAGCGTTGTT-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TCTTTGACATCTCGTC-1,Memory B cells,1,Memory B cells
+TCTTTGATCGACTCCT-1,Tem/Trm cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TCTTTGATCGCACGAC-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TGAACGTGTAAGCTCT-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TGAATCGAGATGCTGG-1,MAIT cells,3,Tcm/Naive helper T cells
+TGAATCGCACATACGT-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+TGAATCGTCTCGTCGT-1,Classical monocytes,18,Classical monocytes
+TGAATGCCACGCGCTA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+TGAATGCGTCCGTTTC-1,Classical monocytes,18,Classical monocytes
+TGACAGTAGTGCCAGA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TGACCCTGTTGTGTAC-1,Classical monocytes,7,Classical monocytes
+TGACGCGAGTTCATCG-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TGACGCGCACACACGC-1,Classical monocytes,16,Classical monocytes
+TGACGCGCACACAGCC-1,CD16+ NK cells,22,Tem/Temra cytotoxic T cells
+TGACGCGCATGATCTG-1,Regulatory T cells,31,Tcm/Naive helper T cells
+TGACGCGGTCTCTCTG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TGAGACTGTAGCGAGT-1,Naive B cells,4,Memory B cells
+TGAGACTGTTCTCCAC-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+TGAGACTGTTGAAGTA-1,Classical monocytes,7,Classical monocytes
+TGAGCGCGTAACATGA-1,MAIT cells,3,Tcm/Naive helper T cells
+TGAGGAGCATCGGAAG-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TGAGGAGTCTCTCAAT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+TGAGTCAAGCCTATCA-1,Tcm/Naive helper T cells,13,Tem/Effector helper T cells
+TGAGTCAAGCTGAGTG-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TGAGTCAAGGTGGTTG-1,MAIT cells,3,Tcm/Naive helper T cells
+TGAGTCAGTACAGAAT-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TGAGTCAGTATGTCAC-1,Classical monocytes,9,Classical monocytes
+TGAGTCATCCCACAGG-1,Classical monocytes,7,Classical monocytes
+TGAGTCATCGCCAGTG-1,Classical monocytes,14,Classical monocytes
+TGATCAGAGGAACTCG-1,Classical monocytes,18,Classical monocytes
+TGATCAGCAGCTGTGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGATCAGCAGTAACCT-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TGATCTTGTTGTGGCC-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TGATGCAGTCTTCAAG-1,Classical monocytes,47,Classical monocytes
+TGATGCATCTTGCAAG-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+TGATGGTCACAGTACT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+TGATGGTCACATACGT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TGATTCTAGCTGGCTC-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+TGATTTCAGTTGGCGA-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+TGATTTCCAGCGAGTA-1,Classical monocytes,19,Classical monocytes
+TGATTTCGTACTCCCT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TGCACGGAGTAATCCC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TGCACGGGTTCCAGGC-1,Classical monocytes,14,Classical monocytes
+TGCAGATAGCGCCTCA-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+TGCAGATAGCGGTAGT-1,Memory B cells,4,Memory B cells
+TGCAGGCCAGGCGTTC-1,Classical monocytes,7,Classical monocytes
+TGCAGGCGTACTGCCG-1,Classical monocytes,44,Classical monocytes
+TGCAGTAGTCAAAGTA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TGCATCCAGAATCGTA-1,Regulatory T cells,23,Regulatory T cells
+TGCATGACACTTTATC-1,Classical monocytes,14,Classical monocytes
+TGCATGATCGGTCTGG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TGCCGAGCAACTGCTA-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TGCCGAGCAATCCTAG-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+TGCCGAGCATACAGCT-1,Tcm/Naive helper T cells,23,Regulatory T cells
+TGCCGAGCATGGGATG-1,Classical monocytes,7,Classical monocytes
+TGCCGAGTCGCCGTGA-1,MAIT cells,3,Tcm/Naive helper T cells
+TGCGACGAGCTGACAG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TGCGACGGTAGCGATG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+TGCGACGTCGATACGT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+TGCGGCAAGCGTGCCT-1,Tem/Temra cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TGCGGCACACCTGAAT-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TGCGGGTAGTCTTGGT-1,Classical monocytes,14,Classical monocytes
+TGCGGGTCACGCGCTA-1,Classical monocytes,19,Classical monocytes
+TGCGGGTTCGTTCTAT-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+TGCTCCATCTAGAGCT-1,Memory B cells,1,Memory B cells
+TGCTCGTCACTGCTTC-1,Classical monocytes,6,Classical monocytes
+TGCTCGTTCACCTGGG-1,Tcm/Naive helper T cells,23,Regulatory T cells
+TGCTGAAAGCTAGAGC-1,Tem/Temra cytotoxic T cells,30,Tem/Trm cytotoxic T cells
+TGCTGAACACACCTTC-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TGCTGAACACTAGGCC-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+TGCTGAAGTCGATTAC-1,Classical monocytes,16,Classical monocytes
+TGCTTCGAGGTCCTGC-1,Classical monocytes,18,Classical monocytes
+TGCTTCGGTCTGTAGT-1,Classical monocytes,6,Classical monocytes
+TGCTTCGGTTAAACAG-1,Naive B cells,17,Naive B cells
+TGCTTCGTCAAATGCC-1,Classical monocytes,44,Classical monocytes
+TGCTTCGTCCGGCTTT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TGCTTGCAGACTTGTC-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+TGCTTGCCATGAATCC-1,Classical monocytes,19,Classical monocytes
+TGCTTGCTCTAGACCA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGCTTGCTCTCTCAAT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TGCTTGCTCTGCACCT-1,Classical monocytes,19,Classical monocytes
+TGGAACTCATGGAGAC-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TGGAGAGTCGTAACTG-1,Naive B cells,2,Naive B cells
+TGGAGGACAGCGGTCT-1,Classical monocytes,19,Classical monocytes
+TGGAGGAGTACCAATC-1,Classical monocytes,6,Classical monocytes
+TGGAGGAGTTCAGTAC-1,Naive B cells,2,Naive B cells
+TGGATCAGTGGTTCTA-1,Tcm/Naive helper T cells,15,Tcm/Naive helper T cells
+TGGATGTAGACATAGT-1,Age-associated B cells,4,Memory B cells
+TGGATGTAGATTGACA-1,Regulatory T cells,23,Regulatory T cells
+TGGATGTTCACATCAG-1,Memory B cells,4,Memory B cells
+TGGATGTTCGCTTGCT-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TGGCGTGAGCCAGACA-1,Non-classical monocytes,7,Classical monocytes
+TGGCGTGCAACAGCTT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGGCGTGGTGTTTACG-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TGGCGTGTCAAGTTGC-1,Memory B cells,1,Memory B cells
+TGGGAAGCAAGTACCT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TGGGAGACAGCAGACA-1,Naive B cells,2,Naive B cells
+TGGGATTAGACTCTAC-1,Tcm/Naive helper T cells,31,Tcm/Naive helper T cells
+TGGGATTGTAGAGTTA-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+TGGGATTTCAATCTCT-1,Naive B cells,20,Naive B cells
+TGGGATTTCATGGTAC-1,Naive B cells,2,Naive B cells
+TGGGCGTCATGGATCT-1,Classical monocytes,7,Classical monocytes
+TGGGCTGAGAGGCTGT-1,Naive B cells,5,Naive B cells
+TGGGCTGCAGCGTAGA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGGGTTAAGACCAAGC-1,Classical monocytes,19,Classical monocytes
+TGGGTTACAAGGTCAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGGGTTATCCGCTAGG-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+TGGGTTATCGCTTGAA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TGGTACAGTACTCCGG-1,Classical monocytes,7,Classical monocytes
+TGGTAGTCACGACGTC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TGGTAGTCACGCACCA-1,Classical monocytes,6,Classical monocytes
+TGGTAGTGTGAATATG-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+TGGTGATAGATCCCGC-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+TGGTTAGGTAGGAGGG-1,Classical monocytes,14,Classical monocytes
+TGGTTAGGTCGATTCA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TGTAAGCAGAGTCACG-1,Classical monocytes,7,Classical monocytes
+TGTAAGCAGGTCGTAG-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TGTAAGCGTACTAACC-1,Memory B cells,1,Memory B cells
+TGTAAGCGTCCTTTGC-1,Classical monocytes,7,Classical monocytes
+TGTAAGCGTCGGCACT-1,Memory B cells,1,Memory B cells
+TGTAAGCTCTGGTGCG-1,Memory B cells,1,Memory B cells
+TGTACAGAGGGTGAAA-1,Naive B cells,12,Naive B cells
+TGTACAGCATCCTCAC-1,Tcm/Naive helper T cells,46,Tcm/Naive helper T cells
+TGTAGACCACTAGGCC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TGTAGACGTGTCCCTT-1,Tcm/Naive helper T cells,48,Tem/Effector helper T cells
+TGTAGACTCACTTATC-1,Classical monocytes,18,Classical monocytes
+TGTCAGACACAGCGCT-1,Naive B cells,12,Naive B cells
+TGTCAGACATAGATGA-1,Naive B cells,2,Naive B cells
+TGTCAGATCATGCCAA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+TGTCCACCAAGACCTT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGTCCACTCATTGCGA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TGTCCCAAGTGAGGCT-1,Classical monocytes,6,Classical monocytes
+TGTCCCAAGTTCAACC-1,Memory B cells,4,Memory B cells
+TGTCCCACACTCTGCT-1,Classical monocytes,14,Classical monocytes
+TGTCCCATCAATCCGA-1,Tcm/Naive helper T cells,28,Tcm/Naive helper T cells
+TGTCCCATCACGAGGA-1,Naive B cells,2,Naive B cells
+TGTCCTGCAAATCCCA-1,Tcm/Naive helper T cells,8,Tcm/Naive helper T cells
+TGTCCTGCAACCGATT-1,Regulatory T cells,23,Regulatory T cells
+TGTGAGTAGCCAAGGT-1,Classical monocytes,7,Classical monocytes
+TGTGATGCACGGTAGA-1,Tcm/Naive helper T cells,25,Tcm/Naive helper T cells
+TGTGATGGTGAGGCAT-1,Classical monocytes,16,Classical monocytes
+TGTGCGGAGCAGGCAT-1,Tem/Temra cytotoxic T cells,13,Tem/Effector helper T cells
+TGTGCGGCACCCAAGC-1,Classical monocytes,9,Classical monocytes
+TGTGCGGCAGCTCGGT-1,Tcm/Naive cytotoxic T cells,24,Tcm/Naive helper T cells
+TGTGCGGCATCATTGG-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TGTGGCGCAGTTAGAA-1,Memory B cells,1,Memory B cells
+TGTGGCGTCCATCTAT-1,Classical monocytes,6,Classical monocytes
+TGTGTGAAGATTCGCT-1,Naive B cells,5,Naive B cells
+TGTGTGAAGCAATAGT-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+TGTGTGAGTACAGAGC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGTGTGATCAACTCTT-1,Classical monocytes,6,Classical monocytes
+TGTTACTGTACAAACA-1,Naive B cells,2,Naive B cells
+TGTTACTTCTGGACCG-1,Classical monocytes,7,Classical monocytes
+TGTTCATCACCAACAT-1,Age-associated B cells,12,Naive B cells
+TGTTCATTCTCTTCAA-1,Naive B cells,17,Naive B cells
+TGTTCCGAGGTTGGTG-1,Naive B cells,5,Naive B cells
+TGTTCCGTCGCTTGAA-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TGTTCCGTCTGGACTA-1,Classical monocytes,6,Classical monocytes
+TGTTCTAGTCCGATCG-1,Classical monocytes,16,Classical monocytes
+TGTTCTATCACCTCAC-1,Memory B cells,4,Memory B cells
+TGTTCTATCCCGAATA-1,Memory B cells,1,Memory B cells
+TGTTGAGAGGATGCGT-1,Memory B cells,1,Memory B cells
+TGTTGAGAGTTCCTGA-1,Tcm/Naive cytotoxic T cells,33,Tcm/Naive helper T cells
+TGTTGAGCAGAAATTG-1,Tem/Trm cytotoxic T cells,3,Tcm/Naive helper T cells
+TGTTGAGGTACGACAG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TGTTGAGTCGCGTGCA-1,Naive B cells,12,Naive B cells
+TGTTGGAGTAGGCTCC-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+TTAATCCCACACACTA-1,Memory B cells,4,Memory B cells
+TTAATCCCATCTTCGC-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TTAATCCGTGACTAAA-1,Classical monocytes,14,Classical monocytes
+TTAATCCGTTCTCGTC-1,Naive B cells,12,Naive B cells
+TTACCATAGAACAGGA-1,Memory B cells,4,Memory B cells
+TTACCATAGAAGTCTA-1,Tcm/Naive helper T cells,32,Tcm/Naive helper T cells
+TTACCATCACTGAGGA-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+TTACCGCAGACGAGCT-1,Tcm/Naive helper T cells,42,Tcm/Naive helper T cells
+TTACCGCTCCAAGAGG-1,MAIT cells,3,Tcm/Naive helper T cells
+TTACCGCTCGCCCAGA-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TTACCGCTCTCGACCT-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TTACGCCCATGGCGCT-1,Double-negative thymocytes,13,Tem/Effector helper T cells
+TTACGCCTCAGGTAAA-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+TTACGTTAGGTATTGA-1,Naive B cells,2,Naive B cells
+TTACGTTAGTTGTACC-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TTACGTTCATGAGTAA-1,Tem/Temra cytotoxic T cells,42,Tcm/Naive helper T cells
+TTACGTTTCTACCACC-1,Naive B cells,17,Naive B cells
+TTAGGCAAGCGTGCCT-1,Classical monocytes,16,Classical monocytes
+TTAGGCATCACGAGGA-1,Classical monocytes,14,Classical monocytes
+TTAGGGTCAAGATCCT-1,Tcm/Naive helper T cells,26,Tem/Effector helper T cells
+TTAGGGTCAGAACTTC-1,Classical monocytes,18,Classical monocytes
+TTAGGGTGTAGGGAGG-1,Tcm/Naive cytotoxic T cells,27,Tcm/Naive helper T cells
+TTAGGGTGTCTTTATC-1,Tem/Temra cytotoxic T cells,22,Tem/Temra cytotoxic T cells
+TTAGTCTCACAATGCT-1,Regulatory T cells,23,Regulatory T cells
+TTAGTCTTCTTTCGAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTATTGCTCATGTCAG-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TTCACGCGTATCGCAT-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TTCAGGACACTCCGGA-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TTCAGGATCTAATTCC-1,MAIT cells,15,Tcm/Naive helper T cells
+TTCATTGTCGAGCACC-1,Regulatory T cells,23,Regulatory T cells
+TTCCAATCATGCCGCA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TTCCGGTAGCTTGTGT-1,Regulatory T cells,13,Tem/Effector helper T cells
+TTCCGGTGTACGAAAT-1,Classical monocytes,16,Classical monocytes
+TTCCGTGCATTGCCGG-1,Classical monocytes,44,Classical monocytes
+TTCCTAAGTCTGTGCG-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TTCCTCTCAACCACGC-1,Tem/Effector helper T cells,30,Tem/Trm cytotoxic T cells
+TTCCTTCAGCAAGCCA-1,Memory B cells,4,Memory B cells
+TTCCTTCAGCGAGGAG-1,Tcm/Naive helper T cells,39,Tcm/Naive helper T cells
+TTCCTTCTCACAGTGT-1,Tcm/Naive helper T cells,34,Tcm/Naive helper T cells
+TTCGATTGTTCCGCGA-1,Regulatory T cells,23,Regulatory T cells
+TTCGCTGCACCAGGTC-1,Tem/Effector helper T cells,48,Tem/Effector helper T cells
+TTCGGTCCACTGGACC-1,Memory B cells,1,Memory B cells
+TTCTAACAGCGAGGAG-1,Classical monocytes,6,Classical monocytes
+TTCTAACCATCACCAA-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTCTAACGTTGGACCC-1,Classical monocytes,14,Classical monocytes
+TTCTAGTCAAGCCATT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTCTAGTCACGGAAGT-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TTCTAGTGTTGGGTTT-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TTCTAGTTCCTGATAG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+TTCTCTCAGACAGCGT-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TTCTCTCGTATAGGGC-1,Tcm/Naive helper T cells,37,Tcm/Naive helper T cells
+TTCTCTCTCTCGAACA-1,Classical monocytes,7,Classical monocytes
+TTCTGTAAGTACAGCG-1,Naive B cells,12,Naive B cells
+TTCTTCCGTTGGCCTG-1,Classical monocytes,16,Classical monocytes
+TTCTTCCTCCTTACCG-1,Tcm/Naive helper T cells,0,Tcm/Naive cytotoxic T cells
+TTCTTGAGTCACTCTC-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TTGACCCCAGCATGCC-1,Tcm/Naive helper T cells,45,Tcm/Naive helper T cells
+TTGACCCCATCATTTC-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TTGACCCGTGCTGTCG-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TTGAGTGAGACGCAGT-1,Naive B cells,2,Naive B cells
+TTGAGTGAGATGCTAA-1,Classical monocytes,44,Classical monocytes
+TTGAGTGAGTACCCTA-1,ILC3,38,Tem/Effector helper T cells
+TTGAGTGCAGCACGAA-1,Naive B cells,2,Naive B cells
+TTGAGTGTCTCACGAA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TTGATGGTCGGTCTAA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+TTGCATTGTTTCGTTT-1,Tcm/Naive helper T cells,36,Tcm/Naive helper T cells
+TTGCATTTCTGGAGAG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+TTGCCTGAGCTGCCTG-1,Classical monocytes,19,Classical monocytes
+TTGCGTCAGGCCCGTT-1,Naive B cells,2,Naive B cells
+TTGGATGTCTCTATGT-1,Classical monocytes,14,Classical monocytes
+TTGGGATCAGCGTGAA-1,Tem/Effector helper T cells,11,Tcm/Naive helper T cells
+TTGGGATCATGGGTTT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TTGGGATTCTCTTCAA-1,Naive B cells,12,Naive B cells
+TTGGGCGAGACTTAAG-1,Classical monocytes,7,Classical monocytes
+TTGGGCGAGCACTAAA-1,Tcm/Naive helper T cells,24,Tcm/Naive helper T cells
+TTGGGCGAGCCTCAAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTGGGCGAGCGCCTCA-1,Tem/Effector helper T cells,38,Tem/Effector helper T cells
+TTGGGCGAGCTTAGTC-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+TTGGGCGGTTGTTGTG-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+TTGGGTACATGAGATA-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+TTGGGTAGTCGTAATC-1,Naive B cells,5,Naive B cells
+TTGGTTTAGTCTAACC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTGGTTTCATGTTCAG-1,Classical monocytes,16,Classical monocytes
+TTGGTTTTCTACTTCA-1,Classical monocytes,44,Classical monocytes
+TTGTGGACACTGAATC-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TTGTGGAGTCCCGTGA-1,Tem/Trm cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TTGTGGATCGGTAAGG-1,Tcm/Naive helper T cells,27,Tcm/Naive helper T cells
+TTGTGTTGTGGTTTGT-1,Classical monocytes,16,Classical monocytes
+TTGTGTTTCAGTGTCA-1,Tem/Temra cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TTGTGTTTCTATTTCG-1,Classical monocytes,19,Classical monocytes
+TTGTTCAAGGTCGCCT-1,Naive B cells,5,Naive B cells
+TTGTTCAGTATTAAGG-1,Tem/Effector helper T cells,26,Tem/Effector helper T cells
+TTGTTTGAGATAACAC-1,Classical monocytes,6,Classical monocytes
+TTGTTTGGTTCCACGG-1,Tcm/Naive helper T cells,40,Tcm/Naive helper T cells
+TTTACCACAAGATTGA-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+TTTACCAGTTAAGACA-1,Tcm/Naive helper T cells,0,Tcm/Naive cytotoxic T cells
+TTTACCATCCCTTTGG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TTTACGTCACTGCGAC-1,Tem/Effector helper T cells,8,Tcm/Naive helper T cells
+TTTACGTGTATCAGCT-1,Tcm/Naive helper T cells,33,Tcm/Naive helper T cells
+TTTACGTGTCCAGCGT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTTACTGGTTATAGAG-1,Naive B cells,4,Memory B cells
+TTTAGTCCAGACCATT-1,Naive B cells,20,Naive B cells
+TTTAGTCGTGATGAAT-1,Tcm/Naive helper T cells,35,Tcm/Naive helper T cells
+TTTATGCAGCTCATAC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTTATGCCACGAGGAT-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTTATGCGTGTCCACG-1,Tem/Temra cytotoxic T cells,10,Tem/Trm cytotoxic T cells
+TTTATGCGTGTTGATC-1,Classical monocytes,19,Classical monocytes
+TTTATGCGTTGATCGT-1,Tem/Effector helper T cells,13,Tem/Effector helper T cells
+TTTCACACAAAGGCGT-1,Tcm/Naive helper T cells,29,Tcm/Naive helper T cells
+TTTCAGTCAATTGAAG-1,Classical monocytes,9,Classical monocytes
+TTTCAGTTCACTTGGA-1,Classical monocytes,16,Classical monocytes
+TTTCATGGTAGCTAAA-1,Classical monocytes,7,Classical monocytes
+TTTCATGGTCAAACGG-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTTCCTCTCCGCAGTG-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TTTCCTCTCTAACACG-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TTTCGATCACTTACAG-1,Tem/Effector helper T cells,15,Tcm/Naive helper T cells
+TTTGACTGTTCATCGA-1,Tcm/Naive helper T cells,21,Tcm/Naive helper T cells
+TTTGATCAGAGGGTAA-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
+TTTGGAGAGACTCTAC-1,Tcm/Naive cytotoxic T cells,0,Tcm/Naive cytotoxic T cells
+TTTGGAGGTAATGTGA-1,Tcm/Naive helper T cells,43,Tcm/Naive helper T cells
+TTTGGAGGTCAAGCCC-1,Classical monocytes,44,Classical monocytes
+TTTGGAGTCTCGACGG-1,Naive B cells,20,Naive B cells
+TTTGGTTAGGACACTG-1,Classical monocytes,44,Classical monocytes
+TTTGGTTTCCTCCACA-1,Tcm/Naive helper T cells,11,Tcm/Naive helper T cells
+TTTGTTGTCCAAGCCG-1,Tcm/Naive helper T cells,3,Tcm/Naive helper T cells
