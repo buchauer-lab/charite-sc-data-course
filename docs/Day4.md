@@ -15,3 +15,4 @@ order: 5
 
 #### Afternoon
 - _Lecture_: [Combining datasets with batch correction methods (integration)]((https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day4/L_annotation.pdf))
+- _Practical work_: [Data integration exercise](https://buchauer-lab.github.io/charite-sc-data-course/integrationexercise/)
