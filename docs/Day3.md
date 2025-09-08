@@ -7,8 +7,8 @@ order: 4
 ### Day 3
 
 #### Morning
-- _Lecture_: [Dimensionality reduction 2 (UMAP) and graph-based clustering]((https://buchauer-lab.github.io/charite-sc-data-course/Day3/L_dimred_UMAP_Leiden.pdf))
-- _Lecture_: [Cell type annotation](https://buchauer-lab.github.io/charite-sc-data-course/Day3/annotation.pdf)
+- _Lecture_: [Dimensionality reduction 2 (UMAP) and graph-based clustering](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day3/L_dimred_UMAP_Leiden.pdf)
+- _Lecture_: [Cell type annotation](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day3/L_annotation.pdf)
 - _Practical work_: Dimensionality reduction, clustering, cell type annotation
   - (uses the same notebook as the [Day 2](https://buchauer-lab.github.io/charite-sc-data-course/Day2/) exercises)
   - Automated cell type annotation will be performed with [celltypist](https://www.celltypist.org/)
