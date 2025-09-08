@@ -16,6 +16,6 @@ order: 3
 
 #### Afternoon
 - _Lecture_: [Data preprocessing](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_preprocessing.pdf)
-- _Lecture_: [Dimension reduction 1 - Principal Component Analysis](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_dimred_PCA.pdf)
+- _Lecture_: [Dimensionality reduction 1 - Principal Component Analysis](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_dimred_PCA.pdf)
 - _Practical work_: Data preprocessing (comparison of standard log norm approach and Pearson residuals) and PCA, preliminary cell type analysis
   - (uses the same notebooks as the morning exercise, see above)
