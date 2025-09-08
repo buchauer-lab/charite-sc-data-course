@@ -6,7 +6,8 @@ order: 6
 
 ### Day 5
 
-#### Morning
+#### All day
 
-#### Afternoon
+Opportunity to ask any remaining questions, bring your own data for analysis or continue working on provided data sets.
+
 
