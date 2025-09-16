@@ -26,14 +26,14 @@ order: 3
     <p>{{ page.description }}</p>
     
     <!-- Mozilla PDF.js Viewer -->
-    <iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://buchauer-lab.github.io/charite-sc-data-course/materials/Day2/L_count_matrix.pdf" 
+    <iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_count_matrix.pdf" 
             width="100%" 
             height="800px" 
             style="border: 1px solid #ccc; border-radius: 5px;">
     </iframe>
     
     <div style="margin-top: 15px;">
-        <a href="https://buchauer-lab.github.io/charite-sc-data-course/materials/Day2/L_count_matrix.pdf" 
+        <a href="https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_count_matrix.pdf" 
            target="_blank" 
            style="background: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; margin: 0 10px;">
             📄 Open PDF in new tab
