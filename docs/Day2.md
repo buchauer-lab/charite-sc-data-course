@@ -20,22 +20,18 @@ order: 3
 - _Practical work_: Data preprocessing (comparison of standard log norm approach and Pearson residuals) and PCA, preliminary cell type analysis
   - (uses the same notebooks as the morning exercise, see above)
 
----
-layout: default
-title: "Lecture 1 - Introduction to single-cell transcriptomics"
----
-
+  
 <div style="text-align: center; margin: 20px 0;">
     <h1>{{ page.title }}</h1>
     
-    <embed src="https://raw.githubusercontent.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_count_matrix.pdf" 
+    <embed src="https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_count_matrix.pdf" 
            type="application/pdf" 
            width="100%" 
            height="800px"
            style="border: 1px solid #ccc;">
     
     <p style="margin-top: 10px;">
-        <a href="https://raw.githubusercontent.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_count_matrix.pdf" target="_blank">
+        <a href="https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/L_count_matrix.pdf" target="_blank">
             Open PDF in new tab
         </a>
     </p>
