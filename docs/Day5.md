@@ -14,5 +14,11 @@ On the last day, you hopefully have the tools to get started with work on your o
 - Option 3: Try playing with a CITE-Seq dataset using a public tutorial
   - [Seurat's WNN tutorial](https://satijalab.org/seurat/articles/weighted_nearest_neighbor_analysis)
   - [muon's WNN tutorial (scanpy-compatible python multiomics package)](https://muon-tutorials.readthedocs.io/en/latest/cite-seq/2-CITE-seq-PBMC-5k-Weighted-Neighbours.html)
+    - Option 4: [Download and analyze the mystery dataset](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day5/mystery_dataset.tar.gz)
+      - Analyze the dataset according to the workflow we have practiced, paying attention to the following questions:
+        - What species and tissue is this dataset?
+        - How many cells are in there?
+        - Which cell types can you identify?
+        - Look at the mitochondrial fraction of reads in this dataset. Is this in line with your expectations for this tissue? What could be special about this dataset?
 
 
