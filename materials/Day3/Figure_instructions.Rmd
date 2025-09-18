@@ -1,0 +1,44 @@
+---
+title: "figure_instructions"
+author: "Anika Neuschulz"
+date: "2025-09-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Prepare a figure representing the data set
+
+Finally, using all you learned in the last days, prepare a figure consisting of four panels to represent the data set and the analysis you conducted (imagine you want to present the data set on a conference poster). Add a figure legend/caption explaining each panel in sufficient detail.
+
+Here are some useful code snippets to improve the appearance of your plots.
+
+```{r pretty_plots}
+
+# Information about expression of multiple genes in all clusters
+DotPlot(pbmc_renamed, features = c("your", "chosen", "genes"))
+
+# Information about expression of one gene in all clusters
+VlnPlot(pbmc_renamed, features = c("your chosen gene"))
+
+# changing the colours, also see function documentation!
+DimPlot(pbmc_renamed, cols = c("your", "colours", "of", "choice"))
+
+# add figure titles and captions (works for other plotting functions as well!)
+DimPlot(pbmc_renamed) + labs(title = "Your figure title",
+              subtitle = "Your figure subtitle",
+              caption = "This figure shows the following...")
+
+# export figure panel
+# first save your plot in a variable
+plot1 <- DimPlot(pbmc_renamed) + labs(title = "Your figure title",
+              subtitle = "Your figure subtitle",
+              caption = "This figure shows the following...")
+# then export the plot using the ggsave function (from the ggplot package)
+# Adapt filename and path to your system. Width and height are given in inches by default, other units of measurement can be specified (see ggsave documentation). Image resolution cal also be specified.
+ggsave(plot = plot1, filename = "/home/aneusch/Documents/classes/lectures/sc_sequencing/Charité_2025/PBMC_tutorial/test_plot.png", width = 6, height = 5, dpi = "print")
+```
+
+You can either assemble your figure entirely in R using the ggarrange package (see here: https://rpkgs.datanovia.com/ggpubr/reference/ggarrange.html) or export your plot panels using the ggsave function and arrange them in a graphics program of your choice. The final figure should be in .pdf or .png format.
