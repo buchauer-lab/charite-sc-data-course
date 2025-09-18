@@ -9,10 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Prepare a figure representing the data set
-
-Finally, using all you learned in the last days, prepare a figure consisting of four panels to represent the data set and the analysis you conducted (imagine you want to present the data set on a conference poster). Add a figure legend/caption explaining each panel in sufficient detail.
-
 Here are some useful code snippets to improve the appearance of your plots.
 
 ```{r pretty_plots}
@@ -40,5 +36,3 @@ plot1 <- DimPlot(pbmc_renamed) + labs(title = "Your figure title",
 # Adapt filename and path to your system. Width and height are given in inches by default, other units of measurement can be specified (see ggsave documentation). Image resolution cal also be specified.
 ggsave(plot = plot1, filename = "/home/aneusch/Documents/classes/lectures/sc_sequencing/Charité_2025/PBMC_tutorial/test_plot.png", width = 6, height = 5, dpi = "print")
 ```
-
-You can either assemble your figure entirely in R using the ggarrange package (see here: https://rpkgs.datanovia.com/ggpubr/reference/ggarrange.html) or export your plot panels using the ggsave function and arrange them in a graphics program of your choice. The final figure should be in .pdf or .png format.
