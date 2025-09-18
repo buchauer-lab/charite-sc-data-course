@@ -1,0 +1,97 @@
+---
+title: "Exercise: Stressed Cells"
+author: "Anika Neuschulz"
+date: "2025-09-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Sample preparation can lead to artificial changes in the transcriptome of live cells, based on their reaction to the the changes in environment, temperature fluctuations, loss of niche signalling etc. This is an important confounding factor to keep in mind when analysing your data.
+
+This exercise uses the same data set as the basic workflow exercise (reduced PBMC object).
+
+Research which (groups of) genes are known to be upregulated during sample preparation in PBMCs.
+
+## Import required packages and data
+
+We will import the processed and annotated object that we generated before.
+
+```{r libraries}
+library(Seurat)
+library(reshape2)
+library(ggplot2)
+```
+
+```{r load_data}
+# import the annotated object
+
+pbmc_renamed <- readRDS("")
+
+```
+
+```{r inspect_object}
+# basic information about the object is displayed if you enter the object's name ('pbmc_renamed') and execute the cell
+
+
+```
+
+
+# Identify stressed cells
+
+
+
+```{r stress_gene_list}
+# get an object of type vector of all gene names in the dataset
+pbmc_genes <- 
+
+# research a few groups of genes that are associated with stress response,
+# one example are FOS family genes. Extract each such family into a character vector.
+
+fos_genes <- pbmc_genes[grep(pattern = "FOS", pbmc_genes)]
+
+```
+
+```{r}
+# inspect these lists, and combine them into a master vector called stressed_genes
+# vectors can be combined using the c() function
+print(fos_genes)
+
+stressed_genes <- c(fos_genes, )
+print(stressed_genes)
+```
+
+Use the PercentageFeatureSet function (remember the mitochondrial genes during quality control?) to calculate the fraction of stress associated genes in each cell based on all transcripts.
+```{r stress_feature_set}
+pbmc_renamed[["percent.stress"]] <-
+```
+
+```{r stress_Vln}
+# Create a plot to show the percentage of stress associated transcripts for each cell, split by cluster
+
+
+```
+
+
+```{r stress_scatter}
+# Plot scatter plots for each cell type using Seurat's scatter FeatureScatter function,
+# include the the Pearson correlation calculated above
+# hint: you may need to subset the data set by cell type to do this
+
+```
+
+
+```{r stress_scatter_2}
+
+```
+
+Questions
+
+  1. Does the stress count percentage correlate with mitochondrial read content? What could a correlation imply? What could no correlation imply?
+  2. Is it a viable strategy to remove these genes entirely from the count matrix or is there an argument against doing that? Discuss.
+
+
+
+
