@@ -1,0 +1,551 @@
+---
+  title: "PBMC_R"
+author: "Anika Neuschulz"
+date: "2025-09-02"
+output: html_document
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Exercises: Basic single-cell data analysis workflow
+
+In this exercise, we will import an example data set, perform quality control steps, preprocess it, embed it into lower dimensional space and give cell type labels to clusters of cells.
+
+## Import required packages and data
+
+We will use a subset of the 10x Genomics v3 10k PBMC data set (“10k PBMCs from a Healthy Donor (v3 chemistry)”; https://www.10xgenomics.com/datasets/10-k-pbm-cs-from-a-healthy-donor-v-3-chemistry-3-standard-3-0-0). Cell numbers were reduced while keeping the individual cells’ sequencing depth the same. Only some cell types in the original data set were kept. A number of empty droplets and low-quality cells are also included.
+
+You need to download the data set from the course github repository (https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day2/healthy_PBMCs.zip), unzip it, and use the correct path to the data on your system in the import function below.
+
+
+
+```{r libraries}
+library(Seurat)
+library(reshape2)
+library(ggplot2)
+library(dplyr)
+```
+
+
+## Load the PBMC dataset
+All three files ending in .gz need to be in the /healthy_PBMCs folder. Adjust the path to the location of the folder "healthy_PBMCs" on your system.
+
+```{r loading}
+pbmc.data <- Read10X(data.dir = " ")
+```
+
+Initialize the Seurat object with the raw (non-normalized data).
+
+```{r seurat_object}
+# genes need to be recorded in at least 5 cells, each cell needs to have at least 200 genes recorded
+pbmc <- CreateSeuratObject(counts = pbmc.data, project = "pbmc3k", min.cells = 5, min.features = 200)
+```
+
+```{r seurat_object_1}
+# basic information about the object is displayed if you enter the name of the object ('pbmc') and execute the cell
+
+```
+
+How does the Seurat object store information about each of the cells?
+  Feel free to read up on the details here: https://satijalab.org/seurat/articles/seurat5_essential_commands, but keep in mind that the documentation describes more commands than we will need in this class.
+
+```{r seurat_object_2}
+# inspect which assays are present in the Seurat object
+pbmc@assays
+```
+
+```{r seurat_object_3}
+# inspect which layers the RNA assay has (layers can store raw data (counts), normalised data (data) and z-scored/variance-stabilized data (scale.data))
+
+pbmc[["RNA"]]
+
+```
+
+```{r seurat_object_4}
+# inspect the count matrix
+head(pbmc[["RNA"]]$counts)
+```
+
+```{r gene_names}
+# inspect (first) the gene names
+
+head(rownames(pbmc))
+```
+
+```{r cell_identifiers}
+# inspect the (first) cell identifiers
+
+head(Cells(pbmc))
+```
+
+
+Answer the following questions:
+  
+  1. How many cells does the Seurat object contain?
+  2. How many genes have been recorded?
+  
+  
+  ## Quality control
+  
+  Before getting started, recap with your neighbor what we discussed in the lectures:
+  
+  - Which kind of quality issues could our data suffer from?
+  - Which metrics can we inspect to identify problematic cells?
+  
+  Now, we will begin by calculating the fraction of mitchondrial reads per cell. Mitochondrial gene names start with "MT-" for human, a pattern we can use to find the relevant genes.
+```{r percent_MT}
+pbmc[["percent.mt"]] <- PercentageFeatureSet(pbmc, pattern = "^MT-")
+```
+
+Have a look at the gene numbers, transcript numbers and mitochondrial content per cell using Seurat violin plots.
+```{r basic_QC}
+# plot violin plots (there is a Seurat function for this!) of number of counts per cell, number of genes per cell
+# and percentage of mitochondrial reads per cell
+
+```
+
+Discuss the shapes of these distribution with your neighbor. Which features of these distributions are of particular interest? Are there intuitive cut-offs that come to mind?
+  
+```{r corr_plots}
+# inspect if there is a correlation between transcript counts and the number of recorded features
+# as well as with the mitochondrial percentage
+# use FeatureScatter to show total_counts, n_genes_by_counts and pct_counts_mt
+# generate three plots, one with each pair of the three QC metrics on the axes
+# plot the Pearson correlation above the plot
+
+```
+
+```{r corr_plots_2}
+
+```
+
+```{r corr_plots_3}
+
+```
+
+Questions
+
+1. Is there a correlation between the number of counts per cell and the number of genes per cell? Why (not)?
+  2. Is there a correlation between the number of recorded genes per cell and the mitochondrial content? Why (not)?
+  3. What can we learn about cells with high mitochondrial content from all the plots we have generated until here?
+  
+  We now need to decide on QC cut-offs for filtering, i.e. values for each of the QC metrics below (or above) which we will discard cells from the data set. Generally, we advise you to be conservative at this stage in order to prevent losing too many cells. You can always add additional filtering steps later on.
+
+4. Keeping this advice in mind, decide on the following cut-offs:
+  
+  - minimum nFeature_RNA
+- maximum nFeature_RNA
+- maximum percent.mt
+
+
+## Filtering
+
+Remove empty droplets and droplets with more than one cell:
+  
+```{r filtering}
+# Apply the gene number filters to the data using the subset function. Modify the below function to include your mitochondrial cutoff
+
+pbmc_filtered <- subset(pbmc, subset = nFeature_RNA > ?? & nFeature_RNA < ?? & percent.mt < ??)
+```
+
+
+```{r filtering_ctrl}
+# how many cells did we lose through this filtering?
+
+```
+
+## Normalisation and identification of variable features
+
+Following the lecture on data preprocessing, we will now normalize and logarithmise the data and will select highly variable features. We will also explore Pearson's residuals and compare the result to lognorm-preprocessing.
+
+
+```{r normalise}
+# use NormalizeData to normalize each cell and log-transform the data
+pbmc_filtered <- 
+```
+
+
+```{r var_features}
+# Identify the 2000 most variable features in the normalised data using the FindVariableFeatures function
+pbmc_filtered <- 
+```
+
+We will also make a copy to be used in alternative processing with Pearson residuals (using SCTransform) below
+```{r SCT_copy}
+pbmc_filtered_SCT <- pbmc_filtered
+```
+
+
+```{r scaling}
+# Center and scale the data using the ScaleData function
+pbmc_filtered <- ScaleData(pbmc_filtered)
+```
+
+
+## Principal Component Analysis
+
+We will calculate the principal components of our data (using the highly variable genes identified above as an input) and then inspect our data in the first few components - a first step towards cell type identification!
+
+```{r PCA}
+# run Seurat's RunPCA function on the data
+pbmc_filtered <- 
+```
+
+
+Visualise the result of the PCA using a Seurat DimPlot.
+```{r PCA_DimPlot}
+
+```
+
+```{r PCA_2D_scatter}
+# plot a a 2D scatter plot of the dataset in its first two principal components using Seurat's FeaturePlot function. Colour the points by nCount_RNA.
+
+
+```
+
+```{r}
+# make the same 2D PCA plot as above, but use the top positive and
+# negative loading genes for PCs 1 and 2 to colour the dots
+# (should result in 4 panels, one per gene).
+
+
+```
+
+Questions
+
+1. What is the biological interpretation of genes with positive vs. negative loadings on the same principal component? What does it mean when genes have opposite signs in their PC loadings?
+  2. Using PC1 and PC2 as an example, explain what biological processes or cell states might be represented by the positive vs. negative gene sets.
+3. Looking at the 2D PCA plot above, there seem to be 3 main groups of cells separated by PCs 1 and 2. Based on the loading information, make an intelligent guess which cell types these might represent (you might search for the relevant genes online or ask a Chatbot of your choice).
+
+## Alternative preprocessing with Pearson residuals [optional]
+
+Pearson residuals, as introduced in the lecture, represent an alternative preprocessing strategy which can provide advantages for the identification of small populations. It is important to note that Pearson residuals replace lognorm transformation and are not be used on top of them. Their computation requires raw counts as an input.
+
+```{r SCTransform}
+# use the unprocessed copy of the anndata object made above and 
+# transform it using the SCTransform function
+
+pbmc_filtered_SCT <- SCTransform(pbmc_filtered_SCT)
+```
+
+```{r SCT_PCA}
+# calculate a pca for the Pearson transformed dataset
+
+pbmc_filtered_SCT <- 
+```
+
+```{r SCT_scatter}
+# plot a a 2D scatter plot of the dataset in its first two principal components using Seurat's FeaturePlot function. Colour the points by nCount_RNA.
+
+
+```
+
+```{r SCT_scatter_features}
+# make the same 2D PCA plot as above, but use the top positive and
+# negative loading genes for PCs 1 and 2 to colour the dots
+# (should result in 4 panels, one per gene).
+
+
+```
+
+```{r PCA_comparison}
+# for a simple comparison, plot the four genes identified above from the Pearson residual analysis
+# onto the PCA derived from the lognorm approach (i.e. on object pbmc_filtered)
+
+
+```
+
+The differences between the two normalization methods for our dataset are minor, as is to be expected based on benchmarking work (Ahlmann-Eltze et al., 2023). Interestingly, Pearson residuals here pick up on more ribosomal genes on PC1, a group of genes for which most cells have some expression and the dynamic range in the lognorm approach is not very large. Pearson residuals open up this dynamic range more, resulting in higher weight on PC1. This illustrates how Pearson residues may pick up on more subtle differences compared to standard approaches, but also shows that in most cases (including ours), the extra effort is not necessary.
+
+## Preliminary cell type exploration
+
+The data we are working with contains subtypes of peripheral blood mononuclear cells (some cell types were excluded during the preparation of the example dataset). Find marker genes for potentially included cell types, for example using the Protein Atlas (https://www.proteinatlas.org/humanproteome/immune+cell ), and plot them onto the PCA to check whether they are present.
+
+```{r marker_exploration}
+# plot the candidate marker genes you found onto the 2D PCA plot
+
+
+
+```
+## Non-linear dimension reduction and clustering
+
+Below, we will further reduce the dimensionality of the data by discarding higher PCs, create a UMAP as an example for a non-linear 2D embedding, and use graph-based clustering for community detection.
+
+```{r ellbow_plot}
+# use the ElbowPlot function to get a look at the variance captured by each PC. Plot the first 50 PCs.
+
+
+```
+
+
+Questions
+
+1. What do we learn from the elbow plot?
+  2. Based on the plots as well as on what was discussed during the lecture, how many PCs would you suggest keeping for downstream steps?
+  
+  
+  ```{r knn_calculation}
+# Graph-based clustering and UMAP calculation need a nearest-neighbor graph
+# as an input. Calculate the nearest neighbors using the FindNeighbors function,
+# and be sure to specify the number of PCs to consider for this step
+
+
+```
+
+```{r find_clusters}
+# next, we calculate a clustering using the Louvain algorithm (default for Seurat)
+# the leiden algorighm, which provides better results for small clusters, can also be installed if desired (see help function)
+
+pbmc_filtered <- 
+```
+
+
+```{r UMAP}
+# calculate a umap embedding using the corresponding Seurat function
+
+pbmc_filtered <- 
+```
+
+
+```{r UMAP_DimPlot}
+# plot the UMAP coloured by the Louvain clustering returned above using the DimPlot function.
+
+
+```
+
+```{r PCA_clusters}
+# plot the Louvain clustering onto the PCA calculated above, again using the DimPlot function. Hint: you need to specify pca as the reduction to be used here
+
+
+```
+
+Questions
+
+1. Please describe the UMAP and PCA plots above. What are the main differences?
+  2. Discuss with your neighbor how you think these differences may arise given that PCA is a linear transformation and UMAP is not, but rather an algorithm optimised to project local similarities in high-dimensional space into 2D.
+
+
+```{r UMAP_randomness_1}
+# the UMAP projection algorithm has stochastic elements meaning
+# that its outcome depends on random initial assignments of cells. Explore these random effects
+# by running and plotting UMAP three times with different seeds. (the default seed is 42)
+
+pbmc_filtered <- RunUMAP(pbmc_filtered, dims = ?:?, seed.use = 1)
+
+DimPlot(pbmc_filtered)
+```
+
+```{r UMAP_randomness_2}
+pbmc_filtered <- RunUMAP(pbmc_filtered, dims = ?:?, seed.use = ??)
+
+DimPlot(pbmc_filtered)
+```
+
+```{r UMAP_randomness_3}
+pbmc_filtered <- RunUMAP(pbmc_filtered, dims = ?:?, seed.use = ??)
+
+DimPlot(pbmc_filtered)
+```
+
+```{r clustering_resolution_1}
+# An important parameter of Louvain (or Leiden) clustering is resolution. Run the clustering three
+# times with different resolutions and plot the results.
+
+pbmc_filtered <- FindClusters(pbmc_filtered, resolution = 0.5)
+DimPlot(pbmc_filtered, reduction = "umap", group.by = "RNA_snn_res.0.5")
+```
+
+```{r clustering_resolution_2}
+pbmc_filtered <- FindClusters(pbmc_filtered, resolution = ?)
+DimPlot(pbmc_filtered, reduction = "umap", group.by = "??")
+```
+
+```{r clustering_resolution_3}
+pbmc_filtered <- FindClusters(pbmc_filtered, resolution = ?)
+DimPlot(pbmc_filtered, reduction = "umap", group.by = "??")
+```
+
+
+Questions
+
+1. Which UMAP would you chose for publication?
+  2. What happens as you change the resolution parameter? With which resolution would you proceed for further investigation?
+  
+```{r QC_finalResolution}
+# Set the active identity of your cells to the clustering resolution you intend to proceed with
+
+pbmc_filtered <- SetIdent(pbmc_filtered, value = pbmc_filtered@meta.data$??)
+
+# plot the QC metrics discussed above onto a UMAP plot
+# additionally plot a UMAP plot showing the clustering resolution which you plan to proceed with
+
+
+
+```
+
+## Marker gene calculation and bottom-up cell type annotation
+
+We will now calculate genes characteristic for each cluster (marker genes) and use them to identify the cell types in our dataset. We will also explore an automed cell type annotation method and compare the results.
+
+The following step may take a while, depending on your computer.
+```{r find_markers}
+# for annotation purposes, select a clustering resolution which results in 6-7 clusters
+# then, run marker gene calculations with the FindAllMarkers function
+
+marker_genes <- 
+```
+
+
+```{r inspect_marker_genes}
+# first, have a look at the resulting table by plotting the first rows of the marker_genes table
+
+
+```
+
+```{r export_marker_genes}
+# export the marker gene table into a csv file for easier annotation. You can open csv files in a table editor of your choice (e.g. Microsoft Excel, LibreOffice calc) and add your findings when researching the marker genes
+
+write.csv(marker_genes, file = "marker_genes.csv")
+```
+
+
+```{r heatmap}
+# now, we can visualize the top 5 differentially expressed genes per cluster as a dotplot using the DoHeatmat function
+
+# this function extracts the top 5 marker genes for each cluster. Feel free to play around and change the number of genes it extracts.
+marker_genes %>%
+  group_by(cluster) %>%
+  dplyr::filter(avg_log2FC > 1) %>%
+  slice_head(n = 5) %>%
+  ungroup() -> top5
+
+# this function creates the heatmap
+DoHeatmap(pbmc_filtered, features = top5$gene)
+
+```
+
+```{r DotPlot}
+# Plot the top marker genes extracted above in a DotPlot. Rotate the x axis labels to be readable.
+# you might need to use the unique() function in case some marker genes appear for more than one cluster
+
+
+```
+
+
+Questions
+
+1. What do positive and negative fold changes in the marker gene table mean?
+  2. Why is there a p-value and an adjusted p-value?
+  3. Use the marker genes derived for each group and the human protein atlas (https://www.proteinatlas.org/humanproteome/immune+cell) or other resources of your choice to give cell type labels to each cluster. 
+
+```{r find_markers_between_clusters}
+# if there are clusters for which you are not sure yet, it can help to compare them
+# to a neighboring population specifically using FindMarkers with the additional
+# ident.1 and ident.2 set to compare between two clusters of cells
+
+FindMarkers(pbmc_filtered, ident.1 = "1", ident.2 = "2")
+
+```
+
+## Cell-type annotation using marker gene lists (from literature)
+
+Typically, you know which tissue you are analysing and can also find annoated datasets of the same type or even published marker gene lists for your tissue. You can use these to help you annotate your cell types. Search the web for a few marker genes for each of the cell types below and plot these for your clusters.
+
+```{r known_marker_genes}
+
+Classical_Monocytes = c("gene1", "gene2")
+B_cells = c("")
+CD4_pos_T = c("")
+CD8_pos_T = c("")
+
+```
+
+```{r dot_plot_known_markers}
+# plot these genes on a DotPlot
+
+```
+
+```{r genes_feature_plot}
+# you can also visualise these markers onto your umap, try it with a few genes
+# Ensure that cells expressing the genes are not buried below other cells in the plots
+
+
+```
+
+```{r rename_clusters}
+# based on the two annotation approaches above, give a cell type label to every cluster.
+# edit this code to match the number of clusters you have
+
+# using a separate object to store the renamed clusters helps if you want to make adjustments later - the original clustered object will still have the initial cluster identities and you can simply re-run the code below
+
+pbmc_renamed <- RenameIdents(pbmc_filtered,
+                             "0" = "strawberries",
+                             "1" = "blackberries",
+                             "2" = "raisins",
+                             "3" = "smarties",
+                             "4" = "MAOAM",
+                             "5" = "blueberries",
+                             "6" = "gummi bears")
+```
+
+```{r annotated_UMAP}
+# plot a umap with cell type labels on top of each cluster (this will be the pbmc_renamed object!)
+
+
+```
+
+Questions
+
+1 Did your chosen clustering resolution make sense? Were there some clusters which you would combine (annotate with the same label), or, conversely, clusters which you would like to split and analyse in more depth?
+  
+  ## Automated cell type annotation
+  
+  There are several packages available for automated cell type annotation. One option is celltypist which comes as a as a python package, command line tool or webservice https://www.celltypist.org/. Online analysis accepts a .csv file, which contains an expression matrix with cells as rows and gene symbols as columns (or the opposite). A raw count matrix is expected. We will generate the file, upload it, and compare their results to ours in this section.
+
+```{r export_matrix}
+write.table(as.matrix(GetAssayData(object = pbmc_filtered, slot = "counts")), 
+            'counts.csv', 
+            sep = ',', row.names = T, col.names = T, quote = F)
+```
+
+Now, please go to the celltypist website and upload your file (should be around 50MB), hopefully the WiFi will be with us on this. After submitting the query, you will receive an email when the results are available for download (typically within a few minutes). In case you encounter problems with the data upload, you can also take pre-generated celltypist results in the materials/Day3section of the course github.
+
+```{r import_celltypist}
+# import celltypist annotations
+# document which model you chose and when you accessed the site
+# model: , accessed: 
+
+predicted_labels <- read.csv("predictions/predicted_labels.csv")
+rownames(predicted_labels) <- predicted_labels$X
+
+pbmc_renamed@meta.data <- merge(pbmc_renamed@meta.data, predicted_labels, by = 0)
+rownames(pbmc_renamed@meta.data) <- pbmc_renamed@meta.data$X
+```
+
+```{r compare_annotations_1}
+# plot two UMAPS, one with your annotation and the other with the celltypist label as a color code
+
+
+```
+
+```{r compare_annotations_2}
+
+```
+
+Questions
+
+1. How does your annotation compare to celltypist? Are there any differences? Who is right?
+  2. What is the difference between celltypist outputs 'predicted_labels' and 'majority_voting'?
+  3. If you have the time, install the leiden clustering algorithm and run the processing steps neighbors/leiden/umap on the object normalized with Pearson residuals (). Which differences do you see compared to the louvain clustering?
+  
+```{r save}
+# save the objects including all calculations to disk
+# use the .rds file format, which can then be re-loaded for further analysis, plotting etc.
+
+saveRDS(pbmc_renamed, file = "20250918_pbmc_filtered_renamed.Rds")
+saveRDS(pbmc_filtered, file = "20250918_pbmc_filtered.Rds")
+```
+
+
