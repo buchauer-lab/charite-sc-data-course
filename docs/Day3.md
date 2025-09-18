@@ -17,5 +17,5 @@ order: 4
 - _Practical work_: Cell states - looking for stressed cells
   - [stressed cells exercises - python](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day3/stressed_cells_exercise_python.ipynb)
   - stressed cells exercises - R
-- _Practical work_: Producing a "publication ready" figure of all results obtained to here
+- _Practical work_: Producing a "publication ready" figure of all results obtained to here (see [here](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day3/Figure_instructions.Rmd) for general instructions and additional hints for R users)
 
