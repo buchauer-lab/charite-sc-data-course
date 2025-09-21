@@ -7,7 +7,7 @@ order: 2
 ### Day 1
 
 #### Morning
-- _Lecture_: Introduction to single cell data generation and resulting raw data __TODO link to slides in repo__
+- _Lecture_: [Introduction to single cell data generation and resulting raw data](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/L_scSequencing_bcl_fastq.pdf)
 - _Info_: [How to obtain access to the Charité HPC and take first steps on it (for Charité members)](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/L_cluster_usage.pdf)
 - _Task_: All participants apply for cluster access.
 - _Live demo_: [How to install and run cellranger on the cluster](https://buchauer-lab.github.io/charite-sc-data-course/cellranger_install/)
