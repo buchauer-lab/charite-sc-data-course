@@ -1,0 +1,102 @@
+---
+title: "Exercise: Stressed Cells"
+author: "Anika Neuschulz"
+date: "2025-09-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Sample preparation can lead to artificial changes in the transcriptome of live cells, based on their reaction to the the changes in environment, temperature fluctuations, loss of niche signalling etc. This is an important confounding factor to keep in mind when analysing your data.
+
+This exercise uses the same data set as the basic workflow exercise (reduced PBMC object).
+
+Research which (groups of) genes are known to be upregulated during sample preparation in PBMCs.
+
+## Import required packages and data
+
+We will import the processed and annotated object that we generated before.
+
+```{r libraries}
+library(Seurat)
+library(reshape2)
+library(ggplot2)
+```
+
+```{r load_data}
+# import the annotated object
+
+pbmc_renamed <- readRDS("~/Documents/classes/lectures/sc_sequencing/Charité_2025/PBMC_tutorial/20250918_pbmc_filtered_renamed.Rds")
+
+```
+
+```{r inspect_object}
+# basic information about the object is displayed if you enter the object's name ('pbmc_renamed') and execute the cell
+
+pbmc_renamed
+```
+
+
+# Identify stressed cells
+
+
+
+```{r stress_gene_list}
+# get an object of type list of all gene names in the dataset
+pbmc_genes <- dimnames(pbmc_renamed)[[1]]
+
+# research a few groups of genes that are associated with stress response,
+# one example are FOS family genes. Extract each such family into a list.
+
+hsp_genes <- pbmc_genes[grep(pattern = "^HSP", pbmc_genes)]
+fos_genes <- pbmc_genes[grep(pattern = "FOS", pbmc_genes)]
+jun_genes <- pbmc_genes[grep(pattern = "JUN", pbmc_genes)]
+
+```
+
+```{r}
+# inspect these lists, and combine them into a master vector called stressed_genes
+# vectors can be combined using the c() function
+print(hsp_genes)
+print(fos_genes)
+print(jun_genes)
+
+stressed_genes <- c(hsp_genes, fos_genes, jun_genes)
+print(stressed_genes)
+```
+
+Use the PercentageFeatureSet function to calculate the fraction of stress associated genes in each cell (based on all transcripts).
+```{r stress_feature_set}
+pbmc_renamed[["percent.stress"]] <- PercentageFeatureSet(pbmc_renamed, features = stressed_genes)
+```
+
+```{r stress_Vln}
+# Create a plot to show the percentage of stress associated transcripts for each cell, split by cluster
+
+VlnPlot(pbmc_renamed, features = "percent.stress")
+```
+Does it correlate with mitochondrial read content? Check for each cluster. What would a correlation imply? What would no correlation imply?
+
+```{r stress_scatter}
+# Plot scatter plots for each cell type using Seurat's scatter FeatureScatter function,
+# include the celltype name and the Pearson correlation calculated above
+# hint: you may need to subset the data set by cell types to do this
+
+pbmc_renamed_strawberries <- subset(pbmc_renamed, idents = "strawberries")
+FeatureScatter(pbmc_renamed_strawberries, feature1 = "percent.stress", feature2 = "percent.mt")
+```
+```{r stress_scatter_2}
+pbmc_renamed_blackberries <- subset(pbmc_renamed, idents = "blackberries")
+FeatureScatter(pbmc_renamed_blackberries, feature1 = "percent.stress", feature2 = "percent.mt")
+```
+
+Questions
+
+  1. Does the stress count percentage correlate with mitochondrial read content? What could a correlation imply? What could no correlation imply?
+  2. Is it a viable strategy to remove these genes entirely from the count matrix or is there an argument against doing that? Discuss.
+
+
+
+
