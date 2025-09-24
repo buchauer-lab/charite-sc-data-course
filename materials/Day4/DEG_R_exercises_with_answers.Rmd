@@ -1,0 +1,471 @@
+---
+title: "Differential_gene_expression"
+author: "Anika Neuschulz"
+date: "2025-09-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Exercise: Differential Gene Expression Analysis
+
+In this exercise, we will calculate and analyse differentially expressed genes between two different conditions of in vitro stimulated PBMCs.
+
+## Set up DEseq2
+
+Before you can start, you need to install the DEseq2 package.
+Follow the instructions here: https://bioconductor.org/packages/release/bioc/html/DESeq2.html
+(installation may take a bit of time).
+
+## Import required packages and data
+
+Following sc-best-practices (https://www.sc-best-practices.org/conditions/differential_gene_expression.html), we will use the Kang dataset, which is a 10x droplet-based scRNA-seq peripheral blood mononuclear cell (PBMC) data from 8 Lupus patients before and after 6h-treatment with INF-β (16 samples in total) (Kang et al., 2018).
+
+You need to download the dataset from the course github repository (https://github.com/buchauer-lab/charite-sc-data-course/tree/main/materials/Day4), unzip it, and use the correct path to the data on your system in the import function below.
+
+```{r libraries}
+library(Seurat)
+library(ggplot2)
+library(reshape2)
+```
+
+```{r load_gene_expression_data}
+# load data and create Seurat object (cells should have at least 200 genes and each gene should appear in at least 3 cells)
+kang2018 <- Read10X("/home/aneusch/Documents/classes/lectures/sc_sequencing/Charité_2025/differential_expression/Kang2018_DEG/Kang2018/")
+kang2018 <- CreateSeuratObject(counts = kang2018, project = "Kang2018", min.cells = 3, min.features = 200)
+```
+
+```{r load_metadata}
+# load meta data
+metadata <- read.csv("~/Documents/classes/lectures/sc_sequencing/Charité_2025/differential_expression/Kang2018_DEG/Kang2018/metadata.csv")
+# set index column as row names for meta data
+row.names(metadata) <- metadata$index
+
+# inspect first rows of meta data
+head(metadata)
+```
+
+```{r add_meta_data}
+# add meta data to Seurat object
+kang2018@meta.data <- merge(kang2018@meta.data, metadata, by=0)
+row.names(kang2018@meta.data) <- kang2018@meta.data$index
+
+# inspect first rows of meta data in the Seurat object
+head(kang2018@meta.data)
+```
+
+Notice how the externally loaded metadata as well as the metadata already in the seurat object both contain nCount_RNA and nFeature_RNA columns. What happened to them during the merge operation? 
+
+
+```{r inspect_metadata}
+# inspect both nCount_RNA and nFeature_RNA columns match
+
+table(kang2018@meta.data$nCount_RNA.x == kang2018@meta.data$nCount_RNA.y)
+table(kang2018@meta.data$nFeature_RNA.x == kang2018@meta.data$nFeature_RNA.y)
+```
+
+```{r inspect_mismatches}
+# extract all rows where the columns do not match
+
+subset(kang2018@meta.data, nCount_RNA.x != nCount_RNA.y)
+```
+
+What is the extent of the mismatches and can we tolerate it or do we need to remove the cells?
+
+```{r remove_cells_if_needed}
+# remove the mismatching cells using the subset function on the Seurat object, if you consider it necessary.
+
+```
+
+```{r clean_metadata}
+# remove the nCount_RNA and nFeature_RNA columns coming from the imported metadata and remove the suffix from the remaining ones
+
+kang2018@meta.data$nCount_RNA.y <- NULL
+kang2018@meta.data$nFeature_RNA.y <- NULL
+
+names(kang2018@meta.data)[names(kang2018@meta.data) == 'nFeature_RNA.x'] <- 'nFeature_RNA'
+names(kang2018@meta.data)[names(kang2018@meta.data) == 'nCount_RNA.x'] <- 'nCount_RNA'
+```
+
+
+```{r inspect_after_renaming}
+# inspect the first rows of the metadata in your Seurat object to see if everything worked
+
+head(kang2018@meta.data)
+```
+
+```{r cell_types}
+# print the different cell types from the meta data
+
+unique(kang2018@meta.data$cell_type)
+```
+
+```{r patient_identifiers}
+# print the patient identifiers
+
+unique(kang2018@meta.data$replicate)
+```
+
+```{r conditions}
+# print the different conditions, here called 'label'
+
+unique(kang2018@meta.data$label)
+```
+
+## Data preparation
+
+We will perform a very basic quality control and calculate pseudobulks for each patient which we will need for differential expression analysis with DESeq2.
+
+```{r filtering}
+# use Seurat's subset function to remove cells with less than 200 genes and genes that appear in less than 3 cells (in case you didn't set these parameters already when creating the seurat object)
+```
+
+```{r VlnPLots_QC}
+# create a Violin plot to inspect the number of genes per cell
+
+VlnPlot(kang2018, features = "nFeature_RNA")
+```
+```{r min_features}
+# use the metadata to find out how many features the cell with the least features has. Did your filtering work?
+
+min(kang2018@meta.data$nFeature_RNA)
+```
+If everything looks good, continue.
+
+```{r introduce_sample_information}
+# next, we need to introduce a column that holds the sample information, in our case a combination of "replicate" and "label"
+# read up on the differences between the paste and paste0 functions. Why are we using paste0 here?
+
+kang2018@meta.data$sample <- paste0(kang2018@meta.data$replicate, "-", kang2018@meta.data$label)
+```
+
+```{r inspect_sample}
+# inspect meta data again to double check if everything worked
+head(kang2018@meta.data)
+```
+
+In order to create pseudobulks (gene expression vectors per sample, generated by summing up all single cell expression vectors of a given cell type in that sample), we will use the AggregateExpression() function.
+
+```{r pseudobulk}
+# pseudobulk the counts based on sample column and cell_type
+kang2018_pb <- AggregateExpression(kang2018, assays = "RNA", return.seurat = T, group.by = c("sample", "cell_type"))
+
+# each 'cell' is a pseudobulk profile - inspect if cenn names match your expectations.
+head(Cells(kang2018_pb))
+
+```
+
+```{r pseudobulk_object}
+# inspect the object - how many observations are in there now? Is this according to your expectation?
+
+kang2018_pb
+```
+
+
+```{r inspect_pseudobulk_metadata}
+# inspect the meta data of the pseudobulk object
+
+head(kang2018_pb@meta.data)
+```
+
+```{r filter_pseudobulks}
+# now, we want to remove pseudobulks which do not have at least 30 cells or 3000 counts
+# Maybe there is a more straightforward solution for the filtering steps, feel free to look and play around!
+
+# extract the count matrix to sum up counts, since the pseudobulk seurat object does not seem to have this information
+pb_count_matrix <- as.data.frame(kang2018_pb@assays$RNA@layers$counts)
+# add column and row names from the pseudobulk seurat object to the extracted matrix/data frame
+colnames(pb_count_matrix) <- Cells(kang2018_pb)
+rownames(pb_count_matrix) <- rownames(kang2018_pb)
+
+# sum up counts and find samples with at least 3000 counts in the data frame
+pb_col_sums <- colSums(pb_count_matrix)
+pb_col_sums_filtered <- subset(pb_col_sums, pb_col_sums > 3000)
+
+# find samples with at least 30 cells by going back to the original (non-pseudobulked) seurat object
+kang2018@meta.data$sample_cell_type <- paste0(kang2018@meta.data$sample, "_", kang2018@meta.data$cell_type)
+samples_over30_cells <- subset(table(kang2018@meta.data$sample_cell_type), table(kang2018@meta.data$sample_cell_type) > 30)
+# replace "_" after "patient" with "-", since seurat decided to do that when making the pseudobulk. Otherwise the sample names will not match when we filter.
+names(samples_over30_cells) <- gsub("patient_", "patient-", names(samples_over30_cells))
+
+# add cell numbers and pseudobulk total counts to the metadata
+kang2018_pb@meta.data$pseudobulk_count <- pb_col_sums
+kang2018_pb@meta.data$cell_count <- table(kang2018@meta.data$sample_cell_type)
+
+# finally filter the pseudobulk seurat object
+kang2018_pb <- subset(kang2018_pb, orig.ident %in% names(samples_over30_cells) & orig.ident %in% names(pb_col_sums_filtered))
+
+
+
+# inspect the resulting object
+kang2018_pb
+```
+
+## Basic analysis of the pseudobulked data objects
+
+In differential expression testing, defining the right statistical model is very important. In order to identify the covariates which drive differences in our dataset (these are the covariates we should include in our model), we use Seurat to calculate a PCA for the pseudobulked data and inspect a series of PCA plots coloured by covariates.
+
+
+```{r pseudobulk_PCA}
+# run a PCA on the pseudobulk data set. Do not calculate variable features here, but run it on all genes present in the data set.
+kang2018_pb <- RunPCA(kang2018_pb, features = rownames(kang2018_pb))
+```
+
+```{r pseudobulk_PCA_plots}
+# we need to bring back the label and replicate columns, we will make it by splitting the sample column
+kang2018_pb@meta.data[c("patient", "number", "label")] <- do.call(rbind, strsplit(kang2018_pb@meta.data$sample, "-"))
+# combine patient and number columns, just for consistency
+kang2018_pb@meta.data$replicate <- paste0(kang2018_pb@meta.data$patient, "-", kang2018_pb@meta.data$number)
+# remove the number and patient columns, as we don't need them any more
+kang2018_pb@meta.data$number <- NULL
+kang2018_pb@meta.data$patient <- NULL
+# Yay, the label and replicate columns are back!
+
+
+# plot PCA plots coloured by label, cell_type, replicate and pseudobulk_count
+DimPlot(kang2018_pb, group.by = c("sample", "label"))
+
+```
+
+```{r pseudobulk_PCA_plots_2}
+DimPlot(kang2018_pb, group.by = c("cell_type"))
+```
+```{r pseudobulk_PCA_plots_3}
+DimPlot(kang2018_pb, group.by = c("replicate"))
+```
+
+```{r pseudobulk_PCA_plots_4}
+FeaturePlot(kang2018_pb, features = c("pseudobulk_count"))
+```
+
+Which of the above covariates seem to be strongly driving variance in PC1 or PC2? Discuss.
+
+## Differential expression analysis with DESeq2
+
+We will now use the pseudobulked data of monocytes only for differential expression testing. 
+
+```{r subset_monocytes}
+# subset the pseudobulk seurat object for CD14+ Monocytes
+kang2018_pb_monocytes <- subset(kang2018_pb, cell_type %in% c("CD14+ Monocytes"))
+
+# inspect subset
+kang2018_pb_monocytes
+```
+
+```{r filter_pb_genes}
+# Next, we want to remove genes for which we do not expect relevant results
+# Discuss with your neighbor why we want to reduce the number of genes for which we 
+# perform differential expression testing.
+# we want to remove all genes for which we do not see at least 15 counts in total
+# again, feel free to look for a more straightforward solution to these filtering steps!
+
+# extract the pseudobulk count matrix from the pseudobulk seurat object, so we can use it to sum up the counts for every gene
+total_counts_per_gene <- rowSums(kang2018_pb_monocytes@assays$RNA$counts)
+# check how many genes there are in total
+length(total_counts_per_gene)
+
+# subset the vector for genes with at least 15 counts
+total_counts_per_gene_sub <- subset(total_counts_per_gene, total_counts_per_gene > 15)
+# check how many genes are left
+length(total_counts_per_gene_sub)
+# the above is our first list of genes to filter against.
+
+
+# additionally we want to retain only genes which are present in at least 10% of cells and in at least 3 samples
+# We need the original count matrix again for this (since the information does not seem to be in the pseudobulk object). Subset the original Seurat object to the monocyte cluster
+kang2018_monocytes <- subset(kang2018, cell_type %in% c("CD14+ Monocytes"))
+kang2018_monocytes_matrix <- kang2018_monocytes@assays$RNA@layers$counts
+rownames(kang2018_monocytes_matrix) <- rownames(kang2018_monocytes)
+colnames(kang2018_monocytes_matrix) <- colnames(kang2018_monocytes)
+
+# turn sparse matrix into data frame
+kang2018_monocytes_df <- as.data.frame(kang2018_monocytes_matrix)
+# replace all non-zero counts with 1, so we can simply sum up the cells which express each gene. This is for the "10% of cells"-criteria
+kang2018_monocytes_df[kang2018_monocytes_df > 0] <- 1
+# sum up over the rows for the number of cells expressing each gene
+number_of_cells_expressing_each_gene <- rowSums(kang2018_monocytes_df)
+# we can now filter that vector for genes that are expressed by at least 10% of the cells. For that we need the total cell number of the monocyte Seurat object
+total_monocyte_number <- length(Cells(kang2018_monocytes))
+# our threshold is therefore 10% of that number
+cell_number_threshold <- 0.1*total_monocyte_number
+# now we can filter the gene list against this threshold
+number_of_cells_expressing_each_gene_min10per_of_cells <- subset(number_of_cells_expressing_each_gene, number_of_cells_expressing_each_gene >= cell_number_threshold)
+# how many genes did we have before?
+length(number_of_cells_expressing_each_gene)
+# how many do we have now?
+length(number_of_cells_expressing_each_gene_min10per_of_cells)
+
+# finally we want each gene to be expressed in at least 3 samples
+# we can make use of the pseudobulk matrix here, as each 'cell' represents one sample
+# therefore we can extract the matrix and turn all non-zero values to 1 again, to sum up how many samples express a gene
+kang2018_pb_monocytes_matrix <- kang2018_pb_monocytes@assays$RNA@layers$counts
+rownames(kang2018_pb_monocytes_matrix) <- rownames(kang2018_pb_monocytes)
+colnames(kang2018_pb_monocytes_matrix) <- colnames(kang2018_pb_monocytes)
+
+# turn sparse matrix into data frame
+kang2018_pb_monocytes_df <- as.data.frame(kang2018_pb_monocytes_matrix)
+# replace all non-zero counts with 1, so we can simply sum up the cells which express each gene. This is for the "10% of cells"-criteria
+kang2018_pb_monocytes_df[kang2018_pb_monocytes_df > 0] <- 1
+# sum up over the rows for the number of cells expressing each gene
+number_of_samples_expressing_each_gene <- rowSums(kang2018_pb_monocytes_df)
+# now we subset the vector for all genes expressed by at least 3 samples
+number_of_samples_expressing_each_gene_min3samples <- subset(number_of_samples_expressing_each_gene, number_of_samples_expressing_each_gene >=3)
+# how many genes did we have before?
+length(number_of_samples_expressing_each_gene)
+# how many genes are left?
+length(number_of_samples_expressing_each_gene_min3samples)
+
+# let's create a final list of genes to include
+bp_monocytes_genes_to_include <- intersect(names(total_counts_per_gene_sub), names(number_of_cells_expressing_each_gene_min10per_of_cells))
+bp_monocytes_genes_to_include <- intersect(bp_monocytes_genes_to_include, names(number_of_samples_expressing_each_gene_min3samples))
+length(bp_monocytes_genes_to_include)
+
+# and finally filter the bulk data set
+kang2018_pb_monocytes <- subset(kang2018_pb_monocytes, features = bp_monocytes_genes_to_include)
+
+```
+
+
+## Now for the actual differential expression testing!
+
+The important part below is the definition of the design matrix, i.e. which covariate we expect the gene expression to depend on. In our case, this is the metadata entry "label" which represents the conditions control vs. stimulated. In Seurat we need to set this covariate as Idents for the cells.
+
+
+```{r run_DEseq2}
+Idents(kang2018_pb_monocytes) <- "label"
+
+bulk_monocytes_de <- FindMarkers(object = kang2018_pb_monocytes, ident.1 = "ctrl", ident.2 = "stim", test.use = "DESeq2")
+```
+
+```{r inspect_de_table}
+# inspect the resulting table
+
+head(bulk_monocytes_de)
+```
+
+## Exploring and plotting results
+
+### 1. Compare top genes by different criteria
+  
+```{r sort_de_1}
+# sort the dataframe by adj p val and inspect the top 10 genes
+
+head(bulk_monocytes_de[order(bulk_monocytes_de$p_val_adj),], n = 10)
+```
+
+```{r sort_de_2}
+# sort the dataframe by highest fold change and inspect the top 10 genes
+
+head(bulk_monocytes_de[order(-bulk_monocytes_de$avg_log2FC),], n =10)
+```
+
+```{r sort_de_3}
+# sort the dataframe by lowest fold change and inspect the top 10 genes
+
+head(bulk_monocytes_de[order(bulk_monocytes_de$avg_log2FC),], n = 10)
+```
+
+Why do these lists differ? Do some genes appear in several lists?
+
+### 2. Smear plot and volcano plot
+
+```{r smear_plot}
+# Create smear plot - a 2D scatter plot with log2FoldChange on the y axis and expression on the x Axis
+# use ggplot geom_point to achieve this
+# highlight significant genes, i.e. genes with p adj < 0.5 in red
+# (a simple way to achieve this is to just plot the relevant genes again in red)
+
+# first we need to add the average normalised expression of all genes to the DEseq2 results. The (log2 transformed) normalised expression values are in the data layer of the RNA assay.
+
+norm_expression <- as.data.frame(rowMeans(kang2018_pb_monocytes@assays$RNA@layers$data))
+rownames(norm_expression) <- rownames(kang2018_pb_monocytes)
+colnames(norm_expression) <- "norm_expr"
+
+bulk_monocytes_de <- merge(bulk_monocytes_de, norm_expression, by = 0)
+rownames(bulk_monocytes_de) <- bulk_monocytes_de$Row.names
+
+ggplot(bulk_monocytes_de, mapping = aes(x = norm_expr, y = avg_log2FC)) +
+  geom_point() +
+  geom_point(data = subset(bulk_monocytes_de, p_val_adj <= 0.05), colour = "red")
+
+```
+
+Describe the plot, what is the general behavior we observe for significant results?
+
+```{r vulcano_plot}
+# use ggplot to create a vulcano plot (p-value on loh10 scale on the y axis, log2FoldChange on the x axis)
+# show the names of the top 10 differentially expressed features
+# set the significance threshold to 1 log2FoldChange
+# label the top differentially expressed (lowest adjusted p value) genes with their names (you can look into the ggrepel package for this)
+library(ggrepel)
+
+ggplot(data = bulk_monocytes_de, mapping = aes(y = p_val_adj, x = avg_log2FC)) +
+  geom_point() +
+  geom_point(data = subset(bulk_monocytes_de, avg_log2FC > 1), colour = "red") +
+  geom_point(data = subset(bulk_monocytes_de, avg_log2FC < -1), colour = "blue") +
+  geom_text_repel(data = head(bulk_monocytes_de[order(bulk_monocytes_de$p_val_adj),], n =10), mapping = aes(label = Row.names)) +
+  scale_y_log10()
+```
+
+
+.
+
+### 3. Heatmap of top diferentially expressed genes
+
+```{r top_gene_lists}
+# Find the 10 top genes by FC in the stim group and the 10 top genes by FC in the control group
+# and combine them into a vector
+top_genes <- c(head(bulk_monocytes_de[order(bulk_monocytes_de$avg_log2FC),], n =10)$Row.names, head(bulk_monocytes_de[order(-bulk_monocytes_de$avg_log2FC),], n =10)$Row.names)
+
+top_genes
+```
+
+```{r heapmap}
+# use the DoHeatmap function of Seurat to create a heatmap showcasing the top_genes
+
+DoHeatmap(kang2018_pb_monocytes, features = top_genes, group.by = "label")
+
+```
+.
+
+### 4. Individual gene expression plots
+
+```{r vol_plots}
+# pick 2 or 3 genes and plot their expression by condition in violin plots for this
+
+VlnPlot(kang2018_pb_monocytes, features = c("CD14", "CCL8", "IL8"), group.by = "label")
+
+```
+
+
+.
+
+### 5. Gene annotation lookup
+
+Look up some of your top genes to find out what pathways they are involved in and what their function is. Here are some ideas to get started:
+
+  NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/
+  UniProt: https://www.uniprot.org/
+  GeneCards: https://www.genecards.org/
+  Also, use an AI Chatbot and compare the output to what you found in above databases.
+
+### 6. Simple pathway / GO term investigation
+
+You can try to paste your lists into one of the following tools (or another one of your choosing):
+
+  Enrichr: https://maayanlab.cloud/Enrichr/
+  GOrilla https://cbl-gorilla.cs.technion.ac.il/
+
+
+```{r top50_genes}
+# find the top 50 genes by padj and feed them into online gene ontology resources
+# you can export the genes into a csv file for easier access
+
+top50_genes <- head(bulk_monocytes_de[order(bulk_monocytes_de$p_val_adj),], n =50)
+```
+
+
+
+
