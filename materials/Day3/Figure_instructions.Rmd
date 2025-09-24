@@ -34,5 +34,5 @@ plot1 <- DimPlot(pbmc_renamed) + labs(title = "Your figure title",
               caption = "This figure shows the following...")
 # then export the plot using the ggsave function (from the ggplot package)
 # Adapt filename and path to your system. Width and height are given in inches by default, other units of measurement can be specified (see ggsave documentation). Image resolution cal also be specified.
-ggsave(plot = plot1, filename = "/home/aneusch/Documents/classes/lectures/sc_sequencing/Charité_2025/PBMC_tutorial/test_plot.png", width = 6, height = 5, dpi = "print")
+ggsave(plot = plot1, filename = "Path_to_your_plot.png", width = 6, height = 5, dpi = "print")
 ```
