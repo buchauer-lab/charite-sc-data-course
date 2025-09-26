@@ -20,10 +20,10 @@ We will integrate two PBMC datasets from different 10x Chromium chemistry versio
 #### Step 1: Load and combine datasets
 - Import both datasets into your environment
 - Label each dataset with its chemistry version (add metadata column: "batch" or "chemistry")
+- Filter cells (min genes, max genes, % mitochondrial)
 - Merge/concatenate into a single object
 
-#### Step 2: Standard preprocessing
-- Filter cells (min genes, max genes, % mitochondrial)
+#### Step 2: Standard preprocessings
 - Normalize and log-transform
 - Find highly variable genes
 - Run PCA
