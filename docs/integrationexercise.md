@@ -67,11 +67,41 @@ Calculate the integration Local Inverse Simpson's Index (iLISI):
  res <- compute_lisi(embedding_matrix, metadata_df, "batch")
 ```
 
-- For python users: Use the `scib` package
+- For python users: Copy the function below and use it to calculate iLISI.
 ```python
-# Install: pip install scib
-import scib
-ilisi = scib.metrics.ilisi_graph(adata, batch_key="batch", type_="embed")
+# Install: pip install sklearn
+def calculate_lisi(adata, batch_key, embedding_key='X_pca', k=30):
+    from sklearn.neighbors import NearestNeighbors
+    import numpy as np
+    
+    # Subsample to smallest batch size
+    batch_counts = adata.obs[batch_key].value_counts()
+    print(batch_counts)
+    min_size = batch_counts.min()
+    
+    balanced_cells = []
+    for batch in batch_counts.index:
+        batch_cells = adata.obs[adata.obs[batch_key] == batch].index
+        sampled = np.random.choice(batch_cells, min_size, replace=False)
+        balanced_cells.extend(sampled)
+    
+    # Use balanced subset
+    adata_subset = adata[balanced_cells]
+    X = adata_subset.obsm[embedding_key]
+    batch_labels = adata_subset.obs[batch_key].values
+    
+    nbrs = NearestNeighbors(n_neighbors=k+1).fit(X)
+    distances, indices = nbrs.kneighbors(X)
+    
+    lisi_scores = []
+    for i in range(len(X)):
+        neighbor_batches = batch_labels[indices[i][1:]]  # exclude self
+        unique_batches, counts = np.unique(neighbor_batches, return_counts=True)
+        proportions = counts / len(neighbor_batches)
+        simpson_index = np.sum(proportions ** 2)
+        lisi_scores.append(1 / simpson_index)
+    
+    return np.mean(np.array(lisi_scores))
 ```
 - iLISI interpretation:
   - Values close to 1 = poor mixing (batch effect remains)
