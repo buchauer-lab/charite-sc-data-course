@@ -67,9 +67,8 @@ Calculate the integration Local Inverse Simpson's Index (iLISI):
  res <- compute_lisi(embedding_matrix, metadata_df, "batch")
 ```
 
-- For python users: Copy the function below and use it to calculate iLISI.
+- For python users: Copy the function below and use it to calculate iLISI. You may need to first install `sklearn` using `pip install sklearn`.
 ```python
-# Install: pip install sklearn
 def calculate_lisi(adata, batch_key, embedding_key='X_pca', k=30):
     from sklearn.neighbors import NearestNeighbors
     import numpy as np
