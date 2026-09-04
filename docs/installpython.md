@@ -32,7 +32,7 @@ The package installers `mamba` and `conda` allow you to create separate analysis
 	- `conda activate scrnaseq`(this activates the environment, which should become evident by the environment name now preceding the prompt)
 - Install core packages required for our course
  ```bash
-mamba install -c conda-forge -c bioconda scanpy pandas numpy matplotlib seaborn jupyter notebook scikit-learn scipy h5py openpyxl leidenalg python-igraph -y
+mamba install -c conda-forge -c bioconda scanpy pandas numpy matplotlib seaborn ipykernel scikit-learn scipy h5py openpyxl leidenalg python-igraph -y
 ```
 This does not work if you are behind Charité's proxy server. "Charité Gast" WiFi and eduroam (without using Charité VPN!) should work.
 
@@ -43,15 +43,20 @@ pip install decoupler
 pip install pydeseq2
 ```
 
-#### Step 3 - open a jupyter notebook and start coding
+#### Step 3 - install Positron
 
-We will use jupyter notebooks as our code editor for this course. The notebook is served in a web browser after a call from the terminal.
-- Use the same terminal as above (in which your analysis environment has already been activated), or, if using a newly started terminal instance, activate your environment in it by typing and executing
-	- `mamba activate scrnaseq`
-- Within the `scrnaseq` environment, type the following command and hit enter
-	- `jupyter notebook`
-- A link containing `localhost` will be displayed - copy this link into the address line of a web browser of your choice and hit enter
-- Your notebook will open and you can enter text and code into its entry fields, so called "cells". In order to test basic functionality, copy the code below into the frist cell and execute it (by clicking the small "Play" button in the line just above the cell).
+This year we will use [Positron](https://positron.posit.co/) as our code editor. Positron is a data science IDE (from the makers of RStudio) that works with both python and R and can run jupyter notebooks directly, without a web browser.
+- Go to [https://positron.posit.co/download.html](https://positron.posit.co/download.html) and download the installer for your operating system
+- Install with the default settings
+- Open Positron once to make sure it starts correctly
+
+#### Step 4 - connect Positron to your environment and start coding
+
+Because we created the `scrnaseq` environment in Step 2 *before* opening Positron, Positron will automatically find it.
+- In Positron, open (or create) a new notebook file (ending in `.ipynb`) via `File > New File > Jupyter Notebook`
+- Select the python interpreter for this notebook: click the interpreter/kernel selector in the top right of the notebook (or open the Command Palette with `Ctrl`/`Cmd` + `Shift` + `P` and search for "Select Interpreter"), and choose the `scrnaseq` conda environment from the list
+	- If `scrnaseq` does not appear yet, click the refresh icon in the picker, or restart Positron - it scans for environments on startup
+- You can now enter text and code into the notebook's entry fields, so called "cells". In order to test basic functionality, copy the code below into the first cell and execute it (by clicking the small "Play" button to the left of the cell, or pressing `Shift` + `Enter`).
 	```python
 	import matplotlib.pyplot as plt
 	import numpy as np
