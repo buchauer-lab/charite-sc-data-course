@@ -53,7 +53,7 @@ This year we will use [Positron](https://positron.posit.co/) as our code editor.
 #### Step 4 - connect Positron to your environment and start coding
 
 Because we created the `scrnaseq` environment in Step 2 *before* opening Positron, Positron will automatically find it.
-- In Positron, open (or create) a new notebook file (ending in `.ipynb`) via `File > New File > Jupyter Notebook`
+- In Positron, open (or create) a new notebook file (ending in `.ipynb`) via the `New` button in the top left corner: `New > New File > Jupyter Notebook`
 - Select the python interpreter for this notebook: click the interpreter/kernel selector in the top right of the notebook (or open the Command Palette with `Ctrl`/`Cmd` + `Shift` + `P` and search for "Select Interpreter"), and choose the `scrnaseq` conda environment from the list
 	- If `scrnaseq` does not appear yet, click the refresh icon in the picker, or restart Positron - it scans for environments on startup
 - You can now enter text and code into the notebook's entry fields, so called "cells". In order to test basic functionality, copy the code below into the first cell and execute it (by clicking the small "Play" button to the left of the cell, or pressing `Shift` + `Enter`).
