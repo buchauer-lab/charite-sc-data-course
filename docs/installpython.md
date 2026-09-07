@@ -32,7 +32,7 @@ The package installers `mamba` and `conda` allow you to create separate analysis
 	- `conda activate scrnaseq`(this activates the environment, which should become evident by the environment name now preceding the prompt)
 - Install core packages required for our course
  ```bash
-mamba install -c conda-forge -c bioconda scanpy pandas numpy matplotlib seaborn ipykernel scikit-learn scipy h5py openpyxl leidenalg python-igraph -y
+mamba install -c conda-forge -c bioconda scanpy pandas numpy matplotlib seaborn ipykernel scikit-learn scipy h5py openpyxl leidenalg python-igraph harmonypy -y
 ```
 This does not work if you are behind Charité's proxy server. "Charité Gast" WiFi and eduroam (without using Charité VPN!) should work.
 
