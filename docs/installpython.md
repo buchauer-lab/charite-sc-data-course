@@ -27,7 +27,7 @@ To verify `miniforge` is installed correctly:
 The package installers `mamba` and `conda` allow you to create separate analysis environments into which you can install required software for data analysis. The advantage of this approach is that different projects, which might require different versions of the same software package, are kept separate and cannot interfere negatively with one another. Here, we use `mamba` for package installation, because it is faster.
 - Open a terminal (as described in Step 1)
 - type each of the following lines and hit enter.
-	- `conda create -n scrnaseq python=3.10`(this creates an analysis environment called `scrnaseq`)
+	- `conda create -n scrnaseq python=3.12`(this creates an analysis environment called `scrnaseq`)
     - when prompted, type 'y' and press Enter to proceed
 	- `conda activate scrnaseq`(this activates the environment, which should become evident by the environment name now preceding the prompt)
 - Install core packages required for our course
