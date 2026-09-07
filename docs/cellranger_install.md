@@ -6,25 +6,30 @@ sidebar: false
 
 #### download and set up cellranger on the Charité HPC cluster to map human single cell data
 
+Get download link from 10x Genomics website:
+
+[https://www.10xgenomics.com/support/software/cell-ranger/downloads#download-links](https://www.10xgenomics.com/support/software/cell-ranger/downloads#download-links)
+Copy the download command that uses curl. Be aware that file links change frequently.
+
  ```bash
 # move to directory where cellranger is supposed to be located
 # cd ??/bin/
 
-# download cellanger
-curl -o cellranger-9.0.1.tar.gz "https://cf.10xgenomics.com/releases/cell-exp/cellranger-9.0.1.tar.gz?Expires=1752705465&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA&Signature=QUtKz6UVfppJGXdVnvWqb~HWA9yuCak6IXO42jUcAA~uR~Fb-R~vlYGkK3znh8aNc9jsRD4Y0Iljm5~OBn8PJ2jTwQQ1mardTZF3l1uJtLWEQci9FYEE-9pcHlyuVo1sWM5szLRC8FFzXwH-Wr4syamFPIjIIRexeBbkcKmCqIFSsDtjUcEOmQgOCXLcBNeG891W4KatJjbLCXPeRUndVB6863~DfuD4sDSGAUfgcm04YoPtHheWLs4xw5LzjxkpG~RgrAvFs4hamHquc7T~dyPxwz8Q0qHv~c~H8aHRu~ZA1Nwj8Ie8bB94kIYrh1o2YRWi9S5F20esZpAn30aCOw__"
+# download cellanger using the curl command copied earlier. It should have this structure:
+curl -o cellranger-10.1.0.tar.gz "https://cf.10xgenomics.com/releases/cell-exp/cellranger-10.1.0.tar.gz?Expires=1788821212&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA&Signature=F-EvmyBwP5gIhyGwh0-mA7-H7tSqG6Zi5oM~yj6SwUGWACv3JftL0VJGMnVjh5~p6Hj-RKO-lSr25u0Go0WDMUo6Wrdl7yyN21ReyKs71HJvgHK7DEaGLZJYMSDfmTzjrJa1sFS6ezpfaemUxSwSnzV2Eu3K5UJP-vtyeeuDT4LLCHtqzvIox4q7R-z-KwKExGOGdRHZPl84div1MxGCIqQbi~TiURPTyA3YtEGkm-XW3KUeZakwbIoh6yT6QQwudc-N0Fsg3gRKHY6MvhP3K1Z1qmvgfBqqV2M~n7FpU1pVouaDclVwzh6mpMbzt7joULtw5lAd5dswiSEtwafXaw__"
 
 # unpack cellranger; this takes a bit of time
-tar -xvzf cellranger-9.0.1.tar.gz
+tar -xvzf cellranger-10.1.0.tar.gz
 ## -x extract
 ## -v verbose
 ## -z use gz algorithm
 ## -f filename
 
 # test if cellranger can be called
-cellranger-9.0.1/cellranger
+cellranger-10.1.0/cellranger
 
 # help function for cellranger count (which we will later use to generate count matrices)
-cellranger-9.0.1/cellranger count --help
+cellranger-10.1.0/cellranger count --help
 
 # move to directory where data is supposed to be stored
 # cd ??/data/??
@@ -45,5 +50,5 @@ tar -xvzf refdata-gex-GRCh38-2024-A.tar.gz
 cd ..
 
 # start cellranger
-cellranger-9.0.1/cellranger count --id tutorial --fastqs dataset/fastqs/ --localcores 5 --localmem 50 --output-dir mapped --transcriptome genome/refdata-gex-GRCh38-2024-A/ --create-bam true
+cellranger-10.1.0/cellranger count --id tutorial --fastqs dataset/fastqs/ --localcores 5 --localmem 50 --output-dir mapped --transcriptome genome/refdata-gex-GRCh38-2024-A/ --create-bam true
 ```
