@@ -28,18 +28,25 @@ We will work with the 10x Genomics 10k PBMCs from a Healthy Donor (v3 chemistry)
 
 #### Step 3: Process without doublet removal
 - Filter cells using standard thresholds
+- **Important:** the doublet detection methods in Part 2 expect *raw counts*, because they simulate artificial doublets from raw UMIs and do their own internal normalization. Before you normalize, keep a copy of the raw counts (e.g. `adata.layers["counts"] = adata.X.copy()`), and run the Part 2 detection step on those raw counts. Store the resulting scores now, but remove the cells only later, in Part 4.
 - Normalize, find variable genes, scale
 - Run PCA → UMAP → clustering
 - Save this object as "pre_doublet_removal"
 
 ### Part 2: Doublet Detection
 
+Run these on the **raw counts** you preserved in Step 3 (not on normalized data).
+
 #### For Seurat users:
-Install [scDblFinder](https://bioconductor.org/packages/release/bioc/html/scDblFinder.html) and use it according to the package documentation.
+Install [scDblFinder](https://bioconductor.org/packages/release/bioc/html/scDblFinder.html) and use it according to the package documentation. It operates on the raw `counts` assay directly.
 
 #### For scanpy users:
-Use `scrublet` via the built-in scanpy wrapper:
- - `scanpy.external.pp.scrublet(adata, expected_doublet_rate=0.08)`
+Use `scrublet`, which is now part of core scanpy:
+ - `sc.pp.scrublet(adata, expected_doublet_rate=0.08)` (the older `scanpy.external.pp.scrublet` is deprecated)
+ - Run this while `adata.X` holds raw counts (i.e. before normalizing).
+ - It adds two columns to `adata.obs`: `doublet_score` (continuous) and `predicted_doublet` (boolean).
+
+Note: in real multi-sample data, doublet detection should be run separately per sample/capture (e.g. via the `batch_key` argument), since doublets can only form within a single droplet reaction. Our single-sample dataset does not require this.
 
 #### Step 4: Analyze doublet predictions
 - Add doublet scores/classifications to your object
