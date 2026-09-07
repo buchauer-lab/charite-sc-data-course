@@ -6,7 +6,7 @@ sidebar: false
 
 #### download and set up cellranger on the Charité HPC cluster to map human single cell data
 
-Get download link from 10x Genomics website:
+Get the download link from the 10x Genomics website:
 
 [https://www.10xgenomics.com/support/software/cell-ranger/downloads#download-links](https://www.10xgenomics.com/support/software/cell-ranger/downloads#download-links)
 Copy the download command that uses curl. Be aware that file links change frequently.
