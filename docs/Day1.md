@@ -15,7 +15,7 @@ order: 2
 
 #### Afternoon
 - _Practical work_: Setting up a data analysis environment
-  - [Installation instructions for python using jupyter notebooks](https://buchauer-lab.github.io/charite-sc-data-course/installpython/)
+  - [Installation instructions for python using Positron](https://buchauer-lab.github.io/charite-sc-data-course/installpython/)
   - [Installation instructions for R using RStudio](https://buchauer-lab.github.io/charite-sc-data-course/R_Rstudio_install/)
 - _Practical work_: [Basic introduction to data analysis with R/python using the penguin dataset](https://buchauer-lab.github.io/charite-sc-data-course/dataanalysisintro/)
 
