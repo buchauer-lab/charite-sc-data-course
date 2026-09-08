@@ -1,7 +1,7 @@
 ---
 title: "Basic introduction to working with tabular data in R"
 author: "Anika Neuschulz"
-date: "2025-09-01"
+date: "2026-09-08"
 output: html_document
 ---
 
@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## 0. General notes on R sytax:
-Data is saved in variables by pointing an arrow (<-) at the variable name the data is supposed to be saved in.
+Data is saved in variables by pointing an arrow (<-) at the variable name the data is going to be saved in.
 This will be saving the value 5 in variable "number"
 ```{r example}
 number <- 5
@@ -35,7 +35,7 @@ library(ggplot2)
 
 ## 2. Download the dataset
 
-You can download the .csv file of the dataset from here https://gist.github.com/slopp/ce3b90b9168f2f921784de84fa445651#file-penguins-csv (via the button Download ZIP at the top right, then unzip and move dataset to a project folder).
+You can download the .csv file of the dataset from here https://gist.github.com/slopp/ce3b90b9168f2f921784de84fa445651#file-penguins-csv (via the button 'Download ZIP' at the top right, then unzip and move dataset to a project folder).
 
 This dataset contains measurements of penguins from different species – you can think of it as similar to a dataset on cells from different types, like what we will be working with later.
 
@@ -43,7 +43,7 @@ An in depth educational analysis of the dataset can be found here https://alliso
 
 ## 3. Loading and inspecting the data
 
-The comments (lines which start with #, contain comments and are not executed as R code) contain step-by-step instructions to work with the penguin dataset, suggested variable names and in some cases helpful code suggestions. Add corresponding R code below each comment. For easier debugging and comparisons with other participants, we suggest you keep the suggested names. 
+The comments (lines which start with #, contain comments and are not executed as R code) contain step-by-step instructions to work with the penguin dataset, suggested variable names and in some cases helpful code suggestions. Add corresponding R code below each comment. For easier debugging and comparisons with other participants, we recommend you keep the suggested names. 
 
 
 
