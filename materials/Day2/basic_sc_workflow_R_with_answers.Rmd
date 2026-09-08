@@ -33,7 +33,7 @@ library(dplyr)
 All three files ending in .gz need to be in the /healthy_PBMCs folder. Adjust the path to the location of the folder "healthy_PBMCs" on your system.
 
 ```{r loading}
-pbmc.data <- Read10X(data.dir = "/home/aneusch/Documents/classes/lectures/sc_sequencing/dataset/filtered_feature_bc_matrix")
+pbmc.data <- Read10X(data.dir = "filtered_feature_bc_matrix")
 ```
 
 Initialize the Seurat object with the raw (non-normalized data).
@@ -64,7 +64,8 @@ pbmc[["RNA"]]
 
 ```{r seurat_object_4}
 # inspect the count matrix
-#head(pbmc[["RNA"]]$counts)
+
+head(pbmc[["RNA"]]$counts)
 ```
 ```{r gene_names}
 # inspect (first) the gene names
@@ -394,7 +395,7 @@ head(marker_genes)
 ```{r export_marker_genes}
 # export the marker gene table into a csv file for easier annotation. You can open csv files in a table editor of your choice (e.g. Microsoft Excel, LibreOffice calc) and add your findings when researching the marker genes
 
-write.csv(marker_genes, file = "/home/aneusch/Documents/classes/lectures/sc_sequencing/Charité_2025/PBMC_tutorial/marker_genes.csv")
+write.csv(marker_genes, file = "marker_genes.csv")
 ```
 
 
@@ -489,12 +490,12 @@ Questions
 There are several packages available for automated cell type annotation. One option is celltypist which comes as a as a python package, command line tool or webservice https://www.celltypist.org/. Online analysis accepts a .csv file, which contains an expression matrix with cells as rows and gene symbols as columns (or the opposite). A raw count matrix is expected. We will generate the file, upload it, and compare their results to ours in this section.
 
 ```{r export_matrix}
-write.table(as.matrix(GetAssayData(object = pbmc_filtered, slot = "counts")), 
+write.table(as.matrix(GetAssayData(object = pbmc_filtered, layer = "counts")), 
             'counts.csv', 
             sep = ',', row.names = T, col.names = T, quote = F)
 ```
 
-Now, please go to the celltypist website and upload your file (should be around 50MB), hopefully the WiFi will be with us on this. After submitting the query, you will receive an email when the results are available for download (typically within a few minutes). In case you encounter problems with the data upload, you can also take pre-generated celltypist results in the materials/Day3section of the course github.
+Now, please go to the celltypist website and upload your file (should be around 50MB), hopefully the WiFi will be with us on this. After submitting the query, you will receive an email when the results are available for download (typically within a few minutes). In case you encounter problems with the data upload, you can also find pre-generated celltypist results in the materials/Day3section of the course github.
 
 ```{r import_celltypist}
 # import celltypist annotations
