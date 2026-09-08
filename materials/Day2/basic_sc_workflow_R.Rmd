@@ -505,7 +505,7 @@ Questions
   There are several packages available for automated cell type annotation. One option is celltypist which comes as a as a python package, command line tool or webservice https://www.celltypist.org/. Online analysis accepts a .csv file, which contains an expression matrix with cells as rows and gene symbols as columns (or the opposite). A raw count matrix is expected. We will generate the file, upload it, and compare their results to ours in this section.
 
 ```{r export_matrix}
-write.table(as.matrix(GetAssayData(object = pbmc_filtered, slot = "counts")), 
+write.table(as.matrix(GetAssayData(object = pbmc_filtered, layer = "counts")), 
             'counts.csv', 
             sep = ',', row.names = T, col.names = T, quote = F)
 ```
