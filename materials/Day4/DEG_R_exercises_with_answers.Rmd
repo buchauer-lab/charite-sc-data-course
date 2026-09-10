@@ -1,7 +1,7 @@
 ---
 title: "Differential_gene_expression"
 author: "Anika Neuschulz"
-date: "2025-09-19"
+date: "2026-09-10"
 output: html_document
 ---
 
@@ -33,13 +33,13 @@ library(reshape2)
 
 ```{r load_gene_expression_data}
 # load data and create Seurat object (cells should have at least 200 genes and each gene should appear in at least 3 cells)
-kang2018 <- Read10X("/home/aneusch/Documents/classes/lectures/sc_sequencing/Charité_2025/differential_expression/Kang2018_DEG/Kang2018/")
+kang2018 <- Read10X("Kang2018/")
 kang2018 <- CreateSeuratObject(counts = kang2018, project = "Kang2018", min.cells = 3, min.features = 200)
 ```
 
 ```{r load_metadata}
 # load meta data
-metadata <- read.csv("~/Documents/classes/lectures/sc_sequencing/Charité_2025/differential_expression/Kang2018_DEG/Kang2018/metadata.csv")
+metadata <- read.csv("Kang2018/metadata.csv")
 # set index column as row names for meta data
 row.names(metadata) <- metadata$index
 
@@ -395,7 +395,7 @@ ggplot(bulk_monocytes_de, mapping = aes(x = norm_expr, y = avg_log2FC)) +
 Describe the plot, what is the general behavior we observe for significant results?
 
 ```{r vulcano_plot}
-# use ggplot to create a vulcano plot (p-value on loh10 scale on the y axis, log2FoldChange on the x axis)
+# use ggplot to create a vulcano plot (p-value on log10 scale on the y axis, log2FoldChange on the x axis)
 # show the names of the top 10 differentially expressed features
 # set the significance threshold to 1 log2FoldChange
 # label the top differentially expressed (lowest adjusted p value) genes with their names (you can look into the ggrepel package for this)
