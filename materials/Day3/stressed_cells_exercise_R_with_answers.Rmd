@@ -1,7 +1,7 @@
 ---
 title: "Exercise: Stressed Cells"
 author: "Anika Neuschulz"
-date: "2025-09-09"
+date: "2026-09-10"
 output: html_document
 ---
 
@@ -28,7 +28,7 @@ library(ggplot2)
 ```{r load_data}
 # import the annotated object
 
-pbmc_renamed <- readRDS("~/Documents/classes/lectures/sc_sequencing/Charité_2025/PBMC_tutorial/20250918_pbmc_filtered_renamed.Rds")
+pbmc_renamed <- readRDS("20250918_pbmc_filtered_renamed.Rds")
 
 ```
 
