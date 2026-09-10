@@ -22,7 +22,7 @@ Check your R version by opening RStudio
 ![](/images/R_version_screen_cropped.png)
 
 
-#### Step ab - If you have R version 4, follow these instructions:
+#### Step 2a - If you have R version 4, follow these instructions:
 
 *Instructions for R version 3 can be found in the next section.*
 
@@ -59,7 +59,7 @@ library(DESeq2)
 If (almost) nothing happens, when executing these commands, everything is fine! You've successfully prepared for the upcoming course.
 
 
-#### Step 2a - If you still have R version 3, follow these instructions:
+#### Step 2b - If you still have R version 3, follow these instructions:
 
 You should really think about updating your R version at this stage. But note that this will deprecate all packages that you have previously installed, meaning you need to re-install them. Packages may be a bit different between versions or not available for R version 4 – if you have scripts based on R version 3 and depend on them, it may still be better to stick to R version 3 for now. Please keep in mind that the class will use newer Seurat commands, which may not be available to you, so continue at your own risk.
 
