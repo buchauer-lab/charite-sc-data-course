@@ -31,6 +31,8 @@ install.packages('Seurat')
 install.packages('reshape2')
 install.packages('ggplot2')
 install.packages('dplyr')
+install.packages('BiocManager')
+BiocManager::install("DESeq2")
 ```
 
 If you see the warning message below, enter y and press return:
@@ -72,6 +74,8 @@ install.packages('ggplot2')
 reticulate::py_install(packages = 'umap-learn')
 install.packages('reshape2')
 install.packages('dplyr')
+install.packages('BiocManager')
+BiocManager::install("DESeq2")
 ```
 
 You can load the installed packages with the "library()" command to see whether everything is working properly:
