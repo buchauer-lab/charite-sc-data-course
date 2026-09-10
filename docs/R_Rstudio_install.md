@@ -30,6 +30,7 @@ Check your R version by opening RStudio
 install.packages('Seurat')
 install.packages('reshape2')
 install.packages('ggplot2')
+install.packages('ggrepel')
 install.packages('dplyr')
 install.packages('BiocManager')
 BiocManager::install("DESeq2")
@@ -51,6 +52,8 @@ library(Seurat)
 library(reshape2)
 library(ggplot2)
 library(dplyr)
+library(ggrepel)
+library(DESeq2)
 ```
 
 If (almost) nothing happens, when executing these commands, everything is fine! You've successfully prepared for the upcoming course.
@@ -74,6 +77,7 @@ install.packages('ggplot2')
 reticulate::py_install(packages = 'umap-learn')
 install.packages('reshape2')
 install.packages('dplyr')
+install.packages('ggrepel')
 install.packages('BiocManager')
 BiocManager::install("DESeq2")
 ```
@@ -85,6 +89,8 @@ library(Seurat)
 library(reshape2)
 library(ggplot2)
 library(dplyr)
+library(ggrepel)
+library(DESeq2)
 ```
 
 If (almost) nothing happens, when executing these commands, everything is fine! You've successfully prepared for the upcoming course.
