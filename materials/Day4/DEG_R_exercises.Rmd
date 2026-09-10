@@ -1,7 +1,7 @@
 ---
 title: "Differential_gene_expression"
 author: "Anika Neuschulz"
-date: "2025-09-19"
+date: "2026-09-10"
 output: html_document
 ---
 
@@ -393,7 +393,7 @@ rownames(bulk_monocytes_de) <- bulk_monocytes_de$Row.names
 Describe the plot, what is the general behavior we observe for significant results?
 
 ```{r vulcano_plot}
-# use ggplot to create a vulcano plot (p-value on loh10 scale on the y axis, log2FoldChange on the x axis)
+# use ggplot to create a vulcano plot (p-value on log10 scale on the y axis, log2FoldChange on the x axis)
 # show the names of the top 10 differentially expressed features
 # set the significance threshold to 1 log2FoldChange
 # label the top differentially expressed (lowest adjusted p value) genes with their names (you can look into the ggrepel package for this)
