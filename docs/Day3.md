@@ -14,8 +14,8 @@ order: 4
   - Automated cell type annotation will be performed with [celltypist](https://www.celltypist.org/)
 
 #### Afternoon
+- _Discussion/Roundtable_: Open questions, experiences and lessons learned from the analysis workflow we have covered up to this point
 - _Practical work_: Cell states - looking for stressed cells
   - [stressed cells exercises - python](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day3/stressed_cells_exercise_python.ipynb)
   - [stressed cells exercises - R](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day3/stressed_cells_exercise_R.Rmd)
-- _Practical work_: Producing a "publication ready" figure of all results obtained to here (see [here](https://buchauer-lab.github.io/charite-sc-data-course/figure_instructions/) for general instructions and [here](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day3/Figure_instructions.Rmd) for additional tips and tricks for R users)
 
