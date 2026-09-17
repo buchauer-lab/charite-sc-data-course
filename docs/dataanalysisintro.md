@@ -12,7 +12,7 @@ Before starting to work with single-cell data, we think it is useful to try our 
 - filter and subset data based on conditions
 - create basic visualizations
 
-The dataset we will use is the `penguins` dataset, a common example dataset for data analysis and ML methods.
+The dataset we will use is the `penguins` dataset, a common example dataset for data analysis and ML methods. You can download it as a .csv file [here](https://gist.github.com/slopp/ce3b90b9168f2f921784de84fa445651#file-penguins-csv) (via the button 'Download ZIP' at the top right, then unzip and move the dataset to your project folder).
 
 ### Yes, you can (and will) use AI chatbots, but please consider:
 
@@ -34,3 +34,4 @@ We have prepared a set of exercises, which are available as jupyter notebook for
 
 - [data analysis exercises for python](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/data_analysis_intro_python.ipynb)
 - [data analysis exercises for R](https://github.com/buchauer-lab/charite-sc-data-course/blob/main/materials/Day1/data_analysis_intro_R.Rmd)
+- [download the penguins dataset (.csv)](https://gist.github.com/slopp/ce3b90b9168f2f921784de84fa445651#file-penguins-csv)
