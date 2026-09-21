@@ -10,7 +10,12 @@ order: 1
 
 _for Charité MD / MD/PhD / PhD students, postdocs and interested scientific staff_
 
-**Dates:** 14.09.2026 - 18.09.2026 from 9:30 am to 4 pm, on-site (CCM). Registration information is available on the Charité intranet via the doctoral environment [course listings](https://intranet.charite.de/studium_lehre/promotionskurse/).
+**The course has been held twice so far:**
+
+- 22.09.2025 - 26.09.2025, on-site (partially CCM, partially CVK)
+- 14.09.2026 - 18.09.2026, on-site (CCM)
+
+Any future editions will be announced on the Charité intranet via the doctoral environment [course listings](https://intranet.charite.de/studium_lehre/promotionskurse/). All course materials remain available here for self-study (see below).
 
 **Description:**  
 This one-week on-site course is intended for pre- and postdoctoral researchers as well as scientific staff members interested in getting started with single-cell RNA-Seq data analysis. The course specifically welcomes participants without any prior programming experience and includes introductory elements to python or R as well as dedicated time to set up the required environments on participants' laptops. During the course, we will cover the following topics:  
